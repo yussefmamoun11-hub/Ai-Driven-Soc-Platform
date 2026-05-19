@@ -1,9 +1,0 @@
-
-Cybersecurity Engineer | Cybersecurity & Software Engineering Enthusiast
-
-Focused on SOC automation, threat detection, and red team simulation with strong interest in building scalable security tools and automation systems.
-
-Skills include:
-Python, Linux, Networking, Security Tools, Log Analysis
-
-Passionate about real-world problem solving, security systems, and automation.
