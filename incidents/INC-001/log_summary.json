@@ -1,0 +1,6 @@
+{
+  "failed_logins": 120,
+  "most_targeted_user": "youssef-amr",
+  "top_source_ip": "192.168.88.164",
+  "summary": "Repeated SSH login failures detected indicating brute force behavior"
+}

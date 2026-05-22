@@ -1,0 +1,101 @@
+SOC PROJECT – DAY 3 FINAL REVIEW
+
+Project Path:
+/home/youssef-amr/soc_project
+
+--------------------------------------------------
+
+DAY 3 OBJECTIVE
+First real SOC flow with:
+SSH brute force attack
+log evidence
+detection logic
+alert
+incident
+metrics
+threat intelligence
+monitor data
+
+--------------------------------------------------
+
+TEAM STATUS
+
+Youssef – Attack & Detection
+Status: Completed
+Evidence:
+detection/attack_detection.json
+bruteforce_log.txt
+logs/failed_ssh_attempts.txt
+
+Sharaf – Infrastructure
+Status: Completed
+Evidence:
+system_status.json
+system_health.json
+firewall_actions.json
+
+Haneen – Network Monitoring
+Status: Completed
+Evidence:
+network/network_events.json
+network/network_analysis.json
+
+Nour – Metrics & Timeline
+Status: Completed
+Evidence:
+metrics.json
+timeline.json
+
+Rowan – Incident Management
+Status: Completed
+Evidence:
+INC-002/
+incident_ticket.json
+incident_status.json
+incident_queue.json
+
+Rahma – Threat Intelligence
+Status: Completed
+Evidence:
+threat_intel.json
+ip_reputation.json
+
+Kenzy – Log Parsing / Structured Events
+Status: Completed
+Evidence:
+structured_events.json
+log_summary.json
+
+--------------------------------------------------
+
+DAY 3 SOC FLOW
+
+Kali Brute Force
+↓
+SSH Failed Logins
+↓
+Auth Log Evidence
+↓
+Detection Triggered
+↓
+Alert Generated
+↓
+Incident Opened (INC-002)
+↓
+Metrics Calculated
+↓
+Threat Intel Context Added
+↓
+Structured Events Generated for Monitor
+
+--------------------------------------------------
+
+FINAL STATUS
+
+DAY 3 COMPLETION: 100%
+
+All team roles completed.
+All required artifacts generated.
+SOC workflow successfully demonstrated.
+
+--------------------------------------------------

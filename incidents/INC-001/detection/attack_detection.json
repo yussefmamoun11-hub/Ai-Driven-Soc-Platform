@@ -1,0 +1,10 @@
+{
+ "alert": "SSH Brute Force Detected",
+ "technique": "T1110",
+ "tactic": "Credential Access",
+ "source_ip": "192.168.88.164",
+ "target_user": "youssef-amr",
+ "detection_method": "log analysis",
+ "log_source": "/var/log/auth.log",
+ "status": "confirmed"
+}

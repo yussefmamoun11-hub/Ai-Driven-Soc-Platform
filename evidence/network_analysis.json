@@ -1,0 +1,27 @@
+{
+  "attack_type": "SSH Brute Force",
+  "source_ip": "192.168.88.206",
+  "target_ip": "192.168.88.208",
+  "protocol": "TCP/22",
+
+  "pattern": "High frequency login attempts targeting multiple usernames (ubuntu, socdemo)",
+
+  "behavior": "Sustained brute force attack attempting multiple credential combinations",
+
+  "severity": "CRITICAL",
+
+  "attack_flow": [
+    "Initial SSH connection attempts",
+    "Multiple failed logins using invalid users",
+    "Targeting valid user (socdemo)",
+    "High frequency password attempts",
+    "Detection and monitoring",
+    "Containment by blocking attacker IP"
+  ],
+
+  "before_block": "Continuous high-volume SSH login attempts across multiple usernames",
+
+  "after_block": "SSH traffic from attacker IP stopped after firewall block",
+
+  "notes": "Attack shows clear brute force pattern with username enumeration followed by password attempts. Activity sustained over time and escalated in intensity."
+}

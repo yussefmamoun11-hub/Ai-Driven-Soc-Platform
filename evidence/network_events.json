@@ -1,0 +1,16 @@
+[
+  {
+    "time": "attack_phase",
+    "src": "192.168.88.206",
+    "dst": "192.168.88.208",
+    "protocol": "SSH",
+    "event": "Multiple SSH connection attempts"
+  },
+  {
+    "time": "attack_phase",
+    "src": "192.168.88.206",
+    "dst": "192.168.88.208",
+    "protocol": "SSH",
+    "event": "Repeated failed login attempts"
+  }
+]

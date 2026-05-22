@@ -1,0 +1,9 @@
+{
+ "event_type": "SSH connection attempts",
+ "source_ip": "192.168.88.164",
+ "destination_ip": "192.168.88.189",
+ "destination_port": 22,
+ "protocol": "TCP",
+ "severity": "medium",
+ "note": "Repeated SSH attempts detected during brute force simulation"
+}

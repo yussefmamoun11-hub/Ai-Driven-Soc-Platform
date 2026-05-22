@@ -1,0 +1,16 @@
+{
+  "status": "attack_live",
+  "last_updated": "2026-05-22T10:16:11",
+  "incident_id": "INC-002",
+  "technique": "T1548",
+  "activity": "Privilege Abuse Attempt",
+  "severity": "low",
+  "result": "BLOCKED",
+  "details": [
+    "Sudo privileges check attempted",
+    "SUID binaries search executed",
+    "Cron jobs inspected",
+    "Escalation blocked by hardened system",
+    "Audit log generated"
+  ]
+}

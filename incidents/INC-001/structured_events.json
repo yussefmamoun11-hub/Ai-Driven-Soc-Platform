@@ -1,0 +1,23 @@
+[
+  {
+    "time": "14:03:11",
+    "source_ip": "192.168.88.164",
+    "destination_ip": "192.168.88.189",
+    "event": "TCP SYN flood pattern detected on port 22",
+    "severity": "LOW"
+  },
+  {
+    "time": "14:03:14",
+    "source_ip": "192.168.88.164",
+    "destination_ip": "192.168.88.189",
+    "event": "SSH connection attempt — multiple user credentials",
+    "severity": "MEDIUM"
+  },
+  {
+    "time": "14:03:21",
+    "source_ip": "192.168.88.164",
+    "destination_ip": "192.168.88.189",
+    "event": "RULE TRIGGERED: SSH_Brute_Force — INC-002 opened",
+    "severity": "HIGH"
+  }
+]

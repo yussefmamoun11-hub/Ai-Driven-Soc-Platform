@@ -1,0 +1,14 @@
+2026-03-08T21:53:36.114380+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Failed password for invalid user USERNAME from 192.168.88.234 port 59691 ssh2
+2026-03-08T21:53:51.673128+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Failed password for invalid user USERNAME from 192.168.88.234 port 59691 ssh2
+2026-03-08T22:36:55.895915+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:37:02.156143+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:37:28.500805+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:41:42.961509+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-03-08T22:42:15.057999+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-03-08T22:43:54.180822+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Failed password' /var/log/auth.log
+2026-03-08T22:45:20.885059+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Failed password for' /var/log/auth.log
+2026-03-08T22:45:32.188627+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Failed password for' /var/log/auth.log
+2026-03-09T23:27:31.601826+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-03-09T23:27:42.674089+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-03-09T23:29:10.284141+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-03-09T23:29:10.309543+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log

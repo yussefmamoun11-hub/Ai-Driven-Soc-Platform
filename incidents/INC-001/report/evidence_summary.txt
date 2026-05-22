@@ -1,0 +1,22 @@
+Evidence Summary
+
+Log Evidence:
+logs/failed_ssh_attempts.txt
+logs/ssh_activity.txt
+logs/successful_logins.txt
+
+Network Evidence:
+network/ssh_connections.txt
+network_connections.txt
+
+Detection Evidence:
+system_status.json
+system_health.json
+firewall_actions.json
+
+Additional Evidence:
+bruteforce_log.txt
+
+Notes:
+Evidence collected from /var/log/auth.log and live SSH monitoring during attack simulation.
+

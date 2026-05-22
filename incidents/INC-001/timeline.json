@@ -1,0 +1,9 @@
+{
+ "timeline": [
+  "21:20 - Brute force attack started",
+  "21:23 - Failed login attempts increased",
+  "21:25 - Detection rule triggered",
+  "21:26 - Alert generated",
+  "21:27 - Incident INC-002 opened"
+ ]
+}

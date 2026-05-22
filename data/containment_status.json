@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL",
+  "ufw_firewall": "ENABLED",
+  "fail2ban": "ACTIVE",
+  "block_ip_rule": "PENDING",
+  "quarantine": "NOT REQUIRED",
+  "result": "waiting"
+}

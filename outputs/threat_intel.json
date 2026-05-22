@@ -1,0 +1,23 @@
+{
+  "incident_id": "INC-003",
+  "attacker_ip": "192.168.88.206",
+  "threat_level": "HIGH",
+  "attack_type": "SSH Brute Force + Post-Exploitation",
+  "reputation": "Suspicious Internal Host (Lab Simulation)",
+  "geo_location": "Local Network",
+  "behavior_summary": [
+    "Multiple failed SSH login attempts detected",
+    "Successful login achieved after brute force",
+    "Post-login activity observed",
+    "Sensitive file access attempted",
+    "Privilege escalation behavior detected"
+  ],
+  "risk_assessment": "Attacker successfully gained access and executed post-login actions indicating a multi-stage attack.",
+  "recommended_actions": [
+    "Block attacker IP",
+    "Monitor for lateral movement",
+    "Review accessed files and commands",
+    "Reset compromised credentials"
+  ],
+  "status": "Enriched"
+}

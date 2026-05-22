@@ -1,0 +1,6 @@
+{
+ "open_incidents": 1,
+ "incident_list": ["INC-002"],
+ "priority": "Medium",
+ "current_phase": "Investigation"
+}

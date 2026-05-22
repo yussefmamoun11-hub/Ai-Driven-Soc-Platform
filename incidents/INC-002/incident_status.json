@@ -1,0 +1,7 @@
+{
+ "incident_id": "INC-002",
+ "current_status": "Investigating",
+ "phase": "Detection",
+ "open_time": "DAY3",
+ "note": "Brute force activity detected and under investigation"
+}

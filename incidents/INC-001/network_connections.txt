@@ -1,0 +1,7 @@
+State Recv-Q Send-Q  Local Address:Port   Peer Address:Port Process                                                 
+ESTAB 0      0      192.168.88.189:22     192.168.88.5:35460 users:(("sshd",pid=9380,fd=4),("sshd",pid=9260,fd=4))  
+ESTAB 0      0      192.168.88.189:22   192.168.88.203:35156 users:(("sshd",pid=9173,fd=4),("sshd",pid=9075,fd=4))  
+ESTAB 0      0      192.168.88.189:22   192.168.88.230:37086 users:(("sshd",pid=6586,fd=4),("sshd",pid=6450,fd=4))  
+ESTAB 0      0      192.168.88.189:22   192.168.88.192:49378 users:(("sshd",pid=10420,fd=4),("sshd",pid=10371,fd=4))
+ESTAB 0      0      192.168.88.189:22   192.168.88.170:53118 users:(("sshd",pid=10082,fd=4),("sshd",pid=9932,fd=4)) 
+ESTAB 0      0      192.168.88.189:22   192.168.88.129:33078 users:(("sshd",pid=9570,fd=4),("sshd",pid=9465,fd=4))  

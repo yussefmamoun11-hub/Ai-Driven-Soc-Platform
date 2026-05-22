@@ -1,0 +1,10 @@
+{
+  "status": "ready",
+  "last_updated": "2026-05-18T07:50:53",
+  "attempts": 12,
+  "attempts_count": 12,
+  "alerts": 3,
+  "alert_count": 3,
+  "mttd": "5s",
+  "mttr": "32s"
+}

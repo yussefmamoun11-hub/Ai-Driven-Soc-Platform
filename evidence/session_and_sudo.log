@@ -1,0 +1,1196 @@
+2026-04-14T00:38:42.310259+02:00 youssef-amr-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-04-14T00:38:42.370888+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-04-14T00:38:57.890690+02:00 youssef-amr-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T00:38:57.932236+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T00:39:02.213173+02:00 youssef-amr-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-04-14T00:39:12.874411+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-04-14T00:40:03.036123+02:00 youssef-amr-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T00:45:01.020238+02:00 youssef-amr-VMware-Virtual-Platform CRON[5908]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T00:45:01.033000+02:00 youssef-amr-VMware-Virtual-Platform CRON[5908]: pam_unix(cron:session): session closed for user root
+2026-04-14T00:55:01.046338+02:00 youssef-amr-VMware-Virtual-Platform CRON[6698]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T00:55:01.052175+02:00 youssef-amr-VMware-Virtual-Platform CRON[6698]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:07:16.372192+02:00 youssef-amr-VMware-Virtual-Platform CRON[6842]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:07:16.380053+02:00 youssef-amr-VMware-Virtual-Platform CRON[6842]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:15:01.385438+02:00 youssef-amr-VMware-Virtual-Platform CRON[6949]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:15:01.390940+02:00 youssef-amr-VMware-Virtual-Platform CRON[6949]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:17:01.395294+02:00 youssef-amr-VMware-Virtual-Platform CRON[6982]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:17:01.401275+02:00 youssef-amr-VMware-Virtual-Platform CRON[6982]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:25:01.407174+02:00 youssef-amr-VMware-Virtual-Platform CRON[7071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:25:01.411516+02:00 youssef-amr-VMware-Virtual-Platform CRON[7071]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:35:01.420999+02:00 youssef-amr-VMware-Virtual-Platform CRON[7145]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:35:01.425177+02:00 youssef-amr-VMware-Virtual-Platform CRON[7145]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:40:17.044158+02:00 youssef-amr-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T01:43:17.014431+02:00 youssef-amr-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T01:45:01.435181+02:00 youssef-amr-VMware-Virtual-Platform CRON[14172]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:45:01.439697+02:00 youssef-amr-VMware-Virtual-Platform CRON[14172]: pam_unix(cron:session): session closed for user root
+2026-04-14T01:55:01.450948+02:00 youssef-amr-VMware-Virtual-Platform CRON[14289]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T01:55:01.454781+02:00 youssef-amr-VMware-Virtual-Platform CRON[14289]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:05:01.476736+02:00 youssef-amr-VMware-Virtual-Platform CRON[14396]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:05:01.495649+02:00 youssef-amr-VMware-Virtual-Platform CRON[14396]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:15:01.518993+02:00 youssef-amr-VMware-Virtual-Platform CRON[14482]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:15:01.538615+02:00 youssef-amr-VMware-Virtual-Platform CRON[14482]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:17:01.559704+02:00 youssef-amr-VMware-Virtual-Platform CRON[14497]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:17:01.581466+02:00 youssef-amr-VMware-Virtual-Platform CRON[14497]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:25:01.605397+02:00 youssef-amr-VMware-Virtual-Platform CRON[14580]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:25:01.627254+02:00 youssef-amr-VMware-Virtual-Platform CRON[14580]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:35:01.651242+02:00 youssef-amr-VMware-Virtual-Platform CRON[14686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:35:01.672973+02:00 youssef-amr-VMware-Virtual-Platform CRON[14686]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:45:01.696809+02:00 youssef-amr-VMware-Virtual-Platform CRON[14787]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:45:01.718520+02:00 youssef-amr-VMware-Virtual-Platform CRON[14787]: pam_unix(cron:session): session closed for user root
+2026-04-14T02:55:01.742382+02:00 youssef-amr-VMware-Virtual-Platform CRON[14867]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T02:55:01.763285+02:00 youssef-amr-VMware-Virtual-Platform CRON[14867]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:05:01.787717+02:00 youssef-amr-VMware-Virtual-Platform CRON[15012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:05:01.809187+02:00 youssef-amr-VMware-Virtual-Platform CRON[15012]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:10:01.831089+02:00 youssef-amr-VMware-Virtual-Platform CRON[15076]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:10:01.843974+02:00 youssef-amr-VMware-Virtual-Platform CRON[15076]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:15:01.867546+02:00 youssef-amr-VMware-Virtual-Platform CRON[15126]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:15:01.887386+02:00 youssef-amr-VMware-Virtual-Platform CRON[15126]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:17:01.906969+02:00 youssef-amr-VMware-Virtual-Platform CRON[15152]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:17:01.926687+02:00 youssef-amr-VMware-Virtual-Platform CRON[15152]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:25:01.952415+02:00 youssef-amr-VMware-Virtual-Platform CRON[15221]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:25:01.971520+02:00 youssef-amr-VMware-Virtual-Platform CRON[15221]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:35:01.997165+02:00 youssef-amr-VMware-Virtual-Platform CRON[15293]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:35:02.017575+02:00 youssef-amr-VMware-Virtual-Platform CRON[15293]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:45:01.048621+02:00 youssef-amr-VMware-Virtual-Platform CRON[15376]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:45:01.069393+02:00 youssef-amr-VMware-Virtual-Platform CRON[15376]: pam_unix(cron:session): session closed for user root
+2026-04-14T03:55:01.094509+02:00 youssef-amr-VMware-Virtual-Platform CRON[15486]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T03:55:01.115045+02:00 youssef-amr-VMware-Virtual-Platform CRON[15486]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:05:01.140453+02:00 youssef-amr-VMware-Virtual-Platform CRON[15572]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:05:01.160218+02:00 youssef-amr-VMware-Virtual-Platform CRON[15572]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:15:01.185222+02:00 youssef-amr-VMware-Virtual-Platform CRON[15645]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:15:01.206085+02:00 youssef-amr-VMware-Virtual-Platform CRON[15645]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:17:01.226561+02:00 youssef-amr-VMware-Virtual-Platform CRON[15659]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:17:01.245541+02:00 youssef-amr-VMware-Virtual-Platform CRON[15659]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:25:01.274038+02:00 youssef-amr-VMware-Virtual-Platform CRON[15750]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:25:01.294815+02:00 youssef-amr-VMware-Virtual-Platform CRON[15750]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:35:01.321564+02:00 youssef-amr-VMware-Virtual-Platform CRON[15858]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:35:01.341093+02:00 youssef-amr-VMware-Virtual-Platform CRON[15858]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:45:01.366521+02:00 youssef-amr-VMware-Virtual-Platform CRON[15965]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:45:01.386349+02:00 youssef-amr-VMware-Virtual-Platform CRON[15965]: pam_unix(cron:session): session closed for user root
+2026-04-14T04:55:01.411942+02:00 youssef-amr-VMware-Virtual-Platform CRON[16044]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T04:55:01.432084+02:00 youssef-amr-VMware-Virtual-Platform CRON[16044]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:05:01.456618+02:00 youssef-amr-VMware-Virtual-Platform CRON[16128]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:05:01.477089+02:00 youssef-amr-VMware-Virtual-Platform CRON[16128]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:15:01.501574+02:00 youssef-amr-VMware-Virtual-Platform CRON[16229]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:15:01.522065+02:00 youssef-amr-VMware-Virtual-Platform CRON[16229]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:17:01.541442+02:00 youssef-amr-VMware-Virtual-Platform CRON[16269]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:17:01.561833+02:00 youssef-amr-VMware-Virtual-Platform CRON[16269]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:25:01.584154+02:00 youssef-amr-VMware-Virtual-Platform CRON[16337]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:25:01.604417+02:00 youssef-amr-VMware-Virtual-Platform CRON[16337]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:35:01.629828+02:00 youssef-amr-VMware-Virtual-Platform CRON[16418]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:35:01.650428+02:00 youssef-amr-VMware-Virtual-Platform CRON[16418]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:45:01.676182+02:00 youssef-amr-VMware-Virtual-Platform CRON[16506]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:45:01.696546+02:00 youssef-amr-VMware-Virtual-Platform CRON[16506]: pam_unix(cron:session): session closed for user root
+2026-04-14T05:55:01.719554+02:00 youssef-amr-VMware-Virtual-Platform CRON[16607]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T05:55:01.739357+02:00 youssef-amr-VMware-Virtual-Platform CRON[16607]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:21:31.712811+02:00 youssef-amr-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2026-04-14T12:21:31.773111+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2026-04-14T12:21:43.085311+02:00 youssef-amr-VMware-Virtual-Platform gdm-password]: pam_unix(gdm-password:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:21:43.137389+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:21:47.417582+02:00 youssef-amr-VMware-Virtual-Platform gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-04-14T12:21:57.572870+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-04-14T12:22:00.357362+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/0 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:22:00.358481+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:22:41.544075+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:22:48.180231+02:00 youssef-amr-VMware-Virtual-Platform pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:22:58.476812+02:00 youssef-amr-VMware-Virtual-Platform sshd[4399]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:23:22.016738+02:00 youssef-amr-VMware-Virtual-Platform sshd[4564]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:23:32.891255+02:00 youssef-amr-VMware-Virtual-Platform sshd[4564]: pam_unix(sshd:session): session closed for user youssef-amr
+2026-04-14T12:25:01.546993+02:00 youssef-amr-VMware-Virtual-Platform CRON[4656]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T12:25:01.553242+02:00 youssef-amr-VMware-Virtual-Platform CRON[4656]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:25:48.804713+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/1 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/sbin/ausearch -m execve
+2026-04-14T12:25:48.806655+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:25:48.877872+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:29:00.248849+02:00 youssef-amr-VMware-Virtual-Platform sshd[5494]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:30:01.558827+02:00 youssef-amr-VMware-Virtual-Platform CRON[5799]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T12:30:01.562031+02:00 youssef-amr-VMware-Virtual-Platform CRON[5799]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:30:49.295146+02:00 youssef-amr-VMware-Virtual-Platform sshd[5494]: pam_unix(sshd:session): session closed for user youssef-amr
+2026-04-14T12:30:59.783856+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/1 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:30:59.784823+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:31:04.767492+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:31:55.788047+02:00 youssef-amr-VMware-Virtual-Platform sshd[5837]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-04-14T12:32:07.656015+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/2 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-04-14T12:32:07.656402+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:32:07.662132+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:32:24.021893+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/2 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/ls /root
+2026-04-14T12:32:24.024736+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:32:24.030660+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:32:38.024901+02:00 youssef-amr-VMware-Virtual-Platform sshd[5837]: pam_unix(sshd:session): session closed for user youssef-amr
+2026-04-14T12:32:48.919264+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/2 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:32:48.919802+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:35:01.571929+02:00 youssef-amr-VMware-Virtual-Platform CRON[6374]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T12:35:01.576959+02:00 youssef-amr-VMware-Virtual-Platform CRON[6374]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:45:01.588661+02:00 youssef-amr-VMware-Virtual-Platform CRON[6424]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T12:45:01.593458+02:00 youssef-amr-VMware-Virtual-Platform CRON[6424]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:48:50.036074+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:48:58.624466+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/2 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:48:58.625072+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:49:07.418717+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/4 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/ss -tnp
+2026-04-14T12:49:07.419427+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:49:07.467145+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:51:03.581858+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/6 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:51:03.582504+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:55:01.606110+02:00 youssef-amr-VMware-Virtual-Platform CRON[6559]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T12:55:01.610742+02:00 youssef-amr-VMware-Virtual-Platform CRON[6559]: pam_unix(cron:session): session closed for user root
+2026-04-14T12:55:59.379383+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:56:14.791094+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/2 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:56:14.791706+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:59:22.874287+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:59:22.875392+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T12:59:29.383148+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:59:35.769232+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T12:59:37.322667+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/6 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T12:59:37.323615+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:03:08.005725+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:auth): authentication failure; logname=youssef-amr uid=1000 euid=0 tty=/dev/pts/8 ruser=youssef-amr rhost=  user=youssef-amr
+2026-04-14T13:03:16.953558+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:03:16.954199+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:03:16.957577+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:03:24.920913+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:03:24.922072+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:03:24.926900+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:03:30.174278+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:03:30.175240+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:03:30.179258+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:04:10.844251+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:04:10.844937+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:04:10.847979+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:05:01.619763+02:00 youssef-amr-VMware-Virtual-Platform CRON[6687]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:05:01.625260+02:00 youssef-amr-VMware-Virtual-Platform CRON[6687]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:11:48.956544+02:00 youssef-amr-VMware-Virtual-Platform sshd[6771]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T13:11:49.008953+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T13:12:04.204446+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:04.206063+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:04.208697+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:15.152844+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:15.153590+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:15.156902+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:17.169447+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:17.170166+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:17.173378+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:19.186524+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:19.187506+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:19.191439+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:19.525544+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/9 ; PWD=/home/mamoun ; USER=root ; COMMAND=/usr/bin/python3 soc_detection_engine.py
+2026-04-14T13:12:19.526193+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:12:19.540043+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:21.203550+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:21.205848+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:21.210333+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:23.232308+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:23.234385+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:23.240281+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:25.254056+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:25.254894+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:25.259029+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:27.276262+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:27.277051+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:27.280494+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:29.295734+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:29.297275+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:29.300278+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:31.321347+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:31.323235+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:31.327641+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:33.337945+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:33.339053+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:33.342383+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:35.363107+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:35.364015+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:35.367276+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:37.386581+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:37.388638+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:37.393887+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:39.412654+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:39.413417+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:39.416607+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:40.411282+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T13:12:40.411957+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:41.438474+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:41.440007+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:41.445196+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:43.461245+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:43.462055+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:43.465704+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:45.477906+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:45.478611+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:45.482410+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:47.497103+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:47.497928+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:47.501240+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:49.517794+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:49.518670+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:49.522088+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:51.537762+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:51.538515+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:51.541759+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:53.559288+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:53.560403+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:53.563771+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:54.688028+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:55.580132+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:55.580965+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:55.584364+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:56.034649+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T13:12:56.035982+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:57.601548+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:57.602147+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:57.605589+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:59.622104+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:12:59.622426+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:12:59.623937+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:12:59.627345+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:01.641645+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:01.642461+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:01.645578+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:03.655371+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:03.656148+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:03.659433+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:05.677513+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:05.678993+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:05.682498+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:06.946854+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T13:13:06.947756+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:07.699796+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:07.700553+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:07.703557+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:09.719776+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:09.720351+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:09.723607+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:11.735389+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:11.736172+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:11.739817+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:13.751174+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:13.751999+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:13.755277+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:15.770488+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:15.771182+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:15.774332+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:17.792696+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:17.794581+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:17.799300+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:19.820633+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:19.822438+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:19.829122+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:21.842968+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:21.843919+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:21.848147+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:23.863406+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:23.864235+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:23.867524+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:25.883492+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:25.884405+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:25.887648+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:27.900826+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:27.901818+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:27.905256+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:29.925229+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:29.926026+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:29.929241+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:31.951639+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:31.953156+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:31.959068+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:33.976260+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:33.977146+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:33.980458+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:35.997477+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:35.998334+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:36.001808+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:38.013071+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:38.013943+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:38.017348+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:40.033874+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:40.035465+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:40.038697+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:42.054970+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:42.055940+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:42.059382+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:44.075513+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:44.076330+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:44.079738+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:46.096080+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:46.096848+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:46.100156+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:48.116667+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:48.117489+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:48.121124+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:50.137148+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:50.138005+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:50.141286+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:52.151644+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:52.152497+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:52.155820+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:54.168868+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:54.169744+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:54.173370+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:56.190747+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:56.191711+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:56.195661+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:13:58.210695+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:13:58.211577+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:13:58.214891+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:00.229549+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:00.230307+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:00.233585+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:02.250104+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:02.250932+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:02.254468+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:04.265557+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:04.266264+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:04.269605+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:06.285970+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:06.286944+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:06.290353+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:08.307382+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:08.308153+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:08.311472+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:10.326507+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:10.327419+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:10.330616+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:12.344947+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:12.345862+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:12.349426+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:14.366988+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:14.367825+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:14.371190+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:16.387595+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:16.388386+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:16.391873+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:18.408533+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:18.409540+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:18.413017+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:20.429425+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:20.430231+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:20.433554+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:22.455712+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:22.456481+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:22.460239+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:24.477307+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:24.478120+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:24.481538+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:26.497981+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:26.498856+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:26.502373+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:28.519043+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:28.519790+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:28.523249+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:30.536962+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:30.537819+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:30.541663+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:32.558772+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:32.559742+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:32.563160+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:34.579938+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:34.580700+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:34.584179+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:36.601451+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:36.602284+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:36.605711+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:38.619884+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:38.620724+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:38.624093+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:40.640938+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:40.641928+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:40.645061+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:42.661681+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:42.662570+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:42.665956+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:44.676700+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:44.677506+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:44.680944+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:46.699081+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:46.699816+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:46.703067+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:48.714449+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:48.715601+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:48.718837+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:50.729874+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:50.730710+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:50.734159+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:52.744451+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:52.744984+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:52.748067+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:54.761544+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:54.762464+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:54.765875+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:56.783260+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:56.784078+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:56.787213+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:14:58.803562+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:14:58.804609+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:14:58.808344+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:00.825274+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:00.826487+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:00.831825+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:01.638289+02:00 youssef-amr-VMware-Virtual-Platform CRON[7603]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:15:01.642824+02:00 youssef-amr-VMware-Virtual-Platform CRON[7603]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:15:02.842735+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:02.843454+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:02.847029+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:04.861837+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:04.862774+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:04.866076+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:06.884003+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:06.885009+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:06.888692+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:08.903041+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:08.903805+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:08.906595+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:10.918863+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:10.919771+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:10.923896+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:11.576584+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:12.957663+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:12.959233+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:12.964537+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:13.503369+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T13:15:13.504121+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:14.989341+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:14.991525+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:14.995929+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:17.016668+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:17.018494+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:17.023226+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:19.037167+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:19.038474+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:19.043263+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:21.065782+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:21.066592+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:21.069800+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:23.080929+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:23.081692+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:23.085219+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:25.101623+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:25.102402+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:25.105952+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:27.122997+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:27.123844+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:27.127281+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:29.143831+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:29.144592+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:29.148192+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:31.160176+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:31.161066+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:31.165289+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:33.178834+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:33.179891+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:33.182975+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:35.198241+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:35.199182+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:35.202282+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:37.228717+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:37.230694+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:37.237088+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:39.253232+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:39.254101+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:39.257533+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:41.274549+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:41.275412+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:41.278647+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:43.290197+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:43.291748+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:43.294985+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:45.317001+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:45.317929+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:45.321392+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:47.338992+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:47.339757+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:47.343439+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:49.360987+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:49.361985+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:49.365798+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:51.382626+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:51.383483+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:51.387375+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:53.403993+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:53.404805+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:53.408362+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:55.425231+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:55.426116+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:55.429617+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:57.451074+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:57.451936+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:57.455768+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:15:59.472260+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:15:59.473027+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:15:59.476846+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:01.492962+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:01.493881+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:01.497362+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:03.510812+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:03.511672+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:03.514963+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:05.531195+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:05.532020+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:05.535430+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:07.552442+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:07.553291+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:07.556685+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:09.573431+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:09.574216+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:09.577630+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:11.594405+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:11.595119+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:11.598688+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:13.615612+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:13.616525+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:13.619903+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:15.637069+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:15.637885+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:15.641220+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:17.657357+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:17.658021+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:17.661242+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:19.677840+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:19.678677+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:19.682058+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:21.703971+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:21.705028+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:21.707995+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:23.730103+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:23.730930+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:23.735027+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:25.747562+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:25.748877+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:25.752165+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:27.767550+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:27.768683+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:27.771651+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:29.783197+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:29.784158+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:29.787973+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:31.804069+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:31.804984+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:31.808913+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:33.825611+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:33.826647+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:33.830506+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:35.841862+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:35.842672+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:35.846304+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:37.862548+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:37.863509+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:37.867164+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:39.883984+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:39.884892+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:39.889245+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:41.905506+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:41.906244+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:41.909503+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:43.926648+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:43.927555+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:43.930994+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:45.943575+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:45.944885+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:45.948401+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:47.960893+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:47.961738+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:47.965665+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:49.982725+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:49.983523+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:49.987097+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:52.003779+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:52.004590+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:52.008277+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:54.023879+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:54.024590+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:54.027972+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:56.045228+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:56.046067+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:56.049504+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:16:58.065921+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:16:58.066747+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:16:58.070221+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:00.086625+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:00.087415+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:00.091110+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:01.653491+02:00 youssef-amr-VMware-Virtual-Platform CRON[8033]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:17:01.665114+02:00 youssef-amr-VMware-Virtual-Platform CRON[8033]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:17:02.103826+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:02.104779+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:02.108526+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:04.118252+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:04.118978+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:04.122195+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:06.141996+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:06.142827+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:06.146813+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:08.159295+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:08.160420+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:08.164342+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:10.175759+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:10.176612+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:10.179975+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:12.202430+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:12.204483+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:12.209116+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:14.224617+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:14.225485+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:14.228867+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:16.240084+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:16.240924+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:16.244380+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:18.261024+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:18.261868+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:18.265384+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:20.278046+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:20.279093+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:20.283065+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:22.300003+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:22.300743+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:22.304525+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:24.320334+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:24.321061+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:24.324586+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:26.335734+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:26.336782+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:26.340481+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:28.353024+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:28.353932+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:28.357437+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:30.373635+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:30.374473+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:30.377912+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:32.394747+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:32.395758+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:32.399351+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:34.421371+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:34.422199+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:34.425809+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:36.442296+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:36.443048+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:36.446621+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:38.463971+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:38.464816+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:38.468164+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:40.490254+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:40.491134+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:40.494818+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:42.507226+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:42.507979+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:42.511231+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:44.527176+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:44.528378+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:44.531618+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:46.552735+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:46.553598+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:46.556934+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:48.578904+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:48.579753+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:48.583186+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:50.599765+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:50.600685+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:50.604188+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:52.625548+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:52.626457+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:52.629886+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:54.647130+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:54.648104+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:54.651250+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:56.667586+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:56.668625+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:56.671878+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:17:58.688174+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:17:58.689001+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:17:58.692400+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:00.706431+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:00.707485+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:00.712629+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:02.734801+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:02.735770+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:02.738955+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:04.755163+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:04.756010+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:04.759374+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:06.770625+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:06.771183+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:06.774426+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:08.790446+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:08.791338+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:08.794806+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:10.811013+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:10.811834+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:10.815228+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:12.828212+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:12.828923+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:12.832421+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:14.849144+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:14.850154+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:14.853675+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:16.869889+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:16.870840+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:16.874378+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:18.890568+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:18.891482+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:18.894838+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:20.911707+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:20.913427+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:20.919253+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:22.949087+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:22.951171+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:22.957425+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:24.970003+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:24.970604+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:24.974160+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:26.984818+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:26.985641+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:26.989033+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:29.013446+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:29.014898+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:29.020527+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:31.035905+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:31.037150+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:31.040359+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:33.050738+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:33.052056+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:33.056021+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:35.072368+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:35.073194+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:35.077205+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:37.094768+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:37.096226+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:37.101716+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:39.123264+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:39.124698+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:39.129446+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:41.142625+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:41.143526+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:41.147256+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:49.472427+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:49.473360+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:49.477230+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:51.487837+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:51.489082+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:51.492176+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:53.508874+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:53.509765+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:53.513477+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:55.535862+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:55.536837+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:55.539837+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:57.568551+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:57.570764+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:57.576709+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:18:59.589170+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:18:59.589981+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:18:59.593365+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:01.623124+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:01.624592+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:01.629835+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:03.647549+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:03.648480+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:03.652131+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:05.662431+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:05.663228+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:05.666940+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:07.687642+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:07.688732+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:07.692748+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:09.704674+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:09.705903+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:09.709962+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:11.723133+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:11.724119+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:11.728148+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:13.739653+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:13.740980+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:13.744310+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:15.762447+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:15.763237+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:15.766636+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:17.778341+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:17.779358+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:17.783201+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:19.794202+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:19.795497+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:19.798548+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:21.809947+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:21.810776+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:21.814857+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:23.841195+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:23.842959+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:23.850799+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:25.865359+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:25.866143+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:25.869753+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:27.880505+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:27.882137+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:27.885692+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:29.896735+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:29.897554+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:29.901716+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:31.916830+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:31.917650+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:31.921645+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:33.933563+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:33.934518+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:33.937956+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:35.961130+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:35.962693+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:35.968659+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:37.985697+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:37.986877+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:37.990086+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:40.004252+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:40.005004+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:40.008699+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:42.018836+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:42.019586+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:42.023211+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:44.037466+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:44.038419+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:44.042799+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:46.059420+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:46.060330+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:46.063948+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:48.080630+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:48.081542+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:48.085239+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:50.102280+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:50.103023+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:50.106200+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:52.129586+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:52.130736+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:52.134114+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:54.149111+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:54.149989+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:54.153605+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:56.164924+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:56.165726+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:56.169355+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:19:58.180811+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:19:58.182087+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:19:58.185667+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:00.198777+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:00.199593+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:00.202829+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:02.213857+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:02.214691+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:02.218121+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:04.229008+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:04.229942+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:04.234231+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:06.246589+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:06.247492+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:06.251292+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:08.262805+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:08.263643+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:08.268995+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:10.280021+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:10.280746+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:10.285458+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:12.296920+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:12.297655+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:12.301541+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:14.316839+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:14.317570+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:14.321111+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:16.343996+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:16.344838+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:16.348294+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:19.380199+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:19.381492+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:19.385069+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:49.793126+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:20:51.009544+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:20:51.010569+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:20:51.013916+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:21:51.025370+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:21:51.025935+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:21:51.029784+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:25:01.687732+02:00 youssef-amr-VMware-Virtual-Platform CRON[8788]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:25:01.696303+02:00 youssef-amr-VMware-Virtual-Platform CRON[8788]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:30:01.708595+02:00 youssef-amr-VMware-Virtual-Platform CRON[8794]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:30:01.712705+02:00 youssef-amr-VMware-Virtual-Platform CRON[8794]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:33:07.035151+02:00 youssef-amr-VMware-Virtual-Platform sshd[6771]: pam_unix(sshd:session): session closed for user mamoun
+2026-04-14T13:33:17.336118+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user mamoun
+2026-04-14T13:34:28.676350+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:34:28.678092+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:34:28.680296+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:35:01.719179+02:00 youssef-amr-VMware-Virtual-Platform CRON[8897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:35:01.723643+02:00 youssef-amr-VMware-Virtual-Platform CRON[8897]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:38:35.785853+02:00 youssef-amr-VMware-Virtual-Platform sshd[8904]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T13:38:35.842759+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T13:38:58.441011+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/9 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-14T13:38:58.441816+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:40:15.905756+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:40:15.907417+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:40:15.910848+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:40:28.104714+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:40:28.105407+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T13:40:28.109301+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:44:02.766501+02:00 youssef-amr-VMware-Virtual-Platform sshd[9202]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T13:45:01.819987+02:00 youssef-amr-VMware-Virtual-Platform CRON[9265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:45:01.828477+02:00 youssef-amr-VMware-Virtual-Platform CRON[9265]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:47:48.798856+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/mamoun/soc_project/outputs/auth.log.start
+2026-04-14T13:47:48.800604+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:47:48.802821+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:47:48.810244+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/audit/audit.log /home/mamoun/soc_project/outputs/audit.log.start
+2026-04-14T13:47:48.811557+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:47:48.835085+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:14.644850+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:48:14.645612+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:14.649221+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:14.658010+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:48:14.658991+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:14.662384+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:14.670037+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:48:14.670959+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:14.674147+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:14.682855+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep -E 'session opened|session closed|sudo' /var/log/auth.log
+2026-04-14T13:48:14.683574+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:14.686953+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:22.622718+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:48:22.623522+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:22.627285+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:22.637179+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:48:22.638592+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:22.642043+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:22.649954+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T13:48:22.651099+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:22.722688+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:42.069933+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T13:48:42.071731+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:42.136167+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:48:49.143762+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status auditd --no-pager
+2026-04-14T13:48:49.145485+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:48:49.163543+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:49:02.629946+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl start auditd
+2026-04-14T13:49:02.630676+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:49:02.638523+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:49:02.646785+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl enable auditd
+2026-04-14T13:49:02.647581+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:49:03.766458+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:49:03.773440+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status auditd --no-pager
+2026-04-14T13:49:03.774235+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:49:03.805771+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:54:59.222453+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/mamoun/soc_project/outputs/auth.log.start
+2026-04-14T13:54:59.224023+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:54:59.227271+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:54:59.237434+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/audit/audit.log /home/mamoun/soc_project/outputs/audit.log.start
+2026-04-14T13:54:59.238444+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:54:59.249135+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:01.837043+02:00 youssef-amr-VMware-Virtual-Platform CRON[9860]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T13:55:01.842017+02:00 youssef-amr-VMware-Virtual-Platform CRON[9860]: pam_unix(cron:session): session closed for user root
+2026-04-14T13:55:26.272999+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/mamoun/soc_project/outputs/auth.log.start
+2026-04-14T13:55:26.274088+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.279435+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.290193+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/audit/audit.log /home/mamoun/soc_project/outputs/audit.log.start
+2026-04-14T13:55:26.291736+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.305382+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.314368+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:55:26.315903+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.321504+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.331632+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:55:26.333173+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.337571+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.347133+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:55:26.348305+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.351631+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.359901+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep -E 'session opened|session closed|sudo' /var/log/auth.log
+2026-04-14T13:55:26.360752+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.365096+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.374796+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:55:26.376335+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.379744+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.390645+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:55:26.392113+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.396082+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.406787+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T13:55:26.407962+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.476194+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.489801+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T13:55:26.490635+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.554422+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.563671+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status auditd --no-pager
+2026-04-14T13:55:26.565028+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.579498+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.588288+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl start auditd
+2026-04-14T13:55:26.589565+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:26.597845+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:26.607806+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl enable auditd
+2026-04-14T13:55:26.608544+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:27.813964+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:27.826649+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status auditd --no-pager
+2026-04-14T13:55:27.828159+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:27.845752+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:27.865038+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:55:27.866782+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:27.870991+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:27.883648+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:55:27.884583+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:27.888113+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:27.900990+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T13:55:27.902856+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:27.977184+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:27.996740+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/mamoun/soc_project/outputs/auth.log.mid_attack
+2026-04-14T13:55:27.997723+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.001747+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.010270+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:55:28.011199+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.016159+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.028983+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T13:55:28.029730+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.034194+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.046105+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:55:28.047182+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.051730+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.063494+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T13:55:28.065019+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.068857+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.080239+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'session opened' /var/log/auth.log
+2026-04-14T13:55:28.081561+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.086647+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T13:55:28.097605+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/cp /var/log/audit/audit.log /home/mamoun/soc_project/outputs/audit_mid_attack.log
+2026-04-14T13:55:28.098822+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T13:55:28.105934+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:05:01.856205+02:00 youssef-amr-VMware-Virtual-Platform CRON[10487]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:05:01.860848+02:00 youssef-amr-VMware-Virtual-Platform CRON[10487]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:12:53.489807+02:00 youssef-amr-VMware-Virtual-Platform sshd[8904]: pam_unix(sshd:session): session closed for user mamoun
+2026-04-14T14:12:53.490178+02:00 youssef-amr-VMware-Virtual-Platform sshd[9202]: pam_unix(sshd:session): session closed for user mamoun
+2026-04-14T14:12:53.495883+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:13:03.582438+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user mamoun
+2026-04-14T14:15:01.875827+02:00 youssef-amr-VMware-Virtual-Platform CRON[10618]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:15:01.880618+02:00 youssef-amr-VMware-Virtual-Platform CRON[10618]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:15:53.647671+02:00 youssef-amr-VMware-Virtual-Platform sshd[10621]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T14:15:53.691824+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-04-14T14:17:01.886805+02:00 youssef-amr-VMware-Virtual-Platform CRON[10808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:17:01.891499+02:00 youssef-amr-VMware-Virtual-Platform CRON[10808]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:17:39.499515+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/9 ; PWD=/home/mamoun ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:17:39.500974+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T14:17:39.561708+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:17:39.569498+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/9 ; PWD=/home/mamoun ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T14:17:39.570202+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by mamoun(uid=1002)
+2026-04-14T14:17:39.631992+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:25:01.899855+02:00 youssef-amr-VMware-Virtual-Platform CRON[10862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:25:01.904640+02:00 youssef-amr-VMware-Virtual-Platform CRON[10862]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:27:33.145788+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=./setup_socdemo.sh socdemo 192.168.88.206 no
+2026-04-14T14:27:33.147616+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:27:48.603746+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:27:59.531612+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=./setup_socdemo.sh socdemo 192.168.88.206 no
+2026-04-14T14:27:59.532381+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:28:06.134853+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:30:01.916094+02:00 youssef-amr-VMware-Virtual-Platform CRON[10983]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:30:01.919120+02:00 youssef-amr-VMware-Virtual-Platform CRON[10983]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:33:57.344397+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: pam_unix(sshd:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T14:33:57.392768+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T14:34:18.189433+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: pam_unix(sshd:session): session closed for user socdemo
+2026-04-14T14:34:28.325108+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user socdemo
+2026-04-14T14:35:01.926029+02:00 youssef-amr-VMware-Virtual-Platform CRON[11326]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:35:01.930574+02:00 youssef-amr-VMware-Virtual-Platform CRON[11326]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:43:39.998205+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2026-04-14T14:43:40.001229+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:43:52.561000+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:44:02.306945+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-04-14T14:44:02.308286+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:44:03.039109+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:44:03.046504+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:44:03.047265+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:44:03.113251+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:44:03.121711+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T14:44:03.122688+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:44:03.225876+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:45:01.945808+02:00 youssef-amr-VMware-Virtual-Platform CRON[11455]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:45:01.950827+02:00 youssef-amr-VMware-Virtual-Platform CRON[11455]: pam_unix(cron:session): session closed for user root
+2026-04-14T14:46:08.323431+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/bash -c 'cat > /etc/fail2ban/jail.local <<EOF#012[sshd]#012enabled = true#012port = ssh#012logpath = %(sshd_log)s#012backend = systemd#012maxretry = 100#012findtime = 600#012bantime = 30#012EOF'
+2026-04-14T14:46:08.324396+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:46:08.330151+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:46:08.338113+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-04-14T14:46:08.338928+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:46:08.731088+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:46:08.741264+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:46:08.742508+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:46:08.806759+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:46:08.814835+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T14:46:08.815623+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:46:08.917362+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:47:48.870131+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+2026-04-14T14:47:48.872691+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:47:48.889817+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:47:48.898188+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+2026-04-14T14:47:48.898955+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:47:48.928137+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:47:48.936099+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T14:47:48.936826+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:47:49.002975+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:47:49.010833+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:47:49.011585+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:47:49.075067+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:47:49.083250+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-14T14:47:49.084211+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T14:47:49.145174+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T14:48:58.531960+02:00 youssef-amr-VMware-Virtual-Platform sshd[11547]: pam_unix(sshd:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T14:48:58.574771+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T14:49:33.957573+02:00 youssef-amr-VMware-Virtual-Platform sshd[11547]: pam_unix(sshd:session): session closed for user socdemo
+2026-04-14T14:49:44.072008+02:00 youssef-amr-VMware-Virtual-Platform (sd-pam): pam_unix(systemd-user:session): session closed for user socdemo
+2026-04-14T14:55:01.959901+02:00 youssef-amr-VMware-Virtual-Platform CRON[11879]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T14:55:01.964745+02:00 youssef-amr-VMware-Virtual-Platform CRON[11879]: pam_unix(cron:session): session closed for user root
+2026-04-14T15:05:01.978469+02:00 youssef-amr-VMware-Virtual-Platform CRON[12067]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T15:05:01.983738+02:00 youssef-amr-VMware-Virtual-Platform CRON[12067]: pam_unix(cron:session): session closed for user root
+2026-04-14T15:15:01.999024+02:00 youssef-amr-VMware-Virtual-Platform CRON[12146]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T15:15:02.003799+02:00 youssef-amr-VMware-Virtual-Platform CRON[12146]: pam_unix(cron:session): session closed for user root
+2026-04-14T15:16:00.821254+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+2026-04-14T15:16:00.824032+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:00.843801+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:00.851840+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+2026-04-14T15:16:00.852564+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:00.880433+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:00.887906+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh -n 30 --no-pager
+2026-04-14T15:16:00.888651+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:00.935765+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:00.943574+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-14T15:16:00.944776+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:00.985717+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:00.993137+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+2026-04-14T15:16:00.993806+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:01.010178+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:01.019149+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+2026-04-14T15:16:01.019947+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:01.050014+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:14.230327+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/sshd -t
+2026-04-14T15:16:14.230897+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:14.239680+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:41.191869+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-04-14T15:16:41.193135+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:41.280770+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:56.144658+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/tcp
+2026-04-14T15:16:56.145753+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:56.276757+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:16:56.284581+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/ufw reload
+2026-04-14T15:16:56.285374+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:16:58.130447+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:17:01.008458+02:00 youssef-amr-VMware-Virtual-Platform CRON[12686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T15:17:01.012676+02:00 youssef-amr-VMware-Virtual-Platform CRON[12686]: pam_unix(cron:session): session closed for user root
+2026-04-14T15:17:08.991635+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/ufw allow 22/tcp
+2026-04-14T15:17:08.992541+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:17:09.121538+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:17:09.129087+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/sbin/ufw reload
+2026-04-14T15:17:09.129973+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:17:11.025198+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:21:01.798988+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-14T15:21:01.801170+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:21:01.856363+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:21:04.881766+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+2026-04-14T15:21:04.882634+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:21:04.910871+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:21:04.918129+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh -n 20 --no-pager
+2026-04-14T15:21:04.918849+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:21:04.944879+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:22:45.194851+02:00 youssef-amr-VMware-Virtual-Platform sshd[13199]: pam_unix(sshd:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T15:22:45.243075+02:00 youssef-amr-VMware-Virtual-Platform (systemd): pam_unix(systemd-user:session): session opened for user socdemo(uid=1009) by socdemo(uid=0)
+2026-04-14T15:23:17.599181+02:00 youssef-amr-VMware-Virtual-Platform sudo:  socdemo : command not allowed ; TTY=pts/11 ; PWD=/home/socdemo ; USER=root ; COMMAND=list
+2026-04-14T15:25:01.022206+02:00 youssef-amr-VMware-Virtual-Platform CRON[13417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-14T15:25:01.027815+02:00 youssef-amr-VMware-Virtual-Platform CRON[13417]: pam_unix(cron:session): session closed for user root
+2026-04-14T15:25:16.922863+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T15:25:16.925074+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:25:16.927951+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:25:16.936485+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-04-14T15:25:16.937405+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:25:16.940994+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:25:16.951418+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-04-14T15:25:16.952383+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:25:16.956811+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:25:16.967505+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep 'session opened' /var/log/auth.log
+2026-04-14T15:25:16.968581+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)
+2026-04-14T15:25:16.972227+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-04-14T15:25:16.981614+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep -E 'session opened|session closed|sudo' /var/log/auth.log
+2026-04-14T15:25:16.982560+02:00 youssef-amr-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by youssef-amr(uid=1000)

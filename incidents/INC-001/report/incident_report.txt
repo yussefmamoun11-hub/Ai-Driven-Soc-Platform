@@ -1,0 +1,29 @@
+Incident ID: INC-001
+Incident Type: SSH Brute Force Attack
+
+Target User:
+youssef-amr
+
+Attacker IP:
+192.168.88.164
+
+Log Source:
+/var/log/auth.log
+
+Detection Method:
+Python brute force detection script
+
+Evidence Collected:
+SSH logs
+Network connections
+Packet capture
+Detection JSON alerts
+
+MITRE ATT&CK Mapping:
+Technique: T1110 – Brute Force
+Tactic: Credential Access
+
+Status:
+Attack detected and analyzed.
+No successful compromise identified.
+

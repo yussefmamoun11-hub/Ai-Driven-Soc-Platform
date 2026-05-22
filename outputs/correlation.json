@@ -1,0 +1,12 @@
+{
+  "status": "attack_live",
+  "last_updated": "2026-05-22T10:16:11",
+  "incident_id": "INC-002",
+  "classification": "SSH Brute Force",
+  "confidence": "VERY HIGH",
+  "source_ip": "192.168.1.78",
+  "target_ip": "192.168.1.17",
+  "failed_attempts": 0,
+  "successful_login": 0,
+  "final_severity": "low"
+}

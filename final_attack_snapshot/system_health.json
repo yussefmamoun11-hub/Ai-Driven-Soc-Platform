@@ -1,0 +1,8 @@
+{
+  "overall_status": "healthy",
+  "ssh_service": "stable",
+  "firewall_status": "operational",
+  "fail2ban_status": "monitoring",
+  "auditd_status": "logging",
+  "notes": "System stable during SSH activity"
+}

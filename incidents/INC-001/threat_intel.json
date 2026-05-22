@@ -1,0 +1,7 @@
+{
+ "source_ip": "192.168.88.164",
+ "threat_type": "SSH Brute Force",
+ "description": "Repeated SSH authentication attempts detected",
+ "severity": "Medium",
+ "mitre_technique": "T1110"
+}

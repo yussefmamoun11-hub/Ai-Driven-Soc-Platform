@@ -1,0 +1,174 @@
+2026-03-08T20:40:23.048282+02:00 youssef-amr-VMware-Virtual-Platform sshd[1740]: Server listening on 0.0.0.0 port 22.
+2026-03-08T20:40:23.051569+02:00 youssef-amr-VMware-Virtual-Platform sshd[1740]: Server listening on :: port 22.
+2026-03-08T20:50:54.338902+02:00 youssef-amr-VMware-Virtual-Platform sshd[4241]: Accepted password for mamoun from 192.168.88.32 port 36736 ssh2
+2026-03-08T20:50:54.341259+02:00 youssef-amr-VMware-Virtual-Platform sshd[4241]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-08T21:25:26.565845+02:00 youssef-amr-VMware-Virtual-Platform sshd[5313]: Accepted password for rahma from 192.168.88.140 port 56508 ssh2
+2026-03-08T21:25:26.567542+02:00 youssef-amr-VMware-Virtual-Platform sshd[5313]: pam_unix(sshd:session): session opened for user rahma(uid=1007) by rahma(uid=0)
+2026-03-08T21:48:45.477845+02:00 youssef-amr-VMware-Virtual-Platform sshd[5742]: Accepted password for nour from 192.168.88.179 port 49366 ssh2
+2026-03-08T21:48:45.480312+02:00 youssef-amr-VMware-Virtual-Platform sshd[5742]: pam_unix(sshd:session): session opened for user nour(uid=1006) by nour(uid=0)
+2026-03-08T21:51:33.790357+02:00 youssef-amr-VMware-Virtual-Platform sshd[5934]: Accepted password for hanen from 192.168.88.3 port 38056 ssh2
+2026-03-08T21:51:33.792443+02:00 youssef-amr-VMware-Virtual-Platform sshd[5934]: pam_unix(sshd:session): session opened for user hanen(uid=1005) by hanen(uid=0)
+2026-03-08T21:53:14.156859+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Invalid user USERNAME from 192.168.88.234 port 59691
+2026-03-08T21:53:34.197372+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: pam_unix(sshd:auth): check pass; user unknown
+2026-03-08T21:53:34.197980+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.234 
+2026-03-08T21:53:36.114380+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Failed password for invalid user USERNAME from 192.168.88.234 port 59691 ssh2
+2026-03-08T21:53:49.696567+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: pam_unix(sshd:auth): check pass; user unknown
+2026-03-08T21:53:51.673128+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Failed password for invalid user USERNAME from 192.168.88.234 port 59691 ssh2
+2026-03-08T21:54:25.596000+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: Connection closed by invalid user USERNAME 192.168.88.234 port 59691 [preauth]
+2026-03-08T21:54:25.596133+02:00 youssef-amr-VMware-Virtual-Platform sshd[6228]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.234 
+2026-03-08T21:55:11.882775+02:00 youssef-amr-VMware-Virtual-Platform sshd[6242]: Accepted password for rawan from 192.168.88.234 port 59694 ssh2
+2026-03-08T21:55:11.884370+02:00 youssef-amr-VMware-Virtual-Platform sshd[6242]: pam_unix(sshd:session): session opened for user rawan(uid=1003) by rawan(uid=0)
+2026-03-08T22:13:27.257911+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/0 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep -i permitrootlogin /etc/ssh/sshd_config
+2026-03-08T22:14:15.983347+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/0 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2026-03-08T22:15:00.219200+02:00 youssef-amr-VMware-Virtual-Platform sshd[1740]: Received signal 15; terminating.
+2026-03-08T22:15:00.256308+02:00 youssef-amr-VMware-Virtual-Platform sshd[7130]: Server listening on 0.0.0.0 port 22.
+2026-03-08T22:15:00.256402+02:00 youssef-amr-VMware-Virtual-Platform sshd[7130]: Server listening on :: port 22.
+2026-03-08T22:15:05.745813+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/0 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep -i permitrootlogin /etc/ssh/sshd_config
+2026-03-08T22:15:14.641941+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/0 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep -i permitrootlogin /etc/ssh/sshd_config
+2026-03-08T22:16:38.936242+02:00 youssef-amr-VMware-Virtual-Platform sshd[5847]: Received disconnect from 192.168.88.179 port 49366:11: disconnected by user
+2026-03-08T22:16:38.937819+02:00 youssef-amr-VMware-Virtual-Platform sshd[5847]: Disconnected from user nour 192.168.88.179 port 49366
+2026-03-08T22:16:38.938106+02:00 youssef-amr-VMware-Virtual-Platform sshd[5742]: pam_unix(sshd:session): session closed for user nour
+2026-03-08T22:19:27.462294+02:00 youssef-amr-VMware-Virtual-Platform sshd[7260]: Accepted password for kenzy from 192.168.88.179 port 50744 ssh2
+2026-03-08T22:19:27.464773+02:00 youssef-amr-VMware-Virtual-Platform sshd[7260]: pam_unix(sshd:session): session opened for user kenzy(uid=1001) by kenzy(uid=0)
+2026-03-08T22:25:28.129595+02:00 youssef-amr-VMware-Virtual-Platform sshd[8018]: Accepted password for youssef-amr from 192.168.88.4 port 34180 ssh2
+2026-03-08T22:25:28.136587+02:00 youssef-amr-VMware-Virtual-Platform sshd[8018]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-03-08T22:25:47.652079+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/7 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2026-03-08T22:25:59.683784+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/7 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2026-03-08T22:31:09.468199+02:00 youssef-amr-VMware-Virtual-Platform sshd[4388]: Received disconnect from 192.168.88.32 port 36736:11: disconnected by user
+2026-03-08T22:31:09.470615+02:00 youssef-amr-VMware-Virtual-Platform sshd[4388]: Disconnected from user mamoun 192.168.88.32 port 36736
+2026-03-08T22:31:09.473829+02:00 youssef-amr-VMware-Virtual-Platform sshd[4241]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-08T22:32:37.197011+02:00 youssef-amr-VMware-Virtual-Platform sshd[5430]: Received disconnect from 192.168.88.140 port 56508:11: disconnected by user
+2026-03-08T22:32:37.198294+02:00 youssef-amr-VMware-Virtual-Platform sshd[5430]: Disconnected from user rahma 192.168.88.140 port 56508
+2026-03-08T22:32:37.200401+02:00 youssef-amr-VMware-Virtual-Platform sshd[5313]: pam_unix(sshd:session): session closed for user rahma
+2026-03-08T22:33:12.238374+02:00 youssef-amr-VMware-Virtual-Platform sshd[14146]: Accepted password for kenzy from 192.168.88.32 port 52650 ssh2
+2026-03-08T22:33:12.240373+02:00 youssef-amr-VMware-Virtual-Platform sshd[14146]: pam_unix(sshd:session): session opened for user kenzy(uid=1001) by kenzy(uid=0)
+2026-03-08T22:36:35.317601+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Invalid user haneen@haneen from 192.168.88.3 port 51210
+2026-03-08T22:36:44.081214+02:00 youssef-amr-VMware-Virtual-Platform sshd[6353]: Received disconnect from 192.168.88.234 port 59694:11: disconnected by user
+2026-03-08T22:36:44.081375+02:00 youssef-amr-VMware-Virtual-Platform sshd[6353]: Disconnected from user rawan 192.168.88.234 port 59694
+2026-03-08T22:36:44.084216+02:00 youssef-amr-VMware-Virtual-Platform sshd[6242]: pam_unix(sshd:session): session closed for user rawan
+2026-03-08T22:36:54.045626+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: pam_unix(sshd:auth): check pass; user unknown
+2026-03-08T22:36:54.046226+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.3 
+2026-03-08T22:36:55.895915+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:37:00.481460+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: pam_unix(sshd:auth): check pass; user unknown
+2026-03-08T22:37:02.156143+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:37:26.590342+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: pam_unix(sshd:auth): check pass; user unknown
+2026-03-08T22:37:28.500805+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Failed password for invalid user haneen@haneen from 192.168.88.3 port 51210 ssh2
+2026-03-08T22:37:28.854783+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: Connection closed by invalid user haneen@haneen 192.168.88.3 port 51210 [preauth]
+2026-03-08T22:37:28.855351+02:00 youssef-amr-VMware-Virtual-Platform sshd[14212]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.3 
+2026-03-08T22:38:07.637873+02:00 youssef-amr-VMware-Virtual-Platform sshd[14284]: Accepted password for hanen from 192.168.88.3 port 54612 ssh2
+2026-03-08T22:38:07.639590+02:00 youssef-amr-VMware-Virtual-Platform sshd[14284]: pam_unix(sshd:session): session opened for user hanen(uid=1005) by hanen(uid=0)
+2026-03-08T22:39:54.720934+02:00 youssef-amr-VMware-Virtual-Platform sshd[14446]: Accepted password for rahma from 192.168.88.140 port 40104 ssh2
+2026-03-08T22:39:54.722828+02:00 youssef-amr-VMware-Virtual-Platform sshd[14446]: pam_unix(sshd:session): session opened for user rahma(uid=1007) by rahma(uid=0)
+2026-03-08T22:43:27.583786+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log
+2026-03-08T22:43:36.547850+02:00 youssef-amr-VMware-Virtual-Platform sshd[7260]: pam_unix(sshd:session): session closed for user kenzy
+2026-03-08T22:43:54.169926+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log
+2026-03-08T22:43:54.180822+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Failed password' /var/log/auth.log
+2026-03-08T22:44:58.506391+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Accepted password for' /var/log/auth.log
+2026-03-08T22:45:20.885059+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Failed password for' /var/log/auth.log
+2026-03-08T22:45:32.169961+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Accepted password for' /var/log/auth.log
+2026-03-08T22:45:32.188627+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Failed password for' /var/log/auth.log
+2026-03-08T22:48:33.197623+02:00 youssef-amr-VMware-Virtual-Platform sudo:    rahma : TTY=pts/5 ; PWD=/home/rahma ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log /var/log/auth.log.1 /var/log/auth.log.2.gz /var/log/auth.log.3.gz
+2026-03-08T22:57:45.374443+02:00 youssef-amr-VMware-Virtual-Platform sshd[15148]: Accepted password for rawan from 192.168.88.186 port 53222 ssh2
+2026-03-08T22:57:45.376338+02:00 youssef-amr-VMware-Virtual-Platform sshd[15148]: pam_unix(sshd:session): session opened for user rawan(uid=1003) by rawan(uid=0)
+2026-03-08T23:01:08.046377+02:00 youssef-amr-VMware-Virtual-Platform sshd[15393]: Accepted password for nour from 192.168.88.119 port 56942 ssh2
+2026-03-08T23:01:08.048515+02:00 youssef-amr-VMware-Virtual-Platform sshd[15393]: pam_unix(sshd:session): session opened for user nour(uid=1006) by nour(uid=0)
+2026-03-08T23:26:06.245740+02:00 youssef-amr-VMware-Virtual-Platform sshd[14545]: Received disconnect from 192.168.88.140 port 40104:11: disconnected by user
+2026-03-08T23:26:06.247634+02:00 youssef-amr-VMware-Virtual-Platform sshd[14545]: Disconnected from user rahma 192.168.88.140 port 40104
+2026-03-08T23:26:06.247820+02:00 youssef-amr-VMware-Virtual-Platform sshd[14446]: pam_unix(sshd:session): session closed for user rahma
+2026-03-08T23:29:04.711198+02:00 youssef-amr-VMware-Virtual-Platform sshd[16518]: Accepted password for rawan from 192.168.88.186 port 60264 ssh2
+2026-03-08T23:29:04.713022+02:00 youssef-amr-VMware-Virtual-Platform sshd[16518]: pam_unix(sshd:session): session opened for user rawan(uid=1003) by rawan(uid=0)
+2026-03-08T23:36:45.865137+02:00 youssef-amr-VMware-Virtual-Platform sshd[16572]: Received disconnect from 192.168.88.186 port 60264:11: disconnected by user
+2026-03-08T23:36:45.867179+02:00 youssef-amr-VMware-Virtual-Platform sshd[16572]: Disconnected from user rawan 192.168.88.186 port 60264
+2026-03-08T23:36:45.867391+02:00 youssef-amr-VMware-Virtual-Platform sshd[16518]: pam_unix(sshd:session): session closed for user rawan
+2026-03-08T23:37:51.631445+02:00 youssef-amr-VMware-Virtual-Platform sshd[14330]: Received disconnect from 192.168.88.3 port 54612:11: disconnected by user
+2026-03-08T23:37:51.637211+02:00 youssef-amr-VMware-Virtual-Platform sshd[14330]: Disconnected from user hanen 192.168.88.3 port 54612
+2026-03-08T23:37:51.638117+02:00 youssef-amr-VMware-Virtual-Platform sshd[14284]: pam_unix(sshd:session): session closed for user hanen
+2026-03-08T23:38:47.591010+02:00 youssef-amr-VMware-Virtual-Platform sshd[14188]: Received disconnect from 192.168.88.32 port 52650:11: disconnected by user
+2026-03-08T23:38:47.593332+02:00 youssef-amr-VMware-Virtual-Platform sshd[14188]: Disconnected from user kenzy 192.168.88.32 port 52650
+2026-03-08T23:38:47.593676+02:00 youssef-amr-VMware-Virtual-Platform sshd[14146]: pam_unix(sshd:session): session closed for user kenzy
+2026-03-08T23:40:07.006302+02:00 youssef-amr-VMware-Virtual-Platform sshd[15498]: Received disconnect from 192.168.88.119 port 56942:11: disconnected by user
+2026-03-08T23:40:07.009369+02:00 youssef-amr-VMware-Virtual-Platform sshd[15498]: Disconnected from user nour 192.168.88.119 port 56942
+2026-03-08T23:40:07.009588+02:00 youssef-amr-VMware-Virtual-Platform sshd[15393]: pam_unix(sshd:session): session closed for user nour
+2026-03-09T20:27:31.080642+02:00 youssef-amr-VMware-Virtual-Platform sshd[18969]: Accepted password for mamoun from 192.168.88.230 port 47836 ssh2
+2026-03-09T20:27:31.084516+02:00 youssef-amr-VMware-Virtual-Platform sshd[18969]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T20:30:25.835578+02:00 youssef-amr-VMware-Virtual-Platform sshd[5934]: pam_unix(sshd:session): session closed for user hanen
+2026-03-09T20:35:17.330873+02:00 youssef-amr-VMware-Virtual-Platform sshd[19260]: Accepted password for mamoun from 192.168.88.180 port 49676 ssh2
+2026-03-09T20:35:17.332535+02:00 youssef-amr-VMware-Virtual-Platform sshd[19260]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T20:35:17.467488+02:00 youssef-amr-VMware-Virtual-Platform sshd[19305]: Received disconnect from 192.168.88.180 port 49676:11: disconnected by user
+2026-03-09T20:35:17.468668+02:00 youssef-amr-VMware-Virtual-Platform sshd[19305]: Disconnected from user mamoun 192.168.88.180 port 49676
+2026-03-09T20:35:17.468768+02:00 youssef-amr-VMware-Virtual-Platform sshd[19260]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T20:35:55.400392+02:00 youssef-amr-VMware-Virtual-Platform sshd[19335]: Accepted password for mamoun from 192.168.88.180 port 47702 ssh2
+2026-03-09T20:35:55.402172+02:00 youssef-amr-VMware-Virtual-Platform sshd[19335]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T20:35:55.539438+02:00 youssef-amr-VMware-Virtual-Platform sshd[19380]: Received disconnect from 192.168.88.180 port 47702:11: disconnected by user
+2026-03-09T20:35:55.540119+02:00 youssef-amr-VMware-Virtual-Platform sshd[19380]: Disconnected from user mamoun 192.168.88.180 port 47702
+2026-03-09T20:35:55.540296+02:00 youssef-amr-VMware-Virtual-Platform sshd[19335]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T20:54:13.908738+02:00 youssef-amr-VMware-Virtual-Platform sshd[22256]: Accepted password for rahma from 192.168.88.129 port 55594 ssh2
+2026-03-09T20:54:13.910586+02:00 youssef-amr-VMware-Virtual-Platform sshd[22256]: pam_unix(sshd:session): session opened for user rahma(uid=1007) by rahma(uid=0)
+2026-03-09T20:56:21.363191+02:00 youssef-amr-VMware-Virtual-Platform sshd[22570]: Accepted password for hanen from 192.168.88.5 port 53598 ssh2
+2026-03-09T20:56:21.364931+02:00 youssef-amr-VMware-Virtual-Platform sshd[22570]: pam_unix(sshd:session): session opened for user hanen(uid=1005) by hanen(uid=0)
+2026-03-09T21:34:40.872856+02:00 youssef-amr-VMware-Virtual-Platform sshd[24105]: Accepted password for rawan from 192.168.88.4 port 59966 ssh2
+2026-03-09T21:34:40.874537+02:00 youssef-amr-VMware-Virtual-Platform sshd[24105]: pam_unix(sshd:session): session opened for user rawan(uid=1003) by rawan(uid=0)
+2026-03-09T21:46:20.581152+02:00 youssef-amr-VMware-Virtual-Platform sshd[15148]: pam_unix(sshd:session): session closed for user rawan
+2026-03-09T21:52:47.595787+02:00 youssef-amr-VMware-Virtual-Platform sshd[19085]: Received disconnect from 192.168.88.230 port 47836:11: disconnected by user
+2026-03-09T21:52:47.597705+02:00 youssef-amr-VMware-Virtual-Platform sshd[19085]: Disconnected from user mamoun 192.168.88.230 port 47836
+2026-03-09T21:52:47.598023+02:00 youssef-amr-VMware-Virtual-Platform sshd[18969]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T21:59:35.300898+02:00 youssef-amr-VMware-Virtual-Platform sshd[24548]: Accepted password for mamoun from 192.168.88.230 port 45436 ssh2
+2026-03-09T21:59:35.303298+02:00 youssef-amr-VMware-Virtual-Platform sshd[24548]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T22:00:49.934983+02:00 youssef-amr-VMware-Virtual-Platform sshd[25047]: Accepted password for youssef-amr from 192.168.88.4 port 49611 ssh2
+2026-03-09T22:00:49.937164+02:00 youssef-amr-VMware-Virtual-Platform sshd[25047]: pam_unix(sshd:session): session opened for user youssef-amr(uid=1000) by youssef-amr(uid=0)
+2026-03-09T22:00:50.331845+02:00 youssef-amr-VMware-Virtual-Platform sshd[25090]: Received disconnect from 192.168.88.4 port 49611:11: disconnected by user
+2026-03-09T22:00:50.339894+02:00 youssef-amr-VMware-Virtual-Platform sshd[25090]: Disconnected from user youssef-amr 192.168.88.4 port 49611
+2026-03-09T22:00:50.340419+02:00 youssef-amr-VMware-Virtual-Platform sshd[25047]: pam_unix(sshd:session): session closed for user youssef-amr
+2026-03-09T22:02:46.708047+02:00 youssef-amr-VMware-Virtual-Platform sshd[25132]: Accepted password for nour from 192.168.88.119 port 46674 ssh2
+2026-03-09T22:02:46.709636+02:00 youssef-amr-VMware-Virtual-Platform sshd[25132]: pam_unix(sshd:session): session opened for user nour(uid=1006) by nour(uid=0)
+2026-03-09T22:15:50.049156+02:00 youssef-amr-VMware-Virtual-Platform sshd[8018]: pam_unix(sshd:session): session closed for user youssef-amr
+2026-03-09T22:26:28.722343+02:00 youssef-amr-VMware-Virtual-Platform sshd[24647]: Received disconnect from 192.168.88.230 port 45436:11: disconnected by user
+2026-03-09T22:26:28.727172+02:00 youssef-amr-VMware-Virtual-Platform sshd[24647]: Disconnected from user mamoun 192.168.88.230 port 45436
+2026-03-09T22:26:28.727899+02:00 youssef-amr-VMware-Virtual-Platform sshd[24548]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T22:36:34.547822+02:00 youssef-amr-VMware-Virtual-Platform sshd[26409]: Accepted password for mamoun from 192.168.88.230 port 50158 ssh2
+2026-03-09T22:36:34.549690+02:00 youssef-amr-VMware-Virtual-Platform sshd[26409]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T22:37:32.627502+02:00 youssef-amr-VMware-Virtual-Platform sshd[7130]: Received signal 15; terminating.
+2026-03-09T22:37:32.676807+02:00 youssef-amr-VMware-Virtual-Platform sshd[27543]: Server listening on 0.0.0.0 port 22.
+2026-03-09T22:37:32.677096+02:00 youssef-amr-VMware-Virtual-Platform sshd[27543]: Server listening on :: port 22.
+2026-03-09T22:41:00.169269+02:00 youssef-amr-VMware-Virtual-Platform sshd[26561]: Received disconnect from 192.168.88.230 port 50158:11: disconnected by user
+2026-03-09T22:41:00.170764+02:00 youssef-amr-VMware-Virtual-Platform sshd[26561]: Disconnected from user mamoun 192.168.88.230 port 50158
+2026-03-09T22:41:00.171047+02:00 youssef-amr-VMware-Virtual-Platform sshd[26409]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T22:41:15.909709+02:00 youssef-amr-VMware-Virtual-Platform sshd[27623]: Accepted password for mamoun from 192.168.88.230 port 35538 ssh2
+2026-03-09T22:41:15.911944+02:00 youssef-amr-VMware-Virtual-Platform sshd[27623]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T22:41:52.448854+02:00 youssef-amr-VMware-Virtual-Platform sshd[27543]: Received signal 15; terminating.
+2026-03-09T22:41:52.489142+02:00 youssef-amr-VMware-Virtual-Platform sshd[28744]: Server listening on 0.0.0.0 port 22.
+2026-03-09T22:41:52.489263+02:00 youssef-amr-VMware-Virtual-Platform sshd[28744]: Server listening on :: port 22.
+2026-03-09T22:49:39.181349+02:00 youssef-amr-VMware-Virtual-Platform sshd[28819]: Accepted password for mamoun from 192.168.88.164 port 41284 ssh2
+2026-03-09T22:49:39.185900+02:00 youssef-amr-VMware-Virtual-Platform sshd[28819]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T22:49:39.504228+02:00 youssef-amr-VMware-Virtual-Platform sshd[28864]: Received disconnect from 192.168.88.164 port 41284:11: disconnected by user
+2026-03-09T22:49:39.506109+02:00 youssef-amr-VMware-Virtual-Platform sshd[28864]: Disconnected from user mamoun 192.168.88.164 port 41284
+2026-03-09T22:49:39.506906+02:00 youssef-amr-VMware-Virtual-Platform sshd[28819]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T22:49:51.751558+02:00 youssef-amr-VMware-Virtual-Platform sshd[28867]: Accepted password for mamoun from 192.168.88.164 port 36144 ssh2
+2026-03-09T22:49:51.760205+02:00 youssef-amr-VMware-Virtual-Platform sshd[28867]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T22:51:37.246263+02:00 youssef-amr-VMware-Virtual-Platform sshd[27761]: Received disconnect from 192.168.88.230 port 35538:11: disconnected by user
+2026-03-09T22:51:37.248395+02:00 youssef-amr-VMware-Virtual-Platform sshd[27761]: Disconnected from user mamoun 192.168.88.230 port 35538
+2026-03-09T22:51:37.249541+02:00 youssef-amr-VMware-Virtual-Platform sshd[27623]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T22:53:13.102719+02:00 youssef-amr-VMware-Virtual-Platform sshd[28947]: Accepted password for mamoun from 192.168.88.230 port 41988 ssh2
+2026-03-09T22:53:13.110862+02:00 youssef-amr-VMware-Virtual-Platform sshd[28947]: pam_unix(sshd:session): session opened for user mamoun(uid=1002) by mamoun(uid=0)
+2026-03-09T23:18:53.847331+02:00 youssef-amr-VMware-Virtual-Platform sshd[28918]: Received disconnect from 192.168.88.164 port 36144:11: disconnected by user
+2026-03-09T23:18:53.849471+02:00 youssef-amr-VMware-Virtual-Platform sshd[28918]: Disconnected from user mamoun 192.168.88.164 port 36144
+2026-03-09T23:18:53.849664+02:00 youssef-amr-VMware-Virtual-Platform sshd[28867]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T23:22:00.399504+02:00 youssef-amr-VMware-Virtual-Platform sshd[28992]: Received disconnect from 192.168.88.230 port 41988:11: disconnected by user
+2026-03-09T23:22:00.401498+02:00 youssef-amr-VMware-Virtual-Platform sshd[28992]: Disconnected from user mamoun 192.168.88.230 port 41988
+2026-03-09T23:22:00.401803+02:00 youssef-amr-VMware-Virtual-Platform sshd[28947]: pam_unix(sshd:session): session closed for user mamoun
+2026-03-09T23:23:56.684570+02:00 youssef-amr-VMware-Virtual-Platform sshd[30773]: Accepted password for kenzy from 192.168.88.230 port 37146 ssh2
+2026-03-09T23:23:56.686199+02:00 youssef-amr-VMware-Virtual-Platform sshd[30773]: pam_unix(sshd:session): session opened for user kenzy(uid=1001) by kenzy(uid=0)
+2026-03-09T23:41:45.491766+02:00 youssef-amr-VMware-Virtual-Platform sshd[30878]: Received disconnect from 192.168.88.230 port 37146:11: disconnected by user
+2026-03-09T23:41:45.497246+02:00 youssef-amr-VMware-Virtual-Platform sshd[30878]: Disconnected from user kenzy 192.168.88.230 port 37146
+2026-03-09T23:41:45.498179+02:00 youssef-amr-VMware-Virtual-Platform sshd[30773]: pam_unix(sshd:session): session closed for user kenzy
+2026-03-09T23:42:06.243641+02:00 youssef-amr-VMware-Virtual-Platform sshd[32892]: Accepted password for rawan from 192.168.88.230 port 40076 ssh2
+2026-03-09T23:42:06.245436+02:00 youssef-amr-VMware-Virtual-Platform sshd[32892]: pam_unix(sshd:session): session opened for user rawan(uid=1003) by rawan(uid=0)
+2026-03-09T23:54:41.054268+02:00 youssef-amr-VMware-Virtual-Platform sshd[24105]: pam_unix(sshd:session): session closed for user rawan
+2026-03-09T23:58:04.163352+02:00 youssef-amr-VMware-Virtual-Platform sshd[33165]: Accepted password for nour from 192.168.88.119 port 48644 ssh2
+2026-03-09T23:58:04.165545+02:00 youssef-amr-VMware-Virtual-Platform sshd[33165]: pam_unix(sshd:session): session opened for user nour(uid=1006) by nour(uid=0)
+2026-03-10T00:14:00.013383+02:00 youssef-amr-VMware-Virtual-Platform sshd[33213]: Received disconnect from 192.168.88.119 port 48644:11: disconnected by user
+2026-03-10T00:14:00.013851+02:00 youssef-amr-VMware-Virtual-Platform sshd[33213]: Disconnected from user nour 192.168.88.119 port 48644
+2026-03-10T00:14:00.014298+02:00 youssef-amr-VMware-Virtual-Platform sshd[33165]: pam_unix(sshd:session): session closed for user nour
+2026-03-10T00:15:17.675091+02:00 youssef-amr-VMware-Virtual-Platform sshd[33865]: Accepted password for nour from 192.168.88.119 port 54438 ssh2
+2026-03-10T00:15:17.677098+02:00 youssef-amr-VMware-Virtual-Platform sshd[33865]: pam_unix(sshd:session): session opened for user nour(uid=1006) by nour(uid=0)
+2026-03-10T00:25:48.831546+02:00 youssef-amr-VMware-Virtual-Platform sshd[25132]: pam_unix(sshd:session): session closed for user nour

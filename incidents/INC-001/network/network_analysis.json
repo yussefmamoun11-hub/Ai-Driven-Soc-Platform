@@ -1,0 +1,7 @@
+{
+ "analysis_summary": "Network monitoring detected repeated SSH connections",
+ "traffic_pattern": "Multiple connection attempts to port 22",
+ "behavior": "Consistent with brute force login attempts",
+ "protocol": "SSH",
+ "destination_port": 22
+}

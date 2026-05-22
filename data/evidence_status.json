@@ -1,0 +1,13 @@
+{
+  "status": "PRESERVED",
+  "persistent": true,
+  "last_updated": "2026-05-22T10:16:11",
+  "owner": "Haneen",
+  "auth_logs": "SAVED",
+  "network_events": "SAVED",
+  "network_analysis": "SAVED",
+  "failed_logins": "0 attempts saved",
+  "pcap_evidence": "VALIDATED",
+  "evidence_files": 8,
+  "evidence_path": "/root/redteam/evidence/latest"
+}

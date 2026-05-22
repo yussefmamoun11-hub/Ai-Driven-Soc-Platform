@@ -1,0 +1,59 @@
+{
+  "incident_id": "INC-003",
+  "incident_name": "SSH Brute Force Attack Leading to Unauthorized Access",
+  "severity": "CRITICAL",
+  "status": "Detected and Contained",
+
+  "attack_type": "Brute Force",
+  "source_ip": "192.168.88.206",
+  "target_ip": "192.168.88.208",
+  "protocol": "TCP/22",
+
+  "description": "Multiple failed SSH login attempts were observed from the attacker IP, followed by a successful login. This confirms a brute force attack that resulted in unauthorized access to the system before containment.",
+
+  "attack_stages": [
+    "Initial connection attempts",
+    "Repeated failed logins (Brute Force)",
+    "Successful authentication (Compromise)",
+    "Post-login activity",
+    "Detection and alert generation",
+    "Containment (IP blocked)"
+  ],
+
+  "attack_outcome": "Successful initial compromise",
+
+  "detection_source": [
+    "auth.log",
+    "Detection Engine",
+    "AI Analysis",
+    "Correlation Engine"
+  ],
+
+  "evidence_files": [
+    "failed_logins.log",
+    "successful_logins.log",
+    "auth_events_raw.log",
+    "network_analysis.json",
+    "detection_results.json",
+    "alerts.json"
+  ],
+
+  "actions_taken": [
+    "Monitored SSH login attempts",
+    "Detected brute force pattern",
+    "Identified successful unauthorized login",
+    "Triggered alerts and correlation",
+    "Blocked attacker IP using firewall",
+    "Collected and preserved logs for forensic analysis"
+  ],
+
+  "containment": {
+    "method": "Firewall (UFW)",
+    "status": "Attacker IP blocked",
+    "result": "Attack stopped"
+  },
+
+  "final_status": "Closed",
+
+  "notes": "This incident demonstrates a full attack lifecycle: brute force attempt leading to compromise, followed by detection, analysis, and containment."
+}

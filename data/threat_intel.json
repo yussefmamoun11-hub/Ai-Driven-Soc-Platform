@@ -1,0 +1,12 @@
+{
+  "status": "ready",
+  "last_updated": "2026-05-22T10:16:11",
+  "attacker_ip": "192.168.1.78",
+  "source_ip": "192.168.1.78",
+  "classification": "MONITORING",
+  "reputation": "UNKNOWN",
+  "summary": "Confirmed SSH brute force and multi-stage intrusion activity.",
+  "description": "Live threat intelligence generated automatically from auth logs.",
+  "geo": "Private / Lab Range",
+  "asn": "Local"
+}

@@ -1,0 +1,6 @@
+{
+ "ip": "192.168.88.164",
+ "reputation": "Suspicious",
+ "activity": "Multiple failed SSH login attempts",
+ "note": "Observed during brute force simulation"
+}

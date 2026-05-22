@@ -1,0 +1,6 @@
+{
+  "firewall_status": "ACTIVE",
+  "fail2ban_status": "ACTIVE",
+  "blocked_ip": "192.168.88.206",
+  "status": "CONTAINED"
+}

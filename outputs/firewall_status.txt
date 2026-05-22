@@ -1,0 +1,14 @@
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+OpenSSH                    ALLOW       Anywhere                  
+Samba                      ALLOW       Anywhere                  
+8000/tcp                   ALLOW       Anywhere                  
+Anywhere                   DENY        192.168.88.206            
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+Samba (v6)                 ALLOW       Anywhere (v6)             
+8000/tcp (v6)              ALLOW       Anywhere (v6)             
+

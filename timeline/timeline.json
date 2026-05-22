@@ -1,0 +1,39 @@
+{
+  "timeline": [
+    {
+      "time": "15:56:41",
+      "event": "42 failed SSH login attempts observed",
+      "severity": "HIGH",
+      "source_ip": "192.168.88.206"
+    },
+    {
+      "time": "15:56:41",
+      "event": "3 successful login events confirmed",
+      "severity": "CRITICAL",
+      "source_ip": "192.168.88.206"
+    },
+    {
+      "time": "15:56:41",
+      "event": "Post-login activity visible on host",
+      "severity": "CRITICAL",
+      "source_ip": "192.168.88.206"
+    },
+    {
+      "time": "15:56:41",
+      "event": "Sensitive path access observed in audit log",
+      "severity": "CRITICAL",
+      "source_ip": "192.168.88.206"
+    },
+    {
+      "time": "15:56:41",
+      "event": "INC-003 incident opened",
+      "severity": "CRITICAL"
+    },
+    {
+      "time": "15:56:41",
+      "event": "Containment completed by blocking attacker IP",
+      "severity": "HIGH",
+      "source_ip": "192.168.88.206"
+    }
+  ]
+}

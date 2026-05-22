@@ -1,0 +1,11 @@
+{
+  {
+  "firewall": "ufw",
+  "status": "active",
+  "blocked_ips": ["192.168.88.206"],
+  "action": "deny",
+  "incident_phase": "containment",
+  "notes": "Attacker IP blocked after critical SSH compromise",
+  "timestamp": "AUTO"
+}
+}

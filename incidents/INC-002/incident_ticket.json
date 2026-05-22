@@ -1,0 +1,10 @@
+{
+ "incident_id": "INC-002",
+ "incident_type": "SSH Brute Force",
+ "severity": "Medium",
+ "status": "Investigating",
+ "source_ip": "192.168.88.164",
+ "target_user": "youssef-amr",
+ "opened_by": "SOC Team",
+ "assigned_stream": "Blue Team"
+}

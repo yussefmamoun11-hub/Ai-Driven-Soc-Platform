@@ -1,0 +1,11 @@
+{
+  "incident_id": "INC-003",
+  "attack_type": "Multi-Stage Attack",
+  "source_ip": "192.168.88.206",
+  "severity": "CRITICAL",
+  "status": "CONTAINED",
+  "failed_login_attempts": 42,
+  "successful_logins": 3,
+  "mean_time_to_detect_seconds": 5,
+  "mean_time_to_respond_seconds": 32
+}

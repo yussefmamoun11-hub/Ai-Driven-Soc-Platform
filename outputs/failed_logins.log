@@ -1,0 +1,41 @@
+2026-04-14T12:51:35.294979+02:00 youssef-amr-VMware-Virtual-Platform sshd[6500]: Failed password for invalid user ubuntu from 192.168.88.206 port 49988 ssh2
+2026-04-14T12:51:41.069277+02:00 youssef-amr-VMware-Virtual-Platform sshd[6502]: Failed password for invalid user ubuntu from 192.168.88.206 port 44370 ssh2
+2026-04-14T12:51:47.175643+02:00 youssef-amr-VMware-Virtual-Platform sshd[6504]: Failed password for invalid user ubuntu from 192.168.88.206 port 44380 ssh2
+2026-04-14T13:01:52.230701+02:00 youssef-amr-VMware-Virtual-Platform sshd[6613]: Failed password for invalid user ubuntu from 192.168.88.206 port 51630 ssh2
+2026-04-14T13:01:57.005130+02:00 youssef-amr-VMware-Virtual-Platform sshd[6615]: Failed password for invalid user ubuntu from 192.168.88.206 port 51638 ssh2
+2026-04-14T13:02:00.986122+02:00 youssef-amr-VMware-Virtual-Platform sshd[6617]: Failed password for invalid user ubuntu from 192.168.88.206 port 39240 ssh2
+2026-04-14T13:12:07.305139+02:00 youssef-amr-VMware-Virtual-Platform sshd[6961]: Failed password for invalid user ubuntu from 192.168.88.206 port 52068 ssh2
+2026-04-14T13:12:10.861691+02:00 youssef-amr-VMware-Virtual-Platform sshd[6963]: Failed password for invalid user ubuntu from 192.168.88.206 port 36566 ssh2
+2026-04-14T13:22:16.596976+02:00 youssef-amr-VMware-Virtual-Platform sshd[8750]: Failed password for invalid user ubuntu from 192.168.88.206 port 59020 ssh2
+2026-04-14T13:22:21.168637+02:00 youssef-amr-VMware-Virtual-Platform sshd[8763]: Failed password for invalid user ubuntu from 192.168.88.206 port 42682 ssh2
+2026-04-14T13:22:26.752892+02:00 youssef-amr-VMware-Virtual-Platform sshd[8765]: Failed password for invalid user ubuntu from 192.168.88.206 port 42684 ssh2
+2026-04-14T13:32:30.804016+02:00 youssef-amr-VMware-Virtual-Platform sshd[8827]: Failed password for invalid user ubuntu from 192.168.88.206 port 42330 ssh2
+2026-04-14T13:32:36.165142+02:00 youssef-amr-VMware-Virtual-Platform sshd[8829]: Failed password for invalid user ubuntu from 192.168.88.206 port 42338 ssh2
+2026-04-14T13:42:45.218025+02:00 youssef-amr-VMware-Virtual-Platform sshd[9178]: Failed password for invalid user ubuntu from 192.168.88.206 port 54442 ssh2
+2026-04-14T13:42:47.773768+02:00 youssef-amr-VMware-Virtual-Platform sshd[9180]: Failed password for invalid user ubuntu from 192.168.88.206 port 54446 ssh2
+2026-04-14T13:42:50.774579+02:00 youssef-amr-VMware-Virtual-Platform sshd[9182]: Failed password for invalid user ubuntu from 192.168.88.206 port 51244 ssh2
+2026-04-14T13:53:04.320638+02:00 youssef-amr-VMware-Virtual-Platform sshd[9831]: Failed password for invalid user ubuntu from 192.168.88.206 port 51398 ssh2
+2026-04-14T13:53:06.810884+02:00 youssef-amr-VMware-Virtual-Platform sshd[9833]: Failed password for invalid user ubuntu from 192.168.88.206 port 51400 ssh2
+2026-04-14T14:03:17.968089+02:00 youssef-amr-VMware-Virtual-Platform sshd[10463]: Failed password for invalid user ubuntu from 192.168.88.206 port 39276 ssh2
+2026-04-14T14:03:21.740611+02:00 youssef-amr-VMware-Virtual-Platform sshd[10465]: Failed password for invalid user ubuntu from 192.168.88.206 port 39292 ssh2
+2026-04-14T14:03:26.794965+02:00 youssef-amr-VMware-Virtual-Platform sshd[10467]: Failed password for invalid user ubuntu from 192.168.88.206 port 39302 ssh2
+2026-04-14T14:33:46.553196+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: Failed password for socdemo from 192.168.88.206 port 37810 ssh2
+2026-04-14T14:37:28.910165+02:00 youssef-amr-VMware-Virtual-Platform sshd[11334]: Failed password for socdemo from 192.168.88.206 port 59622 ssh2
+2026-04-14T14:37:34.477160+02:00 youssef-amr-VMware-Virtual-Platform sshd[11339]: Failed password for socdemo from 192.168.88.206 port 59632 ssh2
+2026-04-14T14:37:37.950514+02:00 youssef-amr-VMware-Virtual-Platform sshd[11341]: Failed password for socdemo from 192.168.88.206 port 45586 ssh2
+2026-04-14T14:37:41.621060+02:00 youssef-amr-VMware-Virtual-Platform sshd[11343]: Failed password for socdemo from 192.168.88.206 port 45594 ssh2
+2026-04-14T14:50:03.274207+02:00 youssef-amr-VMware-Virtual-Platform sshd[11838]: Failed password for socdemo from 192.168.88.206 port 47538 ssh2
+2026-04-14T14:50:05.648272+02:00 youssef-amr-VMware-Virtual-Platform sshd[11854]: Failed password for socdemo from 192.168.88.206 port 47540 ssh2
+2026-04-14T14:50:08.429918+02:00 youssef-amr-VMware-Virtual-Platform sshd[11856]: Failed password for socdemo from 192.168.88.206 port 54226 ssh2
+2026-04-14T14:50:11.088604+02:00 youssef-amr-VMware-Virtual-Platform sshd[11858]: Failed password for socdemo from 192.168.88.206 port 54240 ssh2
+2026-04-14T14:50:15.224601+02:00 youssef-amr-VMware-Virtual-Platform sshd[11860]: Failed password for socdemo from 192.168.88.206 port 54244 ssh2
+2026-04-14T15:00:32.829672+02:00 youssef-amr-VMware-Virtual-Platform sshd[12042]: Failed password for socdemo from 192.168.88.206 port 56700 ssh2
+2026-04-14T15:00:36.004888+02:00 youssef-amr-VMware-Virtual-Platform sshd[12044]: Failed password for socdemo from 192.168.88.206 port 56710 ssh2
+2026-04-14T15:00:40.085432+02:00 youssef-amr-VMware-Virtual-Platform sshd[12046]: Failed password for socdemo from 192.168.88.206 port 46536 ssh2
+2026-04-14T15:00:44.430101+02:00 youssef-amr-VMware-Virtual-Platform sshd[12048]: Failed password for socdemo from 192.168.88.206 port 46550 ssh2
+2026-04-14T15:00:48.605810+02:00 youssef-amr-VMware-Virtual-Platform sshd[12050]: Failed password for socdemo from 192.168.88.206 port 37566 ssh2
+2026-04-14T15:11:04.138626+02:00 youssef-amr-VMware-Virtual-Platform sshd[12123]: Failed password for socdemo from 192.168.88.206 port 52858 ssh2
+2026-04-14T15:11:08.601087+02:00 youssef-amr-VMware-Virtual-Platform sshd[12125]: Failed password for socdemo from 192.168.88.206 port 54168 ssh2
+2026-04-14T15:11:12.508552+02:00 youssef-amr-VMware-Virtual-Platform sshd[12127]: Failed password for socdemo from 192.168.88.206 port 54180 ssh2
+2026-04-14T15:11:15.583937+02:00 youssef-amr-VMware-Virtual-Platform sshd[12129]: Failed password for socdemo from 192.168.88.206 port 54188 ssh2
+2026-04-14T15:11:19.914747+02:00 youssef-amr-VMware-Virtual-Platform sshd[12131]: Failed password for socdemo from 192.168.88.206 port 39050 ssh2

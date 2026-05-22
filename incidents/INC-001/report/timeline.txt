@@ -1,0 +1,16 @@
+Incident Timeline
+
+21:20 – SSH brute force attempts detected
+Source IP: 192.168.88.164
+Target User: youssef-amr
+
+21:23 – Detection script executed
+
+21:34 – Multiple failed authentication attempts recorded
+
+22:08 – Network traffic captured using tcpdump
+
+22:13 – Brute force detection script executed
+
+22:21 – Legitimate SSH sessions observed
+

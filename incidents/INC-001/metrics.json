@@ -1,0 +1,8 @@
+{
+ "attack_type": "SSH Brute Force",
+ "failed_attempts": 120,
+ "alerts_generated": 1,
+ "detection_time_seconds": 45,
+ "incident_id": "INC-002",
+ "status": "Attack detected"
+}

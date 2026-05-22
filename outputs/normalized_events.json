@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "file_0001",
+    "timestamp": "2026-04-21T22:50:31.141960",
+    "source": "auditd",
+    "event_type": "sensitive_file_access",
+    "severity": "high",
+    "file_path": "/etc/shadow",
+    "src_ip": "unknown",
+    "description": "Sensitive file accessed: /etc/shadow",
+    "mitre_technique": "T1083",
+    "seq": 1,
+    "username": "unknown",
+    "activity_phase": "sensitive_access",
+    "alert": "CREDENTIAL FILE ACCESS"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-04-14T15:25:37+02:00",
+  "attacker_ip": "192.168.88.206",
+  "failed_login_count": 41,
+  "successful_login_count": 3,
+  "current_phase": "post_login_activity"
+}

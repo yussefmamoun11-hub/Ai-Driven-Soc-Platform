@@ -1,0 +1,534 @@
+#!/usr/bin/env python3
+"""
+SOC Detection Engine — Ubuntu Side
+Covers: Task 3.1 (Normalize) + 3.2 (Severity) + 3.3 (Detection)
+        + 3.4 (AI Analysis) + 3.5 (Correlation)
+"""
+
+import json, re, os, sys, time
+from datetime import datetime
+from collections import defaultdict
+
+OUTPUT_DIR  = "/home/youssef-amr/soc_project/outputs"
+AUTH_LOG    = "/var/log/auth.log"
+AUDIT_LOG   = "/var/log/audit/audit.log"
+SYSLOG      = "/var/log/syslog"
+
+SENSITIVE_PATHS = [
+    "/etc/shadow", "/etc/passwd", "/etc/sudoers",
+    "/root/", "/home/socdemo/.ssh/",
+    "/bank_data/", "/tmp/flag.txt", "/var/log/"
+]
+
+PRIV_COMMANDS = [
+    "sudo", "su -", "chmod 777", "chown root",
+    "passwd", "visudo", "usermod", "id", "whoami"
+]
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def parse_auth_log():
+    events = []
+    if not os.path.exists(AUTH_LOG):
+        return events
+
+    patterns = {
+        "failed_login": re.compile(
+            r'(\w+\s+\d+\s+\d+:\d+:\d+).*sshd.*Failed password for (?:invalid user )?(\S+) from (\d+\.\d+\.\d+\.\d+) port (\d+)'
+        ),
+        "successful_login": re.compile(
+            r'(\w+\s+\d+\s+\d+:\d+:\d+).*sshd.*Accepted (?:password|publickey) for (\S+) from (\d+\.\d+\.\d+\.\d+) port (\d+)'
+        ),
+        "session_opened": re.compile(
+            r'(\w+\s+\d+\s+\d+:\d+:\d+).*pam_unix.*session opened for user (\S+)'
+        ),
+        "sudo_command": re.compile(
+            r'(\w+\s+\d+\s+\d+:\d+:\d+).*sudo.*COMMAND=(.*)'
+        ),
+    }
+
+    try:
+        with open(AUTH_LOG, 'r', errors='ignore') as f:
+            for line in f:
+                ts = datetime.now().isoformat()
+
+                m = patterns["failed_login"].search(line)
+                if m:
+                    events.append({
+                        "event_id": f"auth_{len(events)+1:04d}",
+                        "timestamp": ts,
+                        "source": "auth.log",
+                        "event_type": "failed_login",
+                        "severity": "low",
+                        "username": m.group(2),
+                        "src_ip": m.group(3),
+                        "src_port": m.group(4),
+                        "description": f"Failed SSH login: user='{m.group(2)}' from {m.group(3)}",
+                        "mitre_technique": "T1110"
+                    })
+                    continue
+
+                m = patterns["successful_login"].search(line)
+                if m:
+                    events.append({
+                        "event_id": f"auth_{len(events)+1:04d}",
+                        "timestamp": ts,
+                        "source": "auth.log",
+                        "event_type": "successful_login",
+                        "severity": "high",
+                        "username": m.group(2),
+                        "src_ip": m.group(3),
+                        "src_port": m.group(4),
+                        "description": f"Successful SSH login: user='{m.group(2)}' from {m.group(3)}",
+                        "mitre_technique": "T1078"
+                    })
+                    continue
+
+                m = patterns["session_opened"].search(line)
+                if m:
+                    events.append({
+                        "event_id": f"sess_{len(events)+1:04d}",
+                        "timestamp": ts,
+                        "source": "auth.log",
+                        "event_type": "session_opened",
+                        "severity": "medium",
+                        "username": m.group(2),
+                        "src_ip": "unknown",
+                        "description": f"SSH session opened for user '{m.group(2)}'",
+                        "mitre_technique": "T1078"
+                    })
+                    continue
+
+                m = patterns["sudo_command"].search(line)
+                if m:
+                    events.append({
+                        "event_id": f"priv_{len(events)+1:04d}",
+                        "timestamp": ts,
+                        "source": "auth.log",
+                        "event_type": "privilege_abuse_attempt",
+                        "severity": "critical",
+                        "username": "socdemo",
+                        "src_ip": "unknown",
+                        "command": m.group(2).strip(),
+                        "description": f"Sudo command executed: {m.group(2).strip()}",
+                        "mitre_technique": "T1548"
+                    })
+
+    except PermissionError:
+        print("  [!] Permission denied — run with sudo")
+
+    return events
+
+def parse_auditd():
+    events = []
+    if not os.path.exists(AUDIT_LOG):
+        return events
+
+    exec_p = re.compile(r'type=EXECVE.*?a0="([^"]+)"')
+    file_p = re.compile(r'type=PATH.*?name="([^"]+)"')
+
+    try:
+        with open(AUDIT_LOG, 'r', errors='ignore') as f:
+            for line in f:
+                ts = datetime.now().isoformat()
+
+                m = exec_p.search(line)
+                if m:
+                    cmd = m.group(1)
+                    is_priv = any(pc in cmd for pc in PRIV_COMMANDS)
+                    events.append({
+                        "event_id": f"proc_{len(events)+1:04d}",
+                        "timestamp": ts,
+                        "source": "auditd",
+                        "event_type": "privilege_abuse_attempt" if is_priv else "process_execution",
+                        "severity": "critical" if is_priv else "medium",
+                        "command": cmd,
+                        "src_ip": "unknown",
+                        "description": f"Command executed: {cmd}",
+                        "mitre_technique": "T1548" if is_priv else "T1059"
+                    })
+                    continue
+
+                m = file_p.search(line)
+                if m:
+                    path = m.group(1)
+                    if any(sp in path for sp in SENSITIVE_PATHS):
+                        events.append({
+                            "event_id": f"file_{len(events)+1:04d}",
+                            "timestamp": ts,
+                            "source": "auditd",
+                            "event_type": "sensitive_file_access",
+                            "severity": "high",
+                            "file_path": path,
+                            "src_ip": "unknown",
+                            "description": f"Sensitive file accessed: {path}",
+                            "mitre_technique": "T1083"
+                        })
+    except PermissionError:
+        pass
+
+    return events
+
+def normalize_events(auth_events, audit_events):
+    all_events = auth_events + audit_events
+    for i, ev in enumerate(all_events):
+        ev["seq"] = i + 1
+        ev.setdefault("src_ip", "unknown")
+        ev.setdefault("username", "unknown")
+    return all_events
+
+def apply_severity_ladder(events):
+    ip_fails = defaultdict(int)
+    for ev in events:
+        if ev["event_type"] == "failed_login":
+            ip_fails[ev["src_ip"]] += 1
+
+    attacker_ip = max(ip_fails, key=ip_fails.get) if ip_fails else None
+
+    for ev in events:
+        ip = ev["src_ip"]
+        fails = ip_fails.get(ip, 0)
+
+        if ev["event_type"] == "failed_login":
+            if fails < 3:
+                ev["severity"] = "low"
+                ev["activity_phase"] = "baseline"
+            elif fails < 10:
+                ev["severity"] = "medium"
+                ev["activity_phase"] = "suspicious"
+            else:
+                ev["severity"] = "high"
+                ev["activity_phase"] = "brute_force"
+
+        elif ev["event_type"] == "successful_login":
+            if fails >= 5:
+                ev["severity"] = "critical"
+                ev["activity_phase"] = "unauthorized_access"
+            else:
+                ev["severity"] = "medium"
+                ev["activity_phase"] = "normal_login"
+
+        elif ev["event_type"] == "session_opened":
+            ev["severity"] = "medium"
+            ev["activity_phase"] = "active_session"
+
+        elif ev["event_type"] == "process_execution":
+            ev["severity"] = "high"
+            ev["activity_phase"] = "post_login_activity"
+
+        elif ev["event_type"] == "sensitive_file_access":
+            ev["severity"] = "high"
+            ev["activity_phase"] = "sensitive_access"
+
+        elif ev["event_type"] == "privilege_abuse_attempt":
+            ev["severity"] = "critical"
+            ev["activity_phase"] = "privilege_abuse"
+
+    return events, attacker_ip, ip_fails
+
+def get_privilege_events(events):
+    priv = [ev for ev in events if ev["event_type"] == "privilege_abuse_attempt"]
+
+    flag_path = "/tmp/flag.txt"
+    if os.path.exists(flag_path):
+        try:
+            content = open(flag_path).read().strip()
+        except Exception:
+            content = "unreadable"
+        priv.append({
+            "event_id": "priv_flag_001",
+            "timestamp": datetime.now().isoformat(),
+            "source": "filesystem",
+            "event_type": "privilege_abuse_attempt",
+            "severity": "critical",
+            "activity_phase": "privilege_abuse",
+            "file_path": flag_path,
+            "flag_content": content,
+            "description": "Attacker-planted flag file confirmed — post-exploitation evidence",
+            "mitre_technique": "T1548"
+        })
+
+    return priv
+
+def get_sensitive_access_events(events):
+    sensitive = [ev for ev in events if ev["event_type"] == "sensitive_file_access"]
+
+    for ev in sensitive:
+        path = ev.get("file_path", "")
+        if "/etc/shadow" in path:
+            ev["alert"] = "CREDENTIAL FILE ACCESS"
+        elif "/etc/sudoers" in path:
+            ev["alert"] = "SUDOERS FILE ACCESS"
+        elif "flag.txt" in path:
+            ev["alert"] = "PLANTED FLAG ACCESSED"
+        elif "/.ssh/" in path:
+            ev["alert"] = "SSH KEYS TARGETED"
+        else:
+            ev["alert"] = "SENSITIVE PATH ACCESSED"
+
+    return sensitive
+
+def run_ai_analysis(events, attacker_ip, ip_fails):
+    fails = ip_fails.get(attacker_ip, 0) if attacker_ip else 0
+
+    has_success   = any(e["event_type"] == "successful_login" for e in events)
+    has_post      = any(e["event_type"] == "process_execution" for e in events)
+    has_sensitive = any(e["event_type"] == "sensitive_file_access" for e in events)
+    has_priv      = any(e["event_type"] == "privilege_abuse_attempt" for e in events)
+
+    if has_priv and has_sensitive and has_success:
+        level = "CRITICAL"
+        confidence = 97
+        mitre_chain = ["T1046", "T1110", "T1078", "T1082", "T1083", "T1548"]
+        narrative = (
+            f"High-confidence multi-stage attack confirmed. Attacker ({attacker_ip}) "
+            f"conducted systematic brute force ({fails} attempts), achieved unauthorized SSH access, "
+            "performed post-login host discovery, accessed sensitive system resources, "
+            "and executed privilege escalation commands. Immediate containment mandatory."
+        )
+        recommendation = "IMMEDIATE CONTAINMENT — BLOCK IP + KILL SESSION"
+
+    elif has_success and has_post:
+        level = "HIGH"
+        confidence = 88
+        mitre_chain = ["T1110", "T1078", "T1082"]
+        narrative = (
+            f"Brute force attack succeeded after {fails} failed attempts from {attacker_ip}. "
+            "Attacker established authenticated session and initiated post-exploitation activity."
+        )
+        recommendation = "ESCALATE — Block attacker IP, preserve session logs"
+
+    elif fails >= 10:
+        level = "HIGH"
+        confidence = 80
+        mitre_chain = ["T1110"]
+        narrative = (
+            f"Active credential brute force from {attacker_ip}. "
+            f"{fails} failed login attempts detected."
+        )
+        recommendation = "MONITOR & PREPARE CONTAINMENT"
+
+    elif fails >= 3:
+        level = "MEDIUM"
+        confidence = 65
+        mitre_chain = ["T1110"]
+        narrative = (
+            f"Suspicious authentication activity from {attacker_ip}. "
+            f"{fails} failed login attempts may indicate probing."
+        )
+        recommendation = "INCREASE MONITORING"
+
+    else:
+        level = "LOW"
+        confidence = 40
+        mitre_chain = []
+        narrative = "Normal baseline activity. No active threats detected."
+        recommendation = "CONTINUE MONITORING"
+
+    anomalies = []
+    if fails > 50:
+        anomalies.append(f"Excessive login attempts: {fails} (normal threshold: <5)")
+    if has_success and fails > 5:
+        anomalies.append("Login success following brute force — unauthorized access confirmed")
+    if has_sensitive:
+        anomalies.append("Sensitive file access detected post-authentication")
+    if has_priv:
+        anomalies.append("Privilege escalation command executed")
+    if os.path.exists("/tmp/flag.txt"):
+        anomalies.append("Attacker-planted flag file found on filesystem")
+
+    return {
+        "analysis_id": f"AI-{datetime.now().strftime('%Y%m%d-%H%M%S')}",
+        "timestamp": datetime.now().isoformat(),
+        "ai_mode": "rules_based_offline",
+        "engine": "SOC-AI-Engine v1.0",
+        "threat_level": level,
+        "confidence_score": confidence,
+        "attacker_ip": attacker_ip,
+        "total_failed_attempts": fails,
+        "attack_stages_detected": {
+            "reconnaissance": fails > 0,
+            "brute_force": fails >= 10,
+            "successful_login": has_success,
+            "post_login_activity": has_post,
+            "sensitive_access": has_sensitive,
+            "privilege_abuse": has_priv
+        },
+        "mitre_techniques_observed": mitre_chain,
+        "anomalies": anomalies,
+        "threat_narrative": narrative,
+        "recommendation": recommendation,
+        "auto_containment_triggered": level == "CRITICAL"
+    }
+
+def build_correlation(events, ai_analysis, attacker_ip, ip_fails):
+    fails = ip_fails.get(attacker_ip, 0) if attacker_ip else 0
+
+    has_success   = any(e["event_type"] == "successful_login" for e in events)
+    has_post      = any(e["event_type"] == "process_execution" for e in events)
+    has_sensitive = any(e["event_type"] == "sensitive_file_access" for e in events)
+    has_priv      = any(e["event_type"] == "privilege_abuse_attempt" for e in events)
+
+    stages = []
+
+    if 0 < fails < 10:
+        stages.append({
+            "stage": "Stage 01-02 — Reconnaissance & Initial Probing",
+            "mitre": "T1046 + T1110",
+            "incident": "INC-001",
+            "severity": "low" if fails < 3 else "medium",
+            "event_count": fails,
+            "description": f"Initial SSH probing — {fails} failed attempts from {attacker_ip}"
+        })
+
+    if fails >= 10:
+        stages.append({
+            "stage": "Stage 02 — Active Brute Force",
+            "mitre": "T1110",
+            "incident": "INC-001",
+            "severity": "high",
+            "event_count": fails,
+            "description": f"Automated credential attack — {fails} attempts, source: {attacker_ip}"
+        })
+
+    if has_success:
+        stages.append({
+            "stage": "Stage 03 — Unauthorized Access Confirmed",
+            "mitre": "T1078",
+            "incident": "INC-002",
+            "severity": "high",
+            "description": "Attacker authenticated successfully as 'socdemo'"
+        })
+
+    if has_post:
+        stages.append({
+            "stage": "Stage 04 — Post-Login Discovery",
+            "mitre": "T1082 + T1083",
+            "incident": "INC-002",
+            "severity": "high",
+            "description": "Discovery commands executed post-authentication"
+        })
+
+    if has_sensitive:
+        stages.append({
+            "stage": "Stage 05 — Sensitive Resource Access",
+            "mitre": "T1083",
+            "incident": "INC-002",
+            "severity": "high",
+            "description": "Attacker accessed sensitive system paths/files"
+        })
+
+    if has_priv:
+        stages.append({
+            "stage": "Stage 06 — Privilege Escalation Attempt",
+            "mitre": "T1548",
+            "incident": "INC-003",
+            "severity": "critical",
+            "description": "Sudo / privilege commands executed — root access attempted"
+        })
+
+    n = len(stages)
+    if n >= 4:
+        verdict = "CONFIRMED MULTI-STAGE ATTACK"
+        incident = "INC-003"
+        severity = "critical"
+    elif n >= 2:
+        verdict = "CORRELATED ATTACK CHAIN"
+        incident = "INC-002"
+        severity = "high"
+    elif n == 1:
+        verdict = "SUSPICIOUS ACTIVITY"
+        incident = "INC-001"
+        severity = "medium"
+    else:
+        verdict = "BASELINE NORMAL"
+        incident = None
+        severity = "low"
+
+    linked = ["INC-001"]
+    if n >= 2:
+        linked.append("INC-002")
+    if n >= 4:
+        linked.append("INC-003")
+
+    return {
+        "correlation_id": f"CORR-{datetime.now().strftime('%Y%m%d-%H%M%S')}",
+        "timestamp": datetime.now().isoformat(),
+        "attacker_ip": attacker_ip,
+        "total_stages_detected": n,
+        "stages": stages,
+        "verdict": verdict,
+        "severity": severity,
+        "correlated_incident": incident,
+        "linked_incidents": linked,
+        "attack_chain_summary": (
+            f"{attacker_ip} → {fails} failed SSH attempts → "
+            f"{'access gained → post-exploitation → ' if has_success else ''}"
+            f"{'sensitive data access → ' if has_sensitive else ''}"
+            f"{'privilege escalation' if has_priv else 'ongoing brute force'}"
+        ),
+        "recommended_action": "IMMEDIATE CONTAINMENT" if severity == "critical" else "ESCALATE"
+    }
+
+def write_json(data, filename):
+    path = os.path.join(OUTPUT_DIR, filename)
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=2, default=str)
+    size = os.path.getsize(path)
+    print(f"  [✓] {filename}  ({size} bytes)")
+
+def run_once():
+    print(f"\n  ⟳  {datetime.now().strftime('%H:%M:%S')} — Running detection cycle...")
+
+    auth_events  = parse_auth_log()
+    audit_events = parse_auditd()
+
+    normalized = normalize_events(auth_events, audit_events)
+    normalized, attacker_ip, ip_fails = apply_severity_ladder(normalized)
+
+    privilege_events = get_privilege_events(normalized)
+    sensitive_events = get_sensitive_access_events(normalized)
+
+    ai_result = run_ai_analysis(normalized, attacker_ip, ip_fails)
+    correlation = build_correlation(normalized, ai_result, attacker_ip, ip_fails)
+
+    write_json(normalized,       "normalized_events.json")
+    write_json(privilege_events, "privilege_activity.json")
+    write_json(sensitive_events, "sensitive_access_alerts.json")
+    write_json(ai_result,        "ai_analysis.json")
+    write_json(correlation,      "correlation.json")
+
+    fails = ip_fails.get(attacker_ip, 0) if attacker_ip else 0
+    print(f"\n  Threat Level   : {ai_result['threat_level']}")
+    print(f"  Attacker IP    : {attacker_ip}")
+    print(f"  Failed Logins  : {fails}")
+    print(f"  Verdict        : {correlation['verdict']}")
+    print(f"  Incident       : {correlation['correlated_incident']}")
+
+def main():
+    print("╔══════════════════════════════════════════╗")
+    print("║   SOC Detection Engine — Ubuntu Side     ║")
+    print("║   Tasks 3.1 → 3.5  |  Yussef / Kali Lead║")
+    print("╚══════════════════════════════════════════╝")
+    print(f"  Output Dir : {OUTPUT_DIR}")
+
+    watch_mode = "--watch" in sys.argv
+    interval   = 30
+
+    if watch_mode:
+        print(f"  Mode       : CONTINUOUS (every {interval}s)")
+        print("  Press Ctrl+C to stop\n")
+        while True:
+            try:
+                run_once()
+                time.sleep(interval)
+            except KeyboardInterrupt:
+                print("\n  [!] Detection engine stopped.")
+                break
+    else:
+        print("  Mode       : ONE-SHOT\n")
+        run_once()
+        print("\n  Done — outputs written to", OUTPUT_DIR)
+
+if __name__ == "__main__":
+    main()

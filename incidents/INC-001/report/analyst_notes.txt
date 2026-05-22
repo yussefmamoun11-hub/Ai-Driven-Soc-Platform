@@ -1,0 +1,11 @@
+SOC Analyst Notes
+
+During log monitoring, multiple failed SSH authentication attempts were detected.
+
+The attempts originated from IP 192.168.88.164 and targeted the account youssef-amr.
+
+The detection script identified the pattern as a brute force attempt.
+
+No successful compromise occurred.
+Network traffic capture was initiated using tcpdump during the attack simulation to observe SSH traffic patterns.
+

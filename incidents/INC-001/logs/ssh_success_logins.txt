@@ -1,0 +1,42 @@
+2026-03-08T20:50:54.338902+02:00 youssef-amr-VMware-Virtual-Platform sshd[4241]: Accepted password for mamoun from 192.168.88.32 port 36736 ssh2
+2026-03-08T21:25:26.565845+02:00 youssef-amr-VMware-Virtual-Platform sshd[5313]: Accepted password for rahma from 192.168.88.140 port 56508 ssh2
+2026-03-08T21:48:45.477845+02:00 youssef-amr-VMware-Virtual-Platform sshd[5742]: Accepted password for nour from 192.168.88.179 port 49366 ssh2
+2026-03-08T21:51:33.790357+02:00 youssef-amr-VMware-Virtual-Platform sshd[5934]: Accepted password for hanen from 192.168.88.3 port 38056 ssh2
+2026-03-08T21:55:11.882775+02:00 youssef-amr-VMware-Virtual-Platform sshd[6242]: Accepted password for rawan from 192.168.88.234 port 59694 ssh2
+2026-03-08T22:19:27.462294+02:00 youssef-amr-VMware-Virtual-Platform sshd[7260]: Accepted password for kenzy from 192.168.88.179 port 50744 ssh2
+2026-03-08T22:25:28.129595+02:00 youssef-amr-VMware-Virtual-Platform sshd[8018]: Accepted password for youssef-amr from 192.168.88.4 port 34180 ssh2
+2026-03-08T22:33:12.238374+02:00 youssef-amr-VMware-Virtual-Platform sshd[14146]: Accepted password for kenzy from 192.168.88.32 port 52650 ssh2
+2026-03-08T22:38:07.637873+02:00 youssef-amr-VMware-Virtual-Platform sshd[14284]: Accepted password for hanen from 192.168.88.3 port 54612 ssh2
+2026-03-08T22:39:54.720934+02:00 youssef-amr-VMware-Virtual-Platform sshd[14446]: Accepted password for rahma from 192.168.88.140 port 40104 ssh2
+2026-03-08T22:41:42.950043+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-08T22:42:15.046998+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-08T22:43:27.583786+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log
+2026-03-08T22:43:54.169926+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log
+2026-03-08T22:44:58.506391+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Accepted password for' /var/log/auth.log
+2026-03-08T22:45:32.169961+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep -E 'sshd\\[[0-9]+\\]: Accepted password for' /var/log/auth.log
+2026-03-08T22:48:33.197623+02:00 youssef-amr-VMware-Virtual-Platform sudo:    rahma : TTY=pts/5 ; PWD=/home/rahma ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Accepted password for' /var/log/auth.log /var/log/auth.log.1 /var/log/auth.log.2.gz /var/log/auth.log.3.gz
+2026-03-08T22:57:45.374443+02:00 youssef-amr-VMware-Virtual-Platform sshd[15148]: Accepted password for rawan from 192.168.88.186 port 53222 ssh2
+2026-03-08T23:01:08.046377+02:00 youssef-amr-VMware-Virtual-Platform sshd[15393]: Accepted password for nour from 192.168.88.119 port 56942 ssh2
+2026-03-08T23:29:04.711198+02:00 youssef-amr-VMware-Virtual-Platform sshd[16518]: Accepted password for rawan from 192.168.88.186 port 60264 ssh2
+2026-03-09T20:27:31.080642+02:00 youssef-amr-VMware-Virtual-Platform sshd[18969]: Accepted password for mamoun from 192.168.88.230 port 47836 ssh2
+2026-03-09T20:35:17.330873+02:00 youssef-amr-VMware-Virtual-Platform sshd[19260]: Accepted password for mamoun from 192.168.88.180 port 49676 ssh2
+2026-03-09T20:35:55.400392+02:00 youssef-amr-VMware-Virtual-Platform sshd[19335]: Accepted password for mamoun from 192.168.88.180 port 47702 ssh2
+2026-03-09T20:54:13.908738+02:00 youssef-amr-VMware-Virtual-Platform sshd[22256]: Accepted password for rahma from 192.168.88.129 port 55594 ssh2
+2026-03-09T20:56:21.363191+02:00 youssef-amr-VMware-Virtual-Platform sshd[22570]: Accepted password for hanen from 192.168.88.5 port 53598 ssh2
+2026-03-09T21:34:40.872856+02:00 youssef-amr-VMware-Virtual-Platform sshd[24105]: Accepted password for rawan from 192.168.88.4 port 59966 ssh2
+2026-03-09T21:59:35.300898+02:00 youssef-amr-VMware-Virtual-Platform sshd[24548]: Accepted password for mamoun from 192.168.88.230 port 45436 ssh2
+2026-03-09T22:00:49.934983+02:00 youssef-amr-VMware-Virtual-Platform sshd[25047]: Accepted password for youssef-amr from 192.168.88.4 port 49611 ssh2
+2026-03-09T22:02:46.708047+02:00 youssef-amr-VMware-Virtual-Platform sshd[25132]: Accepted password for nour from 192.168.88.119 port 46674 ssh2
+2026-03-09T22:36:34.547822+02:00 youssef-amr-VMware-Virtual-Platform sshd[26409]: Accepted password for mamoun from 192.168.88.230 port 50158 ssh2
+2026-03-09T22:41:15.909709+02:00 youssef-amr-VMware-Virtual-Platform sshd[27623]: Accepted password for mamoun from 192.168.88.230 port 35538 ssh2
+2026-03-09T22:49:39.181349+02:00 youssef-amr-VMware-Virtual-Platform sshd[28819]: Accepted password for mamoun from 192.168.88.164 port 41284 ssh2
+2026-03-09T22:49:51.751558+02:00 youssef-amr-VMware-Virtual-Platform sshd[28867]: Accepted password for mamoun from 192.168.88.164 port 36144 ssh2
+2026-03-09T22:53:13.102719+02:00 youssef-amr-VMware-Virtual-Platform sshd[28947]: Accepted password for mamoun from 192.168.88.230 port 41988 ssh2
+2026-03-09T23:23:56.684570+02:00 youssef-amr-VMware-Virtual-Platform sshd[30773]: Accepted password for kenzy from 192.168.88.230 port 37146 ssh2
+2026-03-09T23:27:06.351878+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-09T23:28:40.880015+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-09T23:29:10.295861+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-09T23:29:10.493778+02:00 youssef-amr-VMware-Virtual-Platform sudo:    kenzy : TTY=pts/1 ; PWD=/home/kenzy ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password' /var/log/auth.log
+2026-03-09T23:42:06.243641+02:00 youssef-amr-VMware-Virtual-Platform sshd[32892]: Accepted password for rawan from 192.168.88.230 port 40076 ssh2
+2026-03-09T23:58:04.163352+02:00 youssef-amr-VMware-Virtual-Platform sshd[33165]: Accepted password for nour from 192.168.88.119 port 48644 ssh2
+2026-03-10T00:15:17.675091+02:00 youssef-amr-VMware-Virtual-Platform sshd[33865]: Accepted password for nour from 192.168.88.119 port 54438 ssh2

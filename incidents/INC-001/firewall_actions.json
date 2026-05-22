@@ -1,0 +1,7 @@
+{
+  "firewall": "ufw",
+  "status": "active",
+  "blocked_ips": [],
+  "notes": "Monitoring SSH activity",
+  "timestamp": "DAY3"
+}

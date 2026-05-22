@@ -1,0 +1,10 @@
+{
+  "status": "ready",
+  "last_updated": "2026-05-22T10:16:11",
+  "pattern": "SSH Brute Force",
+  "source_ip": "192.168.1.78",
+  "severity": "low",
+  "confidence": "97.4%",
+  "classification": "SSH Brute Force",
+  "recommendation": "Investigate and block attacker IP"
+}

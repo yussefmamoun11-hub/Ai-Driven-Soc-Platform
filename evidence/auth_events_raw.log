@@ -1,0 +1,135 @@
+2026-04-14T12:44:08.168016+02:00 youssef-amr-VMware-Virtual-Platform sshd[6423]: Connection closed by 192.168.88.206 port 42030
+2026-04-14T12:50:01.049986+02:00 youssef-amr-VMware-Virtual-Platform sshd[6478]: Connection closed by 192.168.88.206 port 40626
+2026-04-14T12:51:28.444108+02:00 youssef-amr-VMware-Virtual-Platform sshd[6497]: Connection closed by 192.168.88.206 port 49952
+2026-04-14T12:51:28.616798+02:00 youssef-amr-VMware-Virtual-Platform sshd[6498]: Connection closed by 192.168.88.206 port 49962
+2026-04-14T12:51:32.634284+02:00 youssef-amr-VMware-Virtual-Platform sshd[6499]: Connection closed by 192.168.88.206 port 49976
+2026-04-14T12:51:32.778097+02:00 youssef-amr-VMware-Virtual-Platform sshd[6500]: Invalid user ubuntu from 192.168.88.206 port 49988
+2026-04-14T12:51:32.787274+02:00 youssef-amr-VMware-Virtual-Platform sshd[6500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T12:51:35.294979+02:00 youssef-amr-VMware-Virtual-Platform sshd[6500]: Failed password for invalid user ubuntu from 192.168.88.206 port 49988 ssh2
+2026-04-14T12:51:38.732644+02:00 youssef-amr-VMware-Virtual-Platform sshd[6502]: Invalid user ubuntu from 192.168.88.206 port 44370
+2026-04-14T12:51:38.737085+02:00 youssef-amr-VMware-Virtual-Platform sshd[6502]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T12:51:41.069277+02:00 youssef-amr-VMware-Virtual-Platform sshd[6502]: Failed password for invalid user ubuntu from 192.168.88.206 port 44370 ssh2
+2026-04-14T12:51:44.683125+02:00 youssef-amr-VMware-Virtual-Platform sshd[6504]: Invalid user ubuntu from 192.168.88.206 port 44380
+2026-04-14T12:51:44.687648+02:00 youssef-amr-VMware-Virtual-Platform sshd[6504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T12:51:47.175643+02:00 youssef-amr-VMware-Virtual-Platform sshd[6504]: Failed password for invalid user ubuntu from 192.168.88.206 port 44380 ssh2
+2026-04-14T13:01:50.879253+02:00 youssef-amr-VMware-Virtual-Platform sshd[6613]: Invalid user ubuntu from 192.168.88.206 port 51630
+2026-04-14T13:01:50.882021+02:00 youssef-amr-VMware-Virtual-Platform sshd[6613]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:01:52.230701+02:00 youssef-amr-VMware-Virtual-Platform sshd[6613]: Failed password for invalid user ubuntu from 192.168.88.206 port 51630 ssh2
+2026-04-14T13:01:55.299009+02:00 youssef-amr-VMware-Virtual-Platform sshd[6615]: Invalid user ubuntu from 192.168.88.206 port 51638
+2026-04-14T13:01:55.301711+02:00 youssef-amr-VMware-Virtual-Platform sshd[6615]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:01:57.005130+02:00 youssef-amr-VMware-Virtual-Platform sshd[6615]: Failed password for invalid user ubuntu from 192.168.88.206 port 51638 ssh2
+2026-04-14T13:01:59.062459+02:00 youssef-amr-VMware-Virtual-Platform sshd[6617]: Invalid user ubuntu from 192.168.88.206 port 39240
+2026-04-14T13:01:59.065372+02:00 youssef-amr-VMware-Virtual-Platform sshd[6617]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:02:00.986122+02:00 youssef-amr-VMware-Virtual-Platform sshd[6617]: Failed password for invalid user ubuntu from 192.168.88.206 port 39240 ssh2
+2026-04-14T13:03:24.920913+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:12:05.190810+02:00 youssef-amr-VMware-Virtual-Platform sshd[6961]: Invalid user ubuntu from 192.168.88.206 port 52068
+2026-04-14T13:12:05.194867+02:00 youssef-amr-VMware-Virtual-Platform sshd[6961]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:12:07.305139+02:00 youssef-amr-VMware-Virtual-Platform sshd[6961]: Failed password for invalid user ubuntu from 192.168.88.206 port 52068 ssh2
+2026-04-14T13:12:09.531291+02:00 youssef-amr-VMware-Virtual-Platform sshd[6963]: Invalid user ubuntu from 192.168.88.206 port 36566
+2026-04-14T13:12:09.534523+02:00 youssef-amr-VMware-Virtual-Platform sshd[6963]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:12:10.861691+02:00 youssef-amr-VMware-Virtual-Platform sshd[6963]: Failed password for invalid user ubuntu from 192.168.88.206 port 36566 ssh2
+2026-04-14T13:21:51.025370+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:22:15.072613+02:00 youssef-amr-VMware-Virtual-Platform sshd[8750]: Invalid user ubuntu from 192.168.88.206 port 59020
+2026-04-14T13:22:15.078756+02:00 youssef-amr-VMware-Virtual-Platform sshd[8750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:22:16.596976+02:00 youssef-amr-VMware-Virtual-Platform sshd[8750]: Failed password for invalid user ubuntu from 192.168.88.206 port 59020 ssh2
+2026-04-14T13:22:18.894230+02:00 youssef-amr-VMware-Virtual-Platform sshd[8763]: Invalid user ubuntu from 192.168.88.206 port 42682
+2026-04-14T13:22:18.902729+02:00 youssef-amr-VMware-Virtual-Platform sshd[8763]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:22:21.168637+02:00 youssef-amr-VMware-Virtual-Platform sshd[8763]: Failed password for invalid user ubuntu from 192.168.88.206 port 42682 ssh2
+2026-04-14T13:22:24.993443+02:00 youssef-amr-VMware-Virtual-Platform sshd[8765]: Invalid user ubuntu from 192.168.88.206 port 42684
+2026-04-14T13:22:24.998242+02:00 youssef-amr-VMware-Virtual-Platform sshd[8765]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:22:26.752892+02:00 youssef-amr-VMware-Virtual-Platform sshd[8765]: Failed password for invalid user ubuntu from 192.168.88.206 port 42684 ssh2
+2026-04-14T13:32:28.460437+02:00 youssef-amr-VMware-Virtual-Platform sshd[8827]: Invalid user ubuntu from 192.168.88.206 port 42330
+2026-04-14T13:32:28.463652+02:00 youssef-amr-VMware-Virtual-Platform sshd[8827]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:32:30.804016+02:00 youssef-amr-VMware-Virtual-Platform sshd[8827]: Failed password for invalid user ubuntu from 192.168.88.206 port 42330 ssh2
+2026-04-14T13:32:34.662766+02:00 youssef-amr-VMware-Virtual-Platform sshd[8829]: Invalid user ubuntu from 192.168.88.206 port 42338
+2026-04-14T13:32:34.666771+02:00 youssef-amr-VMware-Virtual-Platform sshd[8829]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:32:36.165142+02:00 youssef-amr-VMware-Virtual-Platform sshd[8829]: Failed password for invalid user ubuntu from 192.168.88.206 port 42338 ssh2
+2026-04-14T13:40:15.905756+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project/outputs ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:42:43.109860+02:00 youssef-amr-VMware-Virtual-Platform sshd[9178]: Invalid user ubuntu from 192.168.88.206 port 54442
+2026-04-14T13:42:43.112879+02:00 youssef-amr-VMware-Virtual-Platform sshd[9178]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:42:45.218025+02:00 youssef-amr-VMware-Virtual-Platform sshd[9178]: Failed password for invalid user ubuntu from 192.168.88.206 port 54442 ssh2
+2026-04-14T13:42:45.726168+02:00 youssef-amr-VMware-Virtual-Platform sshd[9180]: Invalid user ubuntu from 192.168.88.206 port 54446
+2026-04-14T13:42:45.729097+02:00 youssef-amr-VMware-Virtual-Platform sshd[9180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:42:47.773768+02:00 youssef-amr-VMware-Virtual-Platform sshd[9180]: Failed password for invalid user ubuntu from 192.168.88.206 port 54446 ssh2
+2026-04-14T13:42:48.314139+02:00 youssef-amr-VMware-Virtual-Platform sshd[9182]: Invalid user ubuntu from 192.168.88.206 port 51244
+2026-04-14T13:42:48.318079+02:00 youssef-amr-VMware-Virtual-Platform sshd[9182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:42:50.774579+02:00 youssef-amr-VMware-Virtual-Platform sshd[9182]: Failed password for invalid user ubuntu from 192.168.88.206 port 51244 ssh2
+2026-04-14T13:48:14.644850+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:53:02.560988+02:00 youssef-amr-VMware-Virtual-Platform sshd[9831]: Invalid user ubuntu from 192.168.88.206 port 51398
+2026-04-14T13:53:02.572450+02:00 youssef-amr-VMware-Virtual-Platform sshd[9831]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:53:04.320638+02:00 youssef-amr-VMware-Virtual-Platform sshd[9831]: Failed password for invalid user ubuntu from 192.168.88.206 port 51398 ssh2
+2026-04-14T13:53:05.304286+02:00 youssef-amr-VMware-Virtual-Platform sshd[9833]: Invalid user ubuntu from 192.168.88.206 port 51400
+2026-04-14T13:53:05.317630+02:00 youssef-amr-VMware-Virtual-Platform sshd[9833]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T13:53:06.810884+02:00 youssef-amr-VMware-Virtual-Platform sshd[9833]: Failed password for invalid user ubuntu from 192.168.88.206 port 51400 ssh2
+2026-04-14T13:55:26.314368+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T13:55:28.010270+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/12 ; PWD=/home/mamoun/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log
+2026-04-14T14:03:16.588947+02:00 youssef-amr-VMware-Virtual-Platform sshd[10463]: Invalid user ubuntu from 192.168.88.206 port 39276
+2026-04-14T14:03:16.594876+02:00 youssef-amr-VMware-Virtual-Platform sshd[10463]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T14:03:17.968089+02:00 youssef-amr-VMware-Virtual-Platform sshd[10463]: Failed password for invalid user ubuntu from 192.168.88.206 port 39276 ssh2
+2026-04-14T14:03:19.274844+02:00 youssef-amr-VMware-Virtual-Platform sshd[10465]: Invalid user ubuntu from 192.168.88.206 port 39292
+2026-04-14T14:03:19.288496+02:00 youssef-amr-VMware-Virtual-Platform sshd[10465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T14:03:21.740611+02:00 youssef-amr-VMware-Virtual-Platform sshd[10465]: Failed password for invalid user ubuntu from 192.168.88.206 port 39292 ssh2
+2026-04-14T14:03:24.315476+02:00 youssef-amr-VMware-Virtual-Platform sshd[10467]: Invalid user ubuntu from 192.168.88.206 port 39302
+2026-04-14T14:03:24.322481+02:00 youssef-amr-VMware-Virtual-Platform sshd[10467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206 
+2026-04-14T14:03:26.794965+02:00 youssef-amr-VMware-Virtual-Platform sshd[10467]: Failed password for invalid user ubuntu from 192.168.88.206 port 39302 ssh2
+2026-04-14T14:17:39.499515+02:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/9 ; PWD=/home/mamoun ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:27:33.145788+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=./setup_socdemo.sh socdemo 192.168.88.206 no
+2026-04-14T14:27:59.531612+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=./setup_socdemo.sh socdemo 192.168.88.206 no
+2026-04-14T14:33:44.031151+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:33:46.553196+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: Failed password for socdemo from 192.168.88.206 port 37810 ssh2
+2026-04-14T14:33:57.342223+02:00 youssef-amr-VMware-Virtual-Platform sshd[11012]: Accepted password for socdemo from 192.168.88.206 port 37810 ssh2
+2026-04-14T14:34:18.188738+02:00 youssef-amr-VMware-Virtual-Platform sshd[11132]: Received disconnect from 192.168.88.206 port 37810:11: disconnected by user
+2026-04-14T14:34:18.189090+02:00 youssef-amr-VMware-Virtual-Platform sshd[11132]: Disconnected from user socdemo 192.168.88.206 port 37810
+2026-04-14T14:37:22.036874+02:00 youssef-amr-VMware-Virtual-Platform sshd[11331]: Connection closed by 192.168.88.206 port 40578
+2026-04-14T14:37:22.101255+02:00 youssef-amr-VMware-Virtual-Platform sshd[11332]: Connection closed by 192.168.88.206 port 40582
+2026-04-14T14:37:26.141551+02:00 youssef-amr-VMware-Virtual-Platform sshd[11333]: Connection closed by 192.168.88.206 port 59620
+2026-04-14T14:37:26.438872+02:00 youssef-amr-VMware-Virtual-Platform sshd[11334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:37:28.910165+02:00 youssef-amr-VMware-Virtual-Platform sshd[11334]: Failed password for socdemo from 192.168.88.206 port 59622 ssh2
+2026-04-14T14:37:32.517280+02:00 youssef-amr-VMware-Virtual-Platform sshd[11339]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:37:34.477160+02:00 youssef-amr-VMware-Virtual-Platform sshd[11339]: Failed password for socdemo from 192.168.88.206 port 59632 ssh2
+2026-04-14T14:37:36.106378+02:00 youssef-amr-VMware-Virtual-Platform sshd[11341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:37:37.950514+02:00 youssef-amr-VMware-Virtual-Platform sshd[11341]: Failed password for socdemo from 192.168.88.206 port 45586 ssh2
+2026-04-14T14:37:40.032872+02:00 youssef-amr-VMware-Virtual-Platform sshd[11343]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:37:41.621060+02:00 youssef-amr-VMware-Virtual-Platform sshd[11343]: Failed password for socdemo from 192.168.88.206 port 45594 ssh2
+2026-04-14T14:44:03.046504+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:46:08.741264+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:47:49.010833+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/10 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.88.206
+2026-04-14T14:48:48.958253+02:00 youssef-amr-VMware-Virtual-Platform sshd[11546]: Connection closed by 192.168.88.206 port 38794
+2026-04-14T14:48:58.530132+02:00 youssef-amr-VMware-Virtual-Platform sshd[11547]: Accepted password for socdemo from 192.168.88.206 port 44552 ssh2
+2026-04-14T14:49:33.957040+02:00 youssef-amr-VMware-Virtual-Platform sshd[11689]: Received disconnect from 192.168.88.206 port 44552:11: disconnected by user
+2026-04-14T14:49:33.957183+02:00 youssef-amr-VMware-Virtual-Platform sshd[11689]: Disconnected from user socdemo 192.168.88.206 port 44552
+2026-04-14T14:49:56.947018+02:00 youssef-amr-VMware-Virtual-Platform sshd[11834]: Connection closed by 192.168.88.206 port 47512
+2026-04-14T14:49:57.118281+02:00 youssef-amr-VMware-Virtual-Platform sshd[11835]: Connection closed by 192.168.88.206 port 47518
+2026-04-14T14:50:01.233792+02:00 youssef-amr-VMware-Virtual-Platform sshd[11837]: Connection closed by 192.168.88.206 port 47522
+2026-04-14T14:50:01.491092+02:00 youssef-amr-VMware-Virtual-Platform sshd[11838]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:50:03.274207+02:00 youssef-amr-VMware-Virtual-Platform sshd[11838]: Failed password for socdemo from 192.168.88.206 port 47538 ssh2
+2026-04-14T14:50:03.923871+02:00 youssef-amr-VMware-Virtual-Platform sshd[11854]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:50:05.648272+02:00 youssef-amr-VMware-Virtual-Platform sshd[11854]: Failed password for socdemo from 192.168.88.206 port 47540 ssh2
+2026-04-14T14:50:06.625498+02:00 youssef-amr-VMware-Virtual-Platform sshd[11856]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:50:08.429918+02:00 youssef-amr-VMware-Virtual-Platform sshd[11856]: Failed password for socdemo from 192.168.88.206 port 54226 ssh2
+2026-04-14T14:50:09.009408+02:00 youssef-amr-VMware-Virtual-Platform sshd[11858]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:50:11.088604+02:00 youssef-amr-VMware-Virtual-Platform sshd[11858]: Failed password for socdemo from 192.168.88.206 port 54240 ssh2
+2026-04-14T14:50:13.461458+02:00 youssef-amr-VMware-Virtual-Platform sshd[11860]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T14:50:15.224601+02:00 youssef-amr-VMware-Virtual-Platform sshd[11860]: Failed password for socdemo from 192.168.88.206 port 54244 ssh2
+2026-04-14T15:00:31.029672+02:00 youssef-amr-VMware-Virtual-Platform sshd[12042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:00:32.829672+02:00 youssef-amr-VMware-Virtual-Platform sshd[12042]: Failed password for socdemo from 192.168.88.206 port 56700 ssh2
+2026-04-14T15:00:33.458734+02:00 youssef-amr-VMware-Virtual-Platform sshd[12044]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:00:36.004888+02:00 youssef-amr-VMware-Virtual-Platform sshd[12044]: Failed password for socdemo from 192.168.88.206 port 56710 ssh2
+2026-04-14T15:00:37.991007+02:00 youssef-amr-VMware-Virtual-Platform sshd[12046]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:00:40.085432+02:00 youssef-amr-VMware-Virtual-Platform sshd[12046]: Failed password for socdemo from 192.168.88.206 port 46536 ssh2
+2026-04-14T15:00:42.314618+02:00 youssef-amr-VMware-Virtual-Platform sshd[12048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:00:44.430101+02:00 youssef-amr-VMware-Virtual-Platform sshd[12048]: Failed password for socdemo from 192.168.88.206 port 46550 ssh2
+2026-04-14T15:00:46.942086+02:00 youssef-amr-VMware-Virtual-Platform sshd[12050]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:00:48.605810+02:00 youssef-amr-VMware-Virtual-Platform sshd[12050]: Failed password for socdemo from 192.168.88.206 port 37566 ssh2
+2026-04-14T15:11:02.043767+02:00 youssef-amr-VMware-Virtual-Platform sshd[12123]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:11:04.138626+02:00 youssef-amr-VMware-Virtual-Platform sshd[12123]: Failed password for socdemo from 192.168.88.206 port 52858 ssh2
+2026-04-14T15:11:06.486969+02:00 youssef-amr-VMware-Virtual-Platform sshd[12125]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:11:08.601087+02:00 youssef-amr-VMware-Virtual-Platform sshd[12125]: Failed password for socdemo from 192.168.88.206 port 54168 ssh2
+2026-04-14T15:11:10.846584+02:00 youssef-amr-VMware-Virtual-Platform sshd[12127]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:11:12.508552+02:00 youssef-amr-VMware-Virtual-Platform sshd[12127]: Failed password for socdemo from 192.168.88.206 port 54180 ssh2
+2026-04-14T15:11:13.173778+02:00 youssef-amr-VMware-Virtual-Platform sshd[12129]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:11:15.583937+02:00 youssef-amr-VMware-Virtual-Platform sshd[12129]: Failed password for socdemo from 192.168.88.206 port 54188 ssh2
+2026-04-14T15:11:17.624787+02:00 youssef-amr-VMware-Virtual-Platform sshd[12131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.88.206  user=socdemo
+2026-04-14T15:11:19.914747+02:00 youssef-amr-VMware-Virtual-Platform sshd[12131]: Failed password for socdemo from 192.168.88.206 port 39050 ssh2
+2026-04-14T15:22:45.193045+02:00 youssef-amr-VMware-Virtual-Platform sshd[13199]: Accepted password for socdemo from 192.168.88.206 port 41012 ssh2
+2026-04-14T15:25:16.922863+02:00 youssef-amr-VMware-Virtual-Platform sudo: youssef-amr : TTY=pts/8 ; PWD=/home/youssef-amr/soc_project ; USER=root ; COMMAND=/usr/bin/grep 192.168.88.206 /var/log/auth.log

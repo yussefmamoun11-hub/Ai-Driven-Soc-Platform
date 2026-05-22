@@ -1,0 +1,17 @@
+{
+  "status": "FINAL_ATTACK_STATE",
+  "persistent": true,
+  "last_updated": "2026-05-09T23:09:05",
+  "attacker_ip": "192.168.88.196",
+  "target_ip": "192.168.1.17",
+  "incident_id": "INC-003",
+  "severity": "CRITICAL",
+  "attack_type": "Multi-Stage SSH Intrusion",
+  "failed_logins": 15,
+  "successful_logins": 1,
+  "alerts_count": 3,
+  "attempts": 15,
+  "stage": "Attack Completed",
+  "containment": "Executed by Sharaf",
+  "final_state_note": "Keep this state visible after attack ends"
+}
