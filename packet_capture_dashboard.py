@@ -5,7 +5,7 @@ from datetime import datetime
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 AUTH = Path("/var/log/auth.log")
-PORT = 9102
+PORT = 9200
 LAST = []
 
 def get_packets():
@@ -53,7 +53,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "text/html")
         self.end_headers()
-        self.wfile.write(b'''<!doctype html>
+        self.wfile.write('''<!doctype html>
 <html>
 <head>
 <title>Enterprise Packet Capture</title>

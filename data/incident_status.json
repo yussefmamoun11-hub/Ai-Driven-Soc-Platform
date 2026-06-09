@@ -1,12 +1,12 @@
 {
-  "id": "INC-002",
-  "incident_id": "INC-002",
-  "title": "SSH Brute Force",
-  "status": "monitoring",
-  "severity": "low",
+  "id": "INC-003",
+  "incident_id": "INC-003",
+  "title": "Multi-Stage SSH Intrusion",
+  "status": "contained",
+  "severity": "critical",
   "assignee": "SOC Team",
-  "opened": "2026-05-22T10:16:11",
+  "opened": "2026-06-09T23:23:19",
   "duration": "live",
-  "source_ip": "192.168.1.78",
+  "source_ip": "192.168.1.21",
   "description": "Live incident generated automatically from SSH authentication activity."
 }

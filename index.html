@@ -53,10 +53,10 @@ setInterval(loadAll, 3000);
 <script src="script.js"></script>
 <script src="sticky_final_state.js"></script>
 <script src="live_all_panels_controller.js"></script>
-<script src="packet_capture_fix.js"></script>
-<script src="force_packet_capture_override.js"></script>
-<script src="force_packet_capture_dom_v2.js"></script>
-<script src="soc_packet_enterprise_fix.js"></script>
+<!-- disabled-final-no-flicker <!-- disabled stable distributor: packet_capture_fix.js --> -->
+<!-- disabled-final-no-flicker <!-- disabled stable distributor: force_packet_capture_override.js --> -->
+<!-- disabled-final-no-flicker <!-- disabled stable distributor: force_packet_capture_dom_v2.js --> -->
+<!-- disabled-final-no-flicker <!-- disabled stable distributor: soc_packet_enterprise_fix.js --> -->
 <script>
 (function(){
   console.log("ENTERPRISE PACKET CAPTURE LIVE ACTIVE");
@@ -148,6 +148,9 @@ setInterval(loadAll, 3000);
   setInterval(tick,500);
 })();
 </script>
-<script src="packet_stream_dashboard_patch.js"></script>
+
+
+
+<script src="soc_nexus_stable_single_controller.js"></script>
 </body>
 </html>

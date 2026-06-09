@@ -1,8 +1,8 @@
 {
-  "status": "PARTIAL",
+  "status": "CONTAINED",
   "ufw_firewall": "ENABLED",
   "fail2ban": "ACTIVE",
-  "block_ip_rule": "PENDING",
+  "block_ip_rule": "APPLIED",
   "quarantine": "NOT REQUIRED",
-  "result": "waiting"
+  "result": "Attack successfully blocked"
 }

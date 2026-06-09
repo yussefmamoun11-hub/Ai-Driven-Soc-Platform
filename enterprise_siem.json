@@ -1,0 +1,134 @@
+[
+  {
+    "id": "INC-20260608234048176453",
+    "time": "2026-06-08T23:40:48.176485",
+    "source_ip": "10.0.0.5",
+    "target": "192.168.1.10",
+    "attack": "ssh_bruteforce",
+    "score": 87,
+    "severity": "CRITICAL",
+    "analysis": "Active intrusion attempt detected with high confidence. Immediate containment recommended.",
+    "mitre": "T1110.001"
+  },
+  {
+    "id": "INC-20260608234048176509",
+    "time": "2026-06-08T23:40:48.176529",
+    "source_ip": "10.0.0.8",
+    "target": "192.168.1.10",
+    "attack": "port_scan",
+    "score": 52,
+    "severity": "LOW",
+    "analysis": "Low-confidence anomaly detected.",
+    "mitre": "T1046"
+  },
+  {
+    "id": "INC-20260608234048176548",
+    "time": "2026-06-08T23:40:48.176566",
+    "source_ip": "10.0.0.99",
+    "target": "192.168.1.10",
+    "attack": "malware",
+    "score": 87,
+    "severity": "CRITICAL",
+    "analysis": "Active intrusion attempt detected with high confidence. Immediate containment recommended.",
+    "mitre": "T1204"
+  },
+  {
+    "id": "INC-20260608234405218912",
+    "time": "2026-06-08T23:44:05.218940",
+    "attack": "ssh_bruteforce",
+    "source_ip": "10.0.0.5",
+    "target": "192.168.1.10",
+    "score": 79,
+    "severity": "MEDIUM",
+    "mitre": "T1110.001",
+    "analysis": "Suspicious activity detected. Monitoring recommended."
+  },
+  {
+    "id": "INC-20260608234405222972",
+    "time": "2026-06-08T23:44:05.222997",
+    "attack": "port_scan",
+    "source_ip": "10.0.0.8",
+    "target": "192.168.1.10",
+    "score": 65,
+    "severity": "MEDIUM",
+    "mitre": "T1046",
+    "analysis": "Suspicious activity detected. Monitoring recommended."
+  },
+  {
+    "id": "INC-20260608234405224348",
+    "time": "2026-06-08T23:44:05.224368",
+    "attack": "malware",
+    "source_ip": "10.0.0.99",
+    "target": "192.168.1.10",
+    "score": 99,
+    "severity": "CRITICAL",
+    "mitre": "T1204",
+    "analysis": "Active intrusion detected with high confidence. Immediate response required."
+  },
+  {
+    "id": "INC-20260608234436513133",
+    "time": "2026-06-08T23:44:36.513161",
+    "attack": "ssh_bruteforce",
+    "source_ip": "10.0.0.5",
+    "target": "192.168.1.10",
+    "score": 86,
+    "severity": "CRITICAL",
+    "mitre": "T1110.001",
+    "analysis": "Active intrusion detected with high confidence. Immediate response required."
+  },
+  {
+    "id": "INC-20260608234436514530",
+    "time": "2026-06-08T23:44:36.514551",
+    "attack": "port_scan",
+    "source_ip": "10.0.0.8",
+    "target": "192.168.1.10",
+    "score": 65,
+    "severity": "MEDIUM",
+    "mitre": "T1046",
+    "analysis": "Suspicious activity detected. Monitoring recommended."
+  },
+  {
+    "id": "INC-20260608234436515491",
+    "time": "2026-06-08T23:44:36.515512",
+    "attack": "malware",
+    "source_ip": "10.0.0.99",
+    "target": "192.168.1.10",
+    "score": 96,
+    "severity": "CRITICAL",
+    "mitre": "T1204",
+    "analysis": "Active intrusion detected with high confidence. Immediate response required."
+  },
+  {
+    "id": "INC-20260609022726478246",
+    "time": "2026-06-09T02:27:26.478275",
+    "attack": "ssh_bruteforce",
+    "source_ip": "10.0.0.5",
+    "target": "192.168.1.10",
+    "score": 86,
+    "severity": "CRITICAL",
+    "mitre": "T1110.001",
+    "analysis": "Active intrusion detected with high confidence. Immediate response required."
+  },
+  {
+    "id": "INC-20260609022726480478",
+    "time": "2026-06-09T02:27:26.480501",
+    "attack": "port_scan",
+    "source_ip": "10.0.0.8",
+    "target": "192.168.1.10",
+    "score": 60,
+    "severity": "MEDIUM",
+    "mitre": "T1046",
+    "analysis": "Suspicious activity detected. Monitoring recommended."
+  },
+  {
+    "id": "INC-20260609022726482630",
+    "time": "2026-06-09T02:27:26.482653",
+    "attack": "malware",
+    "source_ip": "10.0.0.99",
+    "target": "192.168.1.10",
+    "score": 97,
+    "severity": "CRITICAL",
+    "mitre": "T1204",
+    "analysis": "Active intrusion detected with high confidence. Immediate response required."
+  }
+]

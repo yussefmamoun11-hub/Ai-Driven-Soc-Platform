@@ -1,0 +1,171 @@
+(function(){
+  console.log("[SOC NEXUS FINAL PANEL DISTRIBUTOR ACTIVE]");
+
+  let stable = JSON.parse(localStorage.getItem("SOC_NEXUS_STABLE_STATE") || "{}");
+
+  async function getState(){
+    try{
+      const r = await fetch("/outputs/panel_live_state.json?t=" + Date.now(), {cache:"no-store"});
+      const s = await r.json();
+      if(s && (Array.isArray(s.packets) || Array.isArray(s.ssh_auth))){
+        stable = s;
+        localStorage.setItem("SOC_NEXUS_STABLE_STATE", JSON.stringify(s));
+      }
+    }catch(e){}
+    return stable || {};
+  }
+
+  function val(x, keys, fallback="-"){
+    for(const k of keys){
+      if(x && x[k] !== undefined && x[k] !== null && x[k] !== "" && x[k] !== "undefined") return x[k];
+    }
+    return fallback;
+  }
+
+  function panel(title){
+    const needle = title.toUpperCase();
+    return [...document.querySelectorAll("section,div,article")]
+      .filter(x => (x.innerText || "").toUpperCase().includes(needle))
+      .sort((a,b)=>(a.innerText||"").length-(b.innerText||"").length)[0];
+  }
+
+  function findTable(p){
+    if(!p) return null;
+    return p.querySelector("tbody");
+  }
+
+  function setCount(p, text){
+    if(!p) return;
+    const nodes=[...p.querySelectorAll("*")];
+    const n=nodes.find(x => !x.children.length && /(^\d+\s*EVENTS$)|(^0 EVENTS$)|(^\d+$)/.test((x.innerText||"").trim()));
+    if(n) n.innerText=text;
+  }
+
+  function renderPacket(packets){
+    packets = (packets || []).filter(x => val(x,["info","packet_info"],"").includes("SSH"));
+    if(!packets.length) return;
+
+    const p = panel("PACKET CAPTURE");
+    const tb = findTable(p);
+    if(!p || !tb) return;
+
+    const last = packets[packets.length-1];
+    const ip = val(last, ["source","src_ip","source_ip","attacker_ip"], "-");
+
+    [...p.querySelectorAll("*")].forEach(e=>{
+      if(!e.children.length && (e.innerText||"").includes("FILTER:")){
+        e.innerText = "FILTER: ip.src == " + ip;
+      }
+    });
+
+    tb.innerHTML = packets.slice(-15).map((x,i)=>`
+      <tr>
+        <td>${i+1}</td>
+        <td>${val(x,["timestamp","time"],"")}</td>
+        <td>${val(x,["source","src_ip","source_ip","attacker_ip"],"-")}</td>
+        <td>${val(x,["destination","dst_ip","destination_ip"],"Ubuntu Host")}</td>
+        <td>${val(x,["proto","protocol"],"SSH")}</td>
+        <td>${val(x,["len","length"],"84")}</td>
+        <td>${val(x,["info","packet_info","description"],"")}</td>
+      </tr>
+    `).join("");
+  }
+
+  function renderCorrelation(rows){
+    rows = rows || [];
+    if(!rows.length) return;
+
+    const p = panel("CORRELATED SECURITY EVENTS");
+    const tb = findTable(p);
+    if(!p || !tb) return;
+
+    setCount(p, rows.length + " EVENTS");
+
+    tb.innerHTML = rows.slice(-8).map(x=>`
+      <tr>
+        <td>${String(val(x,["time","timestamp"],"")).split("T").pop()}</td>
+        <td>${val(x,["source_ip","source","src_ip"],"-")}</td>
+        <td>${val(x,["destination","dst_ip"],"Ubuntu Host")}</td>
+        <td>${val(x,["event_description","description","info"],"")}</td>
+        <td>${val(x,["severity"],"MED")}</td>
+      </tr>
+    `).join("");
+  }
+
+  function renderSSH(rows){
+    rows = rows || [];
+    if(!rows.length) return;
+
+    const p = panel("SSH AUTH ACTIVITY");
+    if(!p) return;
+
+    setCount(p, rows.length + " EVENTS");
+
+    [...p.querySelectorAll("*")].forEach(x=>{
+      if(!x.children.length && (x.innerText||"").includes("No recent SSH events")) x.innerText="";
+    });
+
+    let box = p.querySelector("#sshAuthFinalRows");
+    if(!box){
+      box = document.createElement("div");
+      box.id = "sshAuthFinalRows";
+      box.style.cssText = "margin-top:8px;font-size:12px;line-height:1.55;";
+      p.appendChild(box);
+    }
+
+    box.innerHTML = rows.slice(-10).map(x=>`
+      <div>
+        ${val(x,["timestamp","time"],"")} ·
+        ${val(x,["source","source_ip","src_ip"],"-")} ·
+        ${val(x,["info","description"],"")}
+      </div>
+    `).join("");
+  }
+
+  function renderSuccess(rows){
+    rows = rows || [];
+    if(!rows.length) return;
+
+    const p = panel("SUCCESSFUL LOGINS");
+    if(!p) return;
+
+    setCount(p, String(rows.length));
+
+    [...p.querySelectorAll("*")].forEach(x=>{
+      if(!x.children.length && (x.innerText||"").includes("No successful logins")) x.innerText="";
+    });
+
+    let box = p.querySelector("#successLoginFinalRows");
+    if(!box){
+      box = document.createElement("div");
+      box.id = "successLoginFinalRows";
+      box.style.cssText = "margin-top:8px;font-size:12px;line-height:1.55;";
+      p.appendChild(box);
+    }
+
+    box.innerHTML = rows.slice(-5).map(x=>`
+      <div>
+        ${val(x,["time","timestamp"],"")} ·
+        ${val(x,["source_ip","source","src_ip"],"-")} ·
+        ${val(x,["user"],"unknown")} · SUCCESS
+      </div>
+    `).join("");
+  }
+
+  async function tick(){
+    const s = await getState();
+
+    const packets = s.packets || [];
+    const corr = s.correlation || [];
+    const ssh = s.ssh_auth || [];
+    const success = s.successful_logins || [];
+
+    renderPacket(packets);
+    renderCorrelation(corr);
+    renderSSH(ssh);
+    renderSuccess(success);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+})();

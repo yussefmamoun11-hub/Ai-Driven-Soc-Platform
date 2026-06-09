@@ -1,10 +1,10 @@
 {
   "status": "attack_live",
-  "last_updated": "2026-05-22T10:16:11",
-  "incident_id": "INC-002",
+  "last_updated": "2026-06-09T23:23:19",
+  "incident_id": "INC-003",
   "technique": "T1548",
   "activity": "Privilege Abuse Attempt",
-  "severity": "low",
+  "severity": "critical",
   "result": "BLOCKED",
   "details": [
     "Sudo privileges check attempted",

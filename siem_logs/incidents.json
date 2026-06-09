@@ -1,0 +1,22 @@
+[
+  {
+    "id": "INC-20260608233742",
+    "time": "2026-06-08T23:37:42.762451",
+    "source_ip": "10.0.0.99",
+    "target": "192.168.1.10",
+    "attack": "ssh_bruteforce",
+    "severity": "HIGH",
+    "mitre": "T1110.001",
+    "summary": "Detected ssh_bruteforce from 10.0.0.99 targeting 192.168.1.10"
+  },
+  {
+    "id": "INC-20260608233742",
+    "time": "2026-06-08T23:37:42.767810",
+    "source_ip": "10.0.0.77",
+    "target": "192.168.1.10",
+    "attack": "port_scan",
+    "severity": "MEDIUM",
+    "mitre": "T1046",
+    "summary": "Detected port_scan from 10.0.0.77 targeting 192.168.1.10"
+  }
+]

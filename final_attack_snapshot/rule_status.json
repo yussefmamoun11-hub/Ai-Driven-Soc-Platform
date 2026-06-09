@@ -1,0 +1,14 @@
+[
+  {
+    "name": "SSH_Brute_Force",
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Recon_Scan_Detection",
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Port_Scan_Detection",
+    "status": "ACTIVE"
+  }
+]

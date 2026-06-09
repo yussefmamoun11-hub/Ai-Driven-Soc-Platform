@@ -1,6 +1,6 @@
 {
   "status": "attack_live",
-  "last_updated": "2026-05-18T07:50:53",
+  "last_updated": "2026-06-09T23:23:19",
   "incident_id": "INC-003",
   "technique": "T1548",
   "activity": "Privilege Abuse Attempt",

@@ -1,10 +1,10 @@
 {
   "status": "ready",
-  "last_updated": "2026-05-22T10:16:11",
-  "attempts": 0,
-  "attempts_count": 0,
-  "alerts": 0,
-  "alert_count": 0,
+  "last_updated": "2026-06-09T23:23:19",
+  "attempts": 98,
+  "attempts_count": 98,
+  "alerts": 3,
+  "alert_count": 3,
   "mttd": "5s",
   "mttr": "32s"
 }

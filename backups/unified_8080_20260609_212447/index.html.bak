@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOC MONITOR</title>
+    <style>
+        body { background:#0d0d0d; color:#00ff00; font-family: monospace; }
+        h2 { color: #00ffcc; }
+        pre { background:#000; padding:10px; border:1px solid #00ff00; }
+    </style>
+</head>
+<body>
+
+<h2>🔥 SOC MONITOR LIVE</h2>
+
+<h3>ALERTS</h3>
+<pre id="alerts"></pre>
+
+<h3>AI ANALYSIS</h3>
+<pre id="ai"></pre>
+
+<h3>CORRELATION</h3>
+<pre id="corr"></pre>
+
+<h3>PRIVILEGE ACTIVITY</h3>
+<pre id="priv"></pre>
+
+<script>
+async function loadAll(){
+    try {
+        let a = await fetch('../outputs/alerts.json');
+        document.getElementById("alerts").innerText = await a.text();
+    } catch(e){}
+
+    try {
+        let b = await fetch('../outputs/ai_analysis.json');
+        document.getElementById("ai").innerText = await b.text();
+    } catch(e){}
+
+    try {
+        let c = await fetch('../outputs/correlation.json');
+        document.getElementById("corr").innerText = await c.text();
+    } catch(e){}
+
+    try {
+        let d = await fetch('../outputs/privilege_activity.json');
+        document.getElementById("priv").innerText = await d.text();
+    } catch(e){}
+}
+
+loadAll();
+setInterval(loadAll, 3000);
+</script>
+<script src="script.js"></script>
+<script src="sticky_final_state.js"></script>
+<script src="live_all_panels_controller.js"></script>
+<script src="packet_capture_fix.js"></script>
+<script src="force_packet_capture_override.js"></script>
+<script src="force_packet_capture_dom_v2.js"></script>
+<script src="soc_packet_enterprise_fix.js"></script>
+<script>
+(function(){
+  console.log("ENTERPRISE PACKET CAPTURE LIVE ACTIVE");
+
+  async function loadPackets(){
+    const paths=[
+      "/data/network_packets.json",
+      "/outputs/network_packets.json",
+      "/final_attack_snapshot/network_packets.json"
+    ];
+    for(const p of paths){
+      try{
+        const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});
+        const d=await r.json();
+        if(Array.isArray(d)&&d.length){
+          localStorage.setItem("SOC_PACKET_FINAL_CACHE",JSON.stringify(d));
+          return d;
+        }
+      }catch(e){}
+    }
+    try{return JSON.parse(localStorage.getItem("SOC_PACKET_FINAL_CACHE")||"[]");}
+    catch(e){return [];}
+  }
+
+  function smallestPacketPanel(){
+    const nodes=[...document.querySelectorAll("div,section,main,article")];
+    return nodes
+      .filter(x=>{
+        const t=(x.innerText||"").toUpperCase();
+        return t.includes("PACKET CAPTURE") && t.includes("TIMESTAMP") && t.includes("SOURCE");
+      })
+      .sort((a,b)=>(a.innerText||"").length-(b.innerText||"").length)[0];
+  }
+
+  function render(packets){
+    if(!packets.length) return;
+
+    const panel=smallestPacketPanel();
+    if(!panel) return;
+
+    const ip=packets[packets.length-1].src_ip || packets[packets.length-1].source || "192.168.1.78";
+
+    panel.querySelectorAll("*").forEach(el=>{
+      if(!el.children.length && el.textContent.includes("FILTER:")){
+        el.textContent="FILTER: ip.src == "+ip;
+      }
+    });
+
+    let box=panel.querySelector("#enterprisePacketLiveBox");
+    if(!box){
+      box=document.createElement("div");
+      box.id="enterprisePacketLiveBox";
+      box.style.cssText="margin-top:8px;border-top:1px solid rgba(0,255,255,.35);background:#07101dcc;position:relative;z-index:9999;";
+      panel.appendChild(box);
+    }
+
+    box.innerHTML=`
+      <div style="color:#00eaff;font-weight:bold;letter-spacing:3px;margin:6px 0;">
+        LIVE PACKET CAPTURE · ${ip}
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px;color:#9fb3d9;">
+        <thead>
+          <tr style="color:#6f7fa4;letter-spacing:3px;">
+            <th>No.</th><th>Timestamp</th><th>Source</th><th>Destination</th><th>Proto</th><th>Len</th><th>Packet Info</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${packets.slice(-12).map((p,i)=>`
+            <tr>
+              <td>${i+1}</td>
+              <td>${p.timestamp||p.time||""}</td>
+              <td style="color:#00eaff">${p.src_ip||p.source_ip||p.source||ip}</td>
+              <td>${p.destination||p.dst_ip||"Ubuntu Host"}</td>
+              <td><span style="color:#ffbf00;border:1px solid #8a5b00;padding:1px 6px;border-radius:4px;">${p.proto||p.protocol||"SSH"}</span></td>
+              <td>${p.len||84}</td>
+              <td>${p.info||p.packet_info||"SSH authentication event"}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  async function tick(){
+    render(await loadPackets());
+  }
+
+  tick();
+  setInterval(tick,500);
+})();
+</script>
+<script src="packet_stream_dashboard_patch.js"></script>
+</body>
+</html>
