@@ -1,0 +1,310 @@
+import json
+import hashlib
+from pathlib import Path
+from reportlab.platypus import *
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.enums import TA_CENTER
+from reportlab.lib import pagesizes
+
+OUTPUT="SOC_NEXUS_Incident_Report.pdf"
+
+styles=getSampleStyleSheet()
+
+title_style=styles["Heading1"]
+title_style.alignment=TA_CENTER
+title_style.textColor=colors.darkred
+
+section_style=styles["Heading2"]
+section_style.textColor=colors.HexColor("#0b3b82")
+
+incident_file=Path("final_attack_snapshot/incident_status.json")
+panel_file=Path("outputs/panel_live_state.json")
+
+incident=json.loads(incident_file.read_text())
+panel=json.loads(panel_file.read_text())
+
+timeline=panel.get("correlation",[])
+alerts=panel.get("alerts",[])
+success=panel.get("successful_logins",[])
+
+source_ip=incident.get("source_ip","192.168.1.21")
+incident_id=incident.get("incident_id","INC-002")
+
+user="socdemo"
+if success:
+    user=success[-1].get("user","socdemo")
+
+generated=timeline[-1]["time"] if timeline else "N/A"
+
+report_hash=hashlib.md5(
+    f"{incident_id}{source_ip}{generated}".encode()
+).hexdigest()[:16]
+
+story=[]
+
+def footer(canvas,doc):
+    canvas.saveState()
+    canvas.setFont("Helvetica-Oblique",8)
+    canvas.drawCentredString(
+        pagesizes.A4[0]/2,
+        15,
+        f"Confidential - Internal SOC Use Only | Page {doc.page}"
+    )
+    canvas.restoreState()
+
+doc=SimpleDocTemplate(
+    OUTPUT,
+    pagesize=pagesizes.A4,
+    rightMargin=20,
+    leftMargin=20,
+    topMargin=20,
+    bottomMargin=30
+)
+
+story.append(
+    Paragraph(
+        "SOC NEXUS | Enterprise Security Incident Report",
+        styles["Title"]
+    )
+)
+
+story.append(Spacer(1,15))
+
+story.append(
+    Paragraph(
+        "CRITICAL SECURITY INCIDENT",
+        title_style
+    )
+)
+
+story.append(Spacer(1,15))
+
+story.append(
+    Paragraph(
+        "1. Incident Overview",
+        section_style
+    )
+)
+
+overview=[
+["Incident ID",incident_id],
+["Severity","CRITICAL"],
+["Status","CONTAINED"],
+["Detection Source","SOC NEXUS AI Correlation + Rule Engine"],
+["Source IP",source_ip],
+["Target Asset","192.168.1.17"],
+["Affected Account",user],
+["Generated At",generated],
+["Report Hash",report_hash]
+]
+
+tbl=Table(overview,colWidths=[150,350])
+
+tbl.setStyle(TableStyle([
+("GRID",(0,0),(-1,-1),1,colors.black),
+("BACKGROUND",(0,0),(0,-1),colors.HexColor("#d8dde6"))
+]))
+
+story.append(tbl)
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "2. Executive Summary",
+        section_style
+    )
+)
+
+attempts=len([
+    x for x in timeline
+    if "Failed SSH" in x.get("event_description","")
+])
+
+summary=f"""
+SOC NEXUS detected SSH brute force activity from {source_ip}
+against 192.168.1.17.
+
+The activity included {attempts} failed authentication attempts
+followed by successful login activity.
+
+After the monitoring quiet window completed with no additional activity,
+the incident was automatically marked as contained.
+"""
+
+story.append(Paragraph(summary,styles["BodyText"]))
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "3. Affected Assets",
+        section_style
+    )
+)
+
+assets=[
+["Target System","192.168.1.17"],
+["Observed Service","SSH / TCP 22"],
+["Attacker Source",source_ip],
+["Impacted Account",user]
+]
+
+tbl=Table(assets,colWidths=[150,350])
+
+tbl.setStyle(TableStyle([
+("GRID",(0,0),(-1,-1),1,colors.black),
+("BACKGROUND",(0,0),(0,-1),colors.HexColor("#d8dde6"))
+]))
+
+story.append(tbl)
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "4. Attack Timeline",
+        section_style
+    )
+)
+
+rows=[["Time","Source","Event","Severity"]]
+
+for e in timeline[-25:]:
+    rows.append([
+        e.get("time",""),
+        e.get("source_ip",""),
+        e.get("event_description","")[:55],
+        e.get("severity","")
+    ])
+
+tbl=Table(
+    rows,
+    colWidths=[95,95,255,70]
+)
+
+tbl.setStyle(TableStyle([
+("GRID",(0,0),(-1,-1),1,colors.black),
+("BACKGROUND",(0,0),(-1,0),colors.HexColor("#17345d")),
+("TEXTCOLOR",(0,0),(-1,0),colors.white),
+("FONTSIZE",(0,0),(-1,-1),7)
+]))
+
+story.append(tbl)
+story.append(PageBreak())
+
+story.append(
+    Paragraph(
+        "SOC NEXUS | Enterprise Security Incident Report",
+        styles["Title"]
+    )
+)
+
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "5. Detection Details",
+        section_style
+    )
+)
+
+story.append(
+    Paragraph(
+        """The incident was detected through threshold-based SSH authentication
+monitoring and AI-assisted correlation. Repeated failed login attempts from the
+same source exceeded the normal baseline and were correlated into a single SOC incident.""",
+        styles["BodyText"]
+    )
+)
+
+story.append(
+    Paragraph(
+        "6. Threat Analysis",
+        section_style
+    )
+)
+
+threat=[
+["Attack Type","SSH Brute Force / Credential Attack"],
+["MITRE ATT&CK","T1110 Brute Force, T1078 Valid Accounts"],
+["Observed Behavior","Repeated password guessing against SSH"],
+["Confidence","High"]
+]
+
+tbl=Table(threat,colWidths=[150,350])
+
+tbl.setStyle(TableStyle([
+("GRID",(0,0),(-1,-1),1,colors.black),
+("BACKGROUND",(0,0),(0,-1),colors.HexColor("#d8dde6"))
+]))
+
+story.append(tbl)
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "7. Response Actions",
+        section_style
+    )
+)
+
+story.append(
+    Paragraph(
+        """The platform generated real-time alerts, preserved authentication evidence,
+updated incident state, correlated related events, and produced this report
+automatically after the attack activity stopped.""",
+        styles["BodyText"]
+    )
+)
+
+story.append(
+    Paragraph(
+        "8. Impact Assessment",
+        section_style
+    )
+)
+
+impact=[
+["Confidentiality","Low to Medium"],
+["Integrity","Low"],
+["Availability","Low"],
+["Business Impact","Limited impact in lab environment"]
+]
+
+tbl=Table(impact,colWidths=[150,350])
+
+tbl.setStyle(TableStyle([
+("GRID",(0,0),(-1,-1),1,colors.black),
+("BACKGROUND",(0,0),(0,-1),colors.HexColor("#d8dde6"))
+]))
+
+story.append(tbl)
+story.append(Spacer(1,10))
+
+story.append(
+    Paragraph(
+        "9. Analyst Conclusion",
+        section_style
+    )
+)
+
+conclusion=f"""
+Incident {incident_id} represents a confirmed SSH brute force attempt
+from {source_ip}. The incident was detected, analyzed, documented,
+and contained automatically by SOC NEXUS. No additional activity was
+observed after the quiet window. Final status: CONTAINED.
+"""
+
+story.append(
+    Paragraph(
+        conclusion,
+        styles["BodyText"]
+    )
+)
+
+doc.build(
+    story,
+    onFirstPage=footer,
+    onLaterPages=footer
+)
+
+print(f"PDF GENERATED -> {OUTPUT}")
