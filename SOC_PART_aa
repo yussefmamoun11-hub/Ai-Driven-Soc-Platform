@@ -1,0 +1,1031 @@
+================ SYSTEM INFO ================
+Sun Jun 14 02:01:15 AM EEST 2026
+youssef-amr-VMware-Virtual-Platform
+youssef-amr
+/home/youssef-amr/soc_project
+Linux youssef-amr-VMware-Virtual-Platform 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+================ DISK ================
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           790M  6.1M  784M   1% /run
+/dev/sda2        59G   53G  3.6G  94% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           790M  116K  790M   1% /run/user/1000
+/dev/sr1        6.2G  6.2G     0 100% /media/youssef-amr/Ubuntu 24.04.4 LTS amd64
+/dev/sr0         98M   98M     0 100% /media/youssef-amr/CDROM
+tmpfs           790M   84K  790M   1% /run/user/1002
+
+================ MEMORY ================
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.8Gi       231Mi        51Mi       6.1Gi       6.0Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+================ PROJECT LOCATION ================
+/home/youssef-amr/soc_project
+total 4.1M
+drwxr-xr-x 17 youssef-amr youssef-amr 4.0K Jun 14 02:01 .
+drwxr-xr-x 48 youssef-amr youssef-amr 4.0K Jun 14 01:56 ..
+drwxrwxr-x 13 youssef-amr youssef-amr 4.0K Jun  9 23:16 backups
+-rwxrwxr-x  1 youssef-amr youssef-amr 1.7K Apr 21 18:13 check_team_progress.sh
+-rw-rw-r--  1 youssef-amr youssef-amr  845 May 22 10:17 clean_project.py
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K Jun 10 00:57 data
+-rw-rw-r--  1 youssef-amr youssef-amr 1.7K Mar 15 00:51 DAY3_FINAL_REVIEW.txt
+-rw-rw-r--  1 youssef-amr youssef-amr 1.1K Jun  9 22:31 distribute_panels.py
+-rwxrwxr-x  1 youssef-amr youssef-amr 8.0K May 10 01:15 ENTERPRISE_PACKET_STREAM_FINAL.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 3.9K Jun  9 02:27 enterprise_siem.json
+drwxr-----  2 youssef-amr youssef-amr 4.0K Apr 14 19:35 evidence
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K Jun  9 23:16 final_attack_snapshot
+-rwxrwxr-x  1 youssef-amr youssef-amr  11K Jun  9 22:18 FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.9K Jun  9 22:45 FIX_FRONTEND_CONFLICTS_FINAL.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 6.1K Jun  9 22:49 FIX_LIVE_PANELS_STABLE_DATA.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 6.4K May 10 01:09 FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.5K May 10 00:17 FIX_PACKET_CAPTURE_FINAL.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.4K May  9 23:54 fix_packet_capture_live.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.7K Jun  9 22:19 FIX_PANEL_DISTRIBUTION_FINAL.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr  16K Jun  9 23:16 FIX_SOC_NEXUS_REAL_DATA_FINAL.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 8.2K Jun  9 22:50 FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 2.9K May  9 23:56 FIX_STICKY_FINAL_STATE.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 2.3K May  9 23:57 FIX_STICKY_FINAL_STATE_V2.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 3.9K Jun  9 22:50 force_packet_capture_dom_v2.js
+-rwxrwxr-x  1 youssef-amr youssef-amr 2.4K May 10 00:43 FORCE_PACKET_CAPTURE_DOM_V2.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 2.5K May 10 00:31 force_packet_capture_override.js
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.1K May 10 00:31 FORCE_PACKET_CAPTURE_OVERRIDE.sh
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K May 10 01:15 frontend
+-rw-rw-r--  1 youssef-amr youssef-amr 1.2K Jun 14 02:01 FULL_SOC_DIAGNOSTIC_REPORT.txt
+drwxrwxr-x  8 youssef-amr youssef-amr 4.0K Jun 14 01:59 .git
+-rw-rw-r--  1 youssef-amr youssef-amr   66 May 22 10:18 .gitignore
+drwxrwxrwx  4 youssef-amr youssef-amr 4.0K Apr 14 19:40 incidents
+-rw-r--r--  1 youssef-amr youssef-amr  95K Jun 14 01:52 index.html
+-rwxrwxr-x  1 youssef-amr youssef-amr 4.2K May 10 02:00 INSTALL_PACKET_DASHBOARD_SERVICE.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr  11K Jun  9 22:35 INSTALL_STABLE_DISTRIBUTED_PANELS.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 8.0K Jun  9 21:24 INSTALL_UNIFIED_8080_LIVE_SIEM.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 3.2K May  9 23:41 live_all_panels_controller.js
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K May  2 22:40 logs
+-rw-rw-r--  1 youssef-amr youssef-amr  354 May 22 10:17 main.py
+-rwxrwxr-x  1 youssef-amr youssef-amr 4.5K May  9 23:08 make_all_panels_live_and_persistent.sh
+drwxrwxr-x  3 youssef-amr youssef-amr 4.0K May  2 22:40 monitor
+drwxrwxr-x  3 youssef-amr youssef-amr 4.0K Jun 10 00:57 outputs
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.6K Jun  9 03:32 packet_capture_dashboard.py
+-rw-rw-r--  1 youssef-amr youssef-amr 2.8K May 10 00:17 packet_capture_fix.js
+-rw-rw-r--  1 youssef-amr youssef-amr 3.0K May 10 01:09 packet_capture_inline_patch.txt
+-rwxrwxr-x  1 youssef-amr youssef-amr  241 May 10 01:09 packet_capture_live_service.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 1.8K May 10 01:09 packet_capture_live_writer.py
+-rw-rw-r--  1 youssef-amr youssef-amr 3.3K May 10 01:15 packet_stream_dashboard_patch.js
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.4K May 10 01:15 packet_stream_server.py
+-rw-rw-r--  1 youssef-amr youssef-amr 2.0K May 22 10:17 README.md
+-rw-rw-r--  1 youssef-amr youssef-amr 465K Jun 14 01:56 real_siem_db.json
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_aa
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ab
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ac
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ad
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ae
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_af
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ag
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ah
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ai
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_aj
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ak
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_al
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_am
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_an
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ao
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ap
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_aq
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_ar
+-rw-rw-r--  1 youssef-amr youssef-amr  49K Jun 14 01:59 report_part_as
+-rw-rw-r--  1 youssef-amr youssef-amr  18K Jun 14 01:59 report_part_at
+-rw-rw-r--  1 youssef-amr youssef-amr    8 May 22 10:17 requirements.txt
+drwxr-xr-x  2 youssef-amr youssef-amr 4.0K Jun  9 23:16 runtime
+-rwxrwxr-x  1 youssef-amr youssef-amr  973 May 10 01:04 SAFE_PACKET_CAPTURE_ENTERPRISE_PATCH.sh
+-rw-r--r--  1 youssef-amr youssef-amr 1.1K Apr 14 20:44 script.js
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.9K Apr 14 14:27 setup_socdemo.sh
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K Jun  8 23:37 siem_logs
+-rw-rw-r--  1 youssef-amr youssef-amr 4.2K Jun  8 23:38 soc_ai_analyst_pro.py
+-rw-rw-r--  1 youssef-amr youssef-amr 3.8K Jun  8 23:34 soc_ai_full_pipeline_fixed.py
+-rw-rw-r--  1 youssef-amr youssef-amr 3.8K Jun  9 22:51 soc_ai_full_pipeline_fixed.py.bak
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.0K Jun  9 22:51 soc_ai_full_pipeline_live.py
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.4K May  9 23:13 soc_auto_live_orchestrator.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 6.1K Jun  8 22:28 soc_detection_engine.py
+-rw-rw-r--  1 youssef-amr youssef-amr  20K Apr 21 21:01 soc_detection_engine.py.bak_day5
+-rw-rw-r--  1 youssef-amr youssef-amr 2.0M Jun 14 01:59 soc_diagnostic_report.txt
+-rwxrwxr-x  1 youssef-amr youssef-amr 4.7K May  9 23:54 soc_enterprise_authlog_live.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 4.7K Jun  8 23:43 soc_enterprise_siem.py
+-rwxrwxr-x  1 youssef-amr youssef-amr  10K May  9 23:41 SOC_FINAL_ONE_SCRIPT.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 4.5K May  9 23:22 soc_instant_all_panels_live.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.6K Jun  9 22:49 soc_live_panels_stable_writer.py
+-rw-rw-r--  1 youssef-amr youssef-amr 2.8K Jun  9 02:44 soc_live_pdf_bridge.py
+-rw-rw-r--  1 youssef-amr youssef-amr 4.1K Jun  8 23:37 soc_mini_siem.py
+-rw-rw-r--  1 youssef-amr youssef-amr 4.7K Jun  9 22:18 soc_nexus_final_panels.js
+-rwxrwxr-x  1 youssef-amr youssef-amr 3.8K Jun  9 22:51 soc_nexus_live_state_writer.py
+-rw-rw-r--  1 youssef-amr youssef-amr 4.3K Jun  9 22:35 soc_nexus_stable_dom.js
+-rw-rw-r--  1 youssef-amr youssef-amr 4.6K Jun  9 22:45 soc_nexus_stable_single_controller.js
+-rw-rw-r--  1 youssef-amr youssef-amr 5.3K Jun  9 23:16 soc_nexus_truth_controller.js
+-rw-rw-r--  1 youssef-amr youssef-amr 7.4K Jun  9 23:16 soc_nexus_truth_writer.py
+-rw-rw-r--  1 youssef-amr youssef-amr 1.9K May 10 01:04 soc_packet_enterprise_fix.js
+-rw-rw-r--  1 youssef-amr youssef-amr 4.9K Jun  9 22:37 soc_panel_live_distributor.py
+-rw-rw-r--  1 youssef-amr youssef-amr 1.5K Jun  8 23:07 soc_pdf_desktop.py
+-rw-rw-r--  1 youssef-amr youssef-amr 3.2K Jun  8 23:15 soc_production_engine.py
+-rw-rw-r--  1 youssef-amr youssef-amr 1.9K May 22 10:17 soc_project_bootstrap.py
+-rw-rw-r--  1 youssef-amr youssef-amr 4.2K Jun  8 23:47 soc_real_log_siem.py
+-rwxrwxr-x  1 youssef-amr youssef-amr 5.8K Jun  9 21:24 soc_unified_8080_live.py
+-rw-rw-r--  1 youssef-amr youssef-amr 1.6K Jun  9 00:20 soc_ws_pdf_agent.py
+drwxrwxr-x  5 youssef-amr youssef-amr 4.0K May 22 10:17 src
+-rwxrwxr-x  1 youssef-amr youssef-amr  961 Jun  9 21:28 START_UNIFIED_8080_LIVE_SIEM_SAFE.sh
+-rwxrwxr-x  1 youssef-amr youssef-amr  524 Jun  9 21:25 START_UNIFIED_8080_LIVE_SIEM.sh
+-rw-rw-r--  1 youssef-amr youssef-amr 1.4K May  9 23:57 sticky_final_state.js
+drwxrwxr-x  2 youssef-amr youssef-amr 4.0K Apr 14 20:16 timeline
+-rwxrwxr-x  1 youssef-amr youssef-amr 2.4K May  9 23:54 update_packet_capture.py
+drwxrwxr-x  6 youssef-amr youssef-amr 4.0K Jun 10 00:05 venv
+-rw-rw-r--  1 youssef-amr youssef-amr   37 May  2 22:40 version.txt
+
+================ GIT STATUS ================
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/ai_analysis.json
+	modified:   data/baseline_comparison.json
+	modified:   data/evidence_status.json
+	modified:   data/incident_status.json
+	modified:   data/metrics.json
+	modified:   data/network_packets.json
+	modified:   data/threat_intel.json
+	modified:   final_attack_snapshot/ai_analysis.json
+	modified:   final_attack_snapshot/alerts.json
+	modified:   final_attack_snapshot/auth_events.json
+	modified:   final_attack_snapshot/baseline_comparison.json
+	modified:   final_attack_snapshot/correlation.json
+	modified:   final_attack_snapshot/evidence_status.json
+	modified:   final_attack_snapshot/incident_status.json
+	modified:   final_attack_snapshot/metrics.json
+	modified:   final_attack_snapshot/network_packets.json
+	modified:   final_attack_snapshot/panel_live_state.json
+	modified:   final_attack_snapshot/privilege_activity.json
+	modified:   final_attack_snapshot/ssh_auth_activity.json
+	modified:   final_attack_snapshot/structured_events.json
+	modified:   final_attack_snapshot/successful_logins.json
+	modified:   final_attack_snapshot/timeline.json
+	modified:   frontend/index.html
+	modified:   index.html
+	modified:   outputs/ai_analysis.json
+	modified:   outputs/alerts.json
+	modified:   outputs/correlation.json
+	modified:   outputs/network_packets.json
+	modified:   outputs/privilege_activity.json
+	modified:   real_siem_db.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	FULL_SOC_DIAGNOSTIC_REPORT.txt
+	report_part_aa
+	report_part_ab
+	report_part_ac
+	report_part_ad
+	report_part_ae
+	report_part_af
+	report_part_ag
+	report_part_ah
+	report_part_ai
+	report_part_aj
+	report_part_ak
+	report_part_al
+	report_part_am
+	report_part_an
+	report_part_ao
+	report_part_ap
+	report_part_aq
+	report_part_ar
+	report_part_as
+	report_part_at
+	soc_diagnostic_report.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+================ BRANCHES ================
+* main
+  remotes/origin/main
+
+================ LAST 50 COMMITS ================
+9d648e8 (HEAD -> main, origin/main) Stable live SOC NEXUS version: truth distributor, fixed panels, live attack read
+d9b7607 Merge branch 'main' of https://github.com/yussefmamoun11-hub/Ai-Driven-Soc-Platform
+1835129 Initial SOC project upload
+03514ae docs: convert repository into AI-Driven SOC Platform
+846eece cleanup: remove legacy tools and prepare SOC project structure
+5947fd6 refactor: modular SOC simulation engine with enterprise structure
+4b0d916 refactor: restructure SOC project into modular architecture
+288f0ab feat: enterprise cybersecurity portfolio upgrade
+f614906 feat: professional cybersecurity portfolio setup
+
+================ RUNNING PROCESSES ================
+root        1355  0.0  0.2  43556 21804 ?        Ss   00:17   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1644  0.0  0.2 120968 23536 ?        Ssl  00:17   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+youssef+    5135  0.0  0.7  88604 61420 ?        Ss   00:19   0:01 /home/youssef-amr/soc_project/venv/bin/python3 /home/youssef-amr/Desktop/soc_enterprise_auto_report.py
+root        5222  0.0  0.0   2712  2100 ?        Ss   00:19   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+root        7337  0.0  0.0   2712  2104 ?        Ss   00:20   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1002/doc
+youssef+   89918 46.5  0.7 154972 60548 pts/0    Sl   01:52   4:05 python3 soc_unified_8080_live.py
+
+================ OPEN PORTS ================
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess                            
+udp   UNCONN 0      0             0.0.0.0:44961      0.0.0.0:*                                      
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*                                      
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:111        0.0.0.0:*                                      
+udp   UNCONN 0      0      172.17.255.255:137        0.0.0.0:*                                      
+udp   UNCONN 0      0          172.17.0.1:137        0.0.0.0:*                                      
+udp   UNCONN 0      0       192.168.1.255:137        0.0.0.0:*                                      
+udp   UNCONN 0      0        192.168.1.17:137        0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:137        0.0.0.0:*                                      
+udp   UNCONN 0      0      172.17.255.255:138        0.0.0.0:*                                      
+udp   UNCONN 0      0          172.17.0.1:138        0.0.0.0:*                                      
+udp   UNCONN 0      0       192.168.1.255:138        0.0.0.0:*                                      
+udp   UNCONN 0      0        192.168.1.17:138        0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:138        0.0.0.0:*                                      
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:33138      0.0.0.0:*                                      
+udp   UNCONN 0      0           127.0.0.1:638        0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:49981      0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:5353       0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:55161      0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:36457      0.0.0.0:*                                      
+udp   UNCONN 0      0             0.0.0.0:44731      0.0.0.0:*                                      
+udp   UNCONN 0      0                [::]:111           [::]:*                                      
+udp   UNCONN 0      0                [::]:41125         [::]:*                                      
+udp   UNCONN 0      0                [::]:45277         [::]:*                                      
+udp   UNCONN 0      0               [::1]:323           [::]:*                                      
+udp   UNCONN 0      0                [::]:45812         [::]:*                                      
+udp   UNCONN 0      0                [::]:5353          [::]:*                                      
+udp   UNCONN 0      0                [::]:55375         [::]:*                                      
+udp   UNCONN 0      0                [::]:43091         [::]:*                                      
+udp   UNCONN 0      0                [::]:56645         [::]:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:60967      0.0.0.0:*                                      
+tcp   LISTEN 0      50            0.0.0.0:8080       0.0.0.0:*    users:(("python3",pid=89918,fd=4))
+tcp   LISTEN 0      4096        127.0.0.1:11434      0.0.0.0:*                                      
+tcp   LISTEN 0      64            0.0.0.0:2049       0.0.0.0:*                                      
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*                                      
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:38429      0.0.0.0:*                                      
+tcp   LISTEN 0      128           0.0.0.0:22         0.0.0.0:*                                      
+tcp   LISTEN 0      4096        127.0.0.1:9050       0.0.0.0:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:57409      0.0.0.0:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:111        0.0.0.0:*                                      
+tcp   LISTEN 0      50            0.0.0.0:139        0.0.0.0:*                                      
+tcp   LISTEN 0      4096        127.0.0.1:631        0.0.0.0:*                                      
+tcp   LISTEN 0      50            0.0.0.0:445        0.0.0.0:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:58081      0.0.0.0:*                                      
+tcp   LISTEN 0      100         127.0.0.1:25         0.0.0.0:*                                      
+tcp   LISTEN 0      4096        127.0.0.1:45185      0.0.0.0:*                                      
+tcp   LISTEN 0      4096          0.0.0.0:37881      0.0.0.0:*                                      
+tcp   LISTEN 0      4096             [::]:56429         [::]:*                                      
+tcp   LISTEN 0      64               [::]:2049          [::]:*                                      
+tcp   LISTEN 0      4096             [::]:43683         [::]:*                                      
+tcp   LISTEN 0      4096             [::]:56313         [::]:*                                      
+tcp   LISTEN 0      128              [::]:22            [::]:*                                      
+tcp   LISTEN 0      4096             [::]:111           [::]:*                                      
+tcp   LISTEN 0      100             [::1]:25            [::]:*                                      
+tcp   LISTEN 0      50               [::]:139           [::]:*                                      
+tcp   LISTEN 0      50               [::]:445           [::]:*                                      
+tcp   LISTEN 0      4096             [::]:33225         [::]:*                                      
+tcp   LISTEN 0      4096             [::]:37315         [::]:*                                      
+tcp   LISTEN 0      4096            [::1]:631           [::]:*                                      
+
+================ PROJECT STRUCTURE ================
+.
+./frontend
+./final_attack_snapshot
+./data
+./logs
+./incidents
+./incidents/INC-002
+./incidents/INC-001
+./incidents/INC-001/report
+./incidents/INC-001/logs
+./incidents/INC-001/network
+./incidents/INC-001/pcap
+./incidents/INC-001/detection
+./monitor
+./monitor/frontend
+./.git
+./.git/hooks
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/heads
+./.git/logs/refs/remotes
+./.git/refs
+./.git/refs/tags
+./.git/refs/heads
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./.git/info
+./.git/branches
+./.git/objects
+./.git/objects/fb
+./.git/objects/ab
+./.git/objects/fa
+./.git/objects/05
+./.git/objects/f7
+./.git/objects/7c
+./.git/objects/b7
+./.git/objects/49
+./.git/objects/12
+./.git/objects/4b
+./.git/objects/72
+./.git/objects/50
+./.git/objects/a3
+./.git/objects/18
+./.git/objects/27
+./.git/objects/a5
+./.git/objects/38
+./.git/objects/20
+./.git/objects/4d
+./.git/objects/84
+./.git/objects/87
+./.git/objects/37
+./.git/objects/0b
+./.git/objects/13
+./.git/objects/43
+./.git/objects/08
+./.git/objects/bb
+./.git/objects/b4
+./.git/objects/8a
+./.git/objects/90
+./.git/objects/f6
+./.git/objects/0c
+./.git/objects/dc
+./.git/objects/e9
+./.git/objects/ec
+./.git/objects/e7
+./.git/objects/68
+./.git/objects/a6
+./.git/objects/ac
+./.git/objects/2d
+./.git/objects/1a
+./.git/objects/44
+./.git/objects/5b
+./.git/objects/5c
+./.git/objects/pack
+./.git/objects/2c
+./.git/objects/d3
+./.git/objects/e3
+./.git/objects/14
+./.git/objects/8c
+./.git/objects/10
+./.git/objects/9b
+./.git/objects/c2
+./.git/objects/89
+./.git/objects/8f
+./.git/objects/6d
+./.git/objects/f9
+./.git/objects/f3
+./.git/objects/53
+./.git/objects/4c
+./.git/objects/86
+./.git/objects/ae
+./.git/objects/c9
+./.git/objects/info
+./.git/objects/e2
+./.git/objects/e5
+./.git/objects/3d
+./.git/objects/3e
+./.git/objects/1c
+./.git/objects/11
+./.git/objects/f5
+./.git/objects/06
+./.git/objects/d2
+./.git/objects/a8
+./.git/objects/23
+./.git/objects/19
+./.git/objects/3b
+./.git/objects/e4
+./.git/objects/28
+./.git/objects/1e
+./.git/objects/78
+./.git/objects/cb
+./.git/objects/e6
+./.git/objects/91
+./.git/objects/95
+./.git/objects/f2
+./.git/objects/02
+./.git/objects/01
+./.git/objects/03
+./.git/objects/30
+./.git/objects/00
+./.git/objects/7d
+./.git/objects/aa
+./.git/objects/82
+./.git/objects/fc
+./.git/objects/5f
+./.git/objects/45
+./.git/objects/09
+./.git/objects/9a
+./.git/objects/1d
+./.git/objects/71
+./.git/objects/ea
+./.git/objects/58
+./.git/objects/81
+./.git/objects/de
+./.git/objects/2f
+./.git/objects/33
+./.git/objects/98
+./.git/objects/5d
+./.git/objects/eb
+./.git/objects/36
+./.git/objects/8d
+./.git/objects/5e
+./.git/objects/25
+./.git/objects/97
+./.git/objects/db
+./.git/objects/61
+./.git/objects/c5
+./.git/objects/c0
+./.git/objects/da
+./.git/objects/b2
+./.git/objects/f1
+./.git/objects/cd
+./.git/objects/e1
+./.git/objects/2a
+./.git/objects/6a
+./.git/objects/a1
+./.git/objects/b3
+./.git/objects/b5
+./.git/objects/59
+./.git/objects/fd
+./.git/objects/52
+./.git/objects/b1
+./.git/objects/51
+./.git/objects/16
+./.git/objects/d9
+./.git/objects/34
+./.git/objects/c8
+./.git/objects/92
+./.git/objects/76
+./.git/objects/b6
+./.git/objects/8e
+./.git/objects/5a
+./.git/objects/64
+./.git/objects/1f
+./.git/objects/a4
+./.git/objects/4e
+./.git/objects/a2
+./.git/objects/32
+./.git/objects/0a
+./.git/objects/47
+./.git/objects/93
+./.git/objects/56
+./.git/objects/2e
+./.git/objects/54
+./.git/objects/9e
+./.git/objects/24
+./.git/objects/ed
+./.git/objects/6e
+./.git/objects/c6
+./.git/objects/65
+./.git/objects/7e
+./.git/objects/ff
+./.git/objects/9d
+./venv
+./venv/bin
+./venv/lib
+./venv/lib/python3.12
+./venv/lib/python3.12/site-packages
+./venv/include
+./venv/include/python3.12
+./venv/include/site
+./venv/include/site/python3.12
+./venv/share
+./venv/share/man
+./venv/share/man/man1
+./backups
+./backups/real_data_fix_20260609_231627
+./backups/live_panel_fix_20260609_225008
+./backups/unified_8080_20260609_212447
+./backups/panel_distribution_20260609_221253
+./backups/panel_distribution_20260609_221905
+./backups/stable_distributed_20260609_223555
+./backups/frontend_conflict_fix_20260609_224515
+./backups/final_live_panels_20260609_223750
+./backups/live_panel_fix_20260609_214930
+./backups/final_no_flicker_20260609_221825
+./backups/live_panel_fix_20260609_215318
+./src
+./src/core
+./src/detection_engine
+./src/soc_tool
+./src/soc_tool/__pycache__
+./siem_logs
+./runtime
+./evidence
+./timeline
+./outputs
+./outputs/reports
+
+================ TOP 300 FILES ================
+./script.js
+./soc_enterprise_siem.py
+./SOC_FINAL_ONE_SCRIPT.sh
+./frontend/force_packet_capture_dom_v2.js
+./frontend/sticky_final_state.js
+./frontend/live_all_panels_controller.js
+./frontend/force_packet_capture_override.js
+./frontend/index.html
+./frontend/packet_capture_fix.js
+./frontend/soc_packet_enterprise_fix.js
+./frontend/packet_stream_dashboard_patch.js
+./report_part_at
+./report_part_aa
+./force_packet_capture_dom_v2.js
+./report_part_ac
+./report_part_ab
+./report_part_ae
+./final_attack_snapshot/timeline.json
+./final_attack_snapshot/threat_intel.json
+./final_attack_snapshot/correlation.json
+./final_attack_snapshot/system_health.json
+./final_attack_snapshot/packets_full_login.json
+./final_attack_snapshot/evidence_status.json
+./final_attack_snapshot/packets_search_first_activity.json
+./final_attack_snapshot/ai_analysis.json
+./final_attack_snapshot/auth_events.json
+./final_attack_snapshot/metrics.json
+./final_attack_snapshot/alerts.json
+./final_attack_snapshot/panel_deep_extraction.json
+./final_attack_snapshot/structured_events.json
+./final_attack_snapshot/panel_search_first.json
+./final_attack_snapshot/detection_results.json
+./final_attack_snapshot/panel_full_login.json
+./final_attack_snapshot/ssh_auth_activity.json
+./final_attack_snapshot/panel_correlation.json
+./final_attack_snapshot/successful_logins.json
+./final_attack_snapshot/network_packets.json
+./final_attack_snapshot/normalized_events.json
+./final_attack_snapshot/incident_status.json
+./final_attack_snapshot/live_attack_status.json
+./final_attack_snapshot/sensitive_access_alerts.json
+./final_attack_snapshot/overview.json
+./final_attack_snapshot/rule_status.json
+./final_attack_snapshot/firewall_actions.json
+./final_attack_snapshot/packets_deep_extraction.json
+./final_attack_snapshot/baseline_comparison.json
+./final_attack_snapshot/privilege_activity.json
+./final_attack_snapshot/panel_live_state.json
+./final_attack_snapshot/system_status.json
+./final_attack_snapshot/containment_status.json
+./report_part_af
+./sticky_final_state.js
+./report_part_ah
+./INSTALL_PACKET_DASHBOARD_SERVICE.sh
+./soc_nexus_truth_controller.js
+./soc_ai_full_pipeline_live.py
+./live_all_panels_controller.js
+./packet_capture_dashboard.py
+./INSTALL_UNIFIED_8080_LIVE_SIEM.sh
+./report_part_ad
+./data/timeline.json
+./data/threat_intel.json
+./data/correlation.json
+./data/evidence_status.json
+./data/.init
+./data/ai_analysis.json
+./data/auth_events.json
+./data/metrics.json
+./data/alerts.json
+./data/structured_events.json
+./data/network_packets.json
+./data/incident_status.json
+./data/overview.json
+./data/rule_status.json
+./data/baseline_comparison.json
+./data/system_status.json
+./data/containment_status.json
+./soc_live_pdf_bridge.py
+./report_part_as
+./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh
+./soc_unified_8080_live.py
+./logs/.init
+./soc_project_bootstrap.py
+./packet_capture_live_service.sh
+./START_UNIFIED_8080_LIVE_SIEM_SAFE.sh
+./soc_detection_engine.py.bak_day5
+./incidents/INC-002/incident_queue.json
+./incidents/INC-002/incident_status.json
+./incidents/INC-002/incident_ticket.json
+./incidents/INC-001/timeline.json
+./incidents/INC-001/threat_intel.json
+./incidents/INC-001/report/timeline.txt
+./incidents/INC-001/report/analyst_notes.txt
+./incidents/INC-001/report/evidence_summary.txt
+./incidents/INC-001/report/incident_report.txt
+./incidents/INC-001/system_health.json
+./incidents/INC-001/bruteforce_log.txt
+./incidents/INC-001/logs/successful_logins.txt
+./incidents/INC-001/logs/ssh_failed_attempts.txt
+./incidents/INC-001/logs/failed_ssh_attempts.txt
+./incidents/INC-001/logs/ssh_success_logins.txt
+./incidents/INC-001/logs/ssh_activity.txt
+./incidents/INC-001/network/network_events.json
+./incidents/INC-001/network/network_analysis.json
+./incidents/INC-001/network/ssh_connections.txt
+./incidents/INC-001/metrics.json
+./incidents/INC-001/structured_events.json
+./incidents/INC-001/log_summary.json
+./incidents/INC-001/network_connections.txt
+./incidents/INC-001/firewall_actions.json
+./incidents/INC-001/ip_reputation.json
+./incidents/INC-001/detection/system_health.json
+./incidents/INC-001/detection/firewall_actions.json
+./incidents/INC-001/detection/attack_detection.json
+./incidents/INC-001/detection/system_status.json
+./incidents/INC-001/system_status.json
+./incidents/incident_ticket.json
+./monitor/frontend/script.js
+./monitor/frontend/force_packet_capture_dom_v2.js
+./monitor/frontend/sticky_final_state.js
+./monitor/frontend/live_all_panels_controller.js
+./monitor/frontend/force_packet_capture_override.js
+./monitor/frontend/index.html
+./monitor/frontend/packet_capture_fix.js
+./monitor/frontend/soc_packet_enterprise_fix.js
+./monitor/frontend/packet_stream_dashboard_patch.js
+./monitor/convert_monitor_to_live.sh
+./monitor/keepalive.log
+./monitor/complete_kanzy_monitor_suite_idempotent.sh
+./report_part_ao
+./enterprise_siem.json
+./soc_mini_siem.py
+./soc_ws_pdf_agent.py
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/sendemail-validate.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/push-to-checkout.sample
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/update.sample
+./.git/hooks/pre-rebase.sample
+./.git/ORIG_HEAD
+./.git/packed-refs
+./.git/index
+./.git/logs/HEAD
+./.git/refs/heads/main
+./.git/info/exclude
+./.git/config
+./.git/COMMIT_EDITMSG
+./.git/FETCH_HEAD
+./.git/description
+./.git/HEAD
+./.git/objects/fb/cac0215255fc6f08aba8f2352b4ad8a70900bf
+./.git/objects/ab/d0a0c14c55949b440b190ff629e0d5b48a0ba9
+./.git/objects/ab/f9f35b94e2d319cb6aa04e6de8640147eb091e
+./.git/objects/fa/20fe7a1d550221925af8e4c327ad7cab0ab246
+./.git/objects/05/f51e007ccde42710d9800b6153c57abbf5b609
+./.git/objects/05/0e05e953b10194c66bc4760709b8a3b0f26a93
+./.git/objects/f7/6fa4714afd3d8c16458c65b2871628e4022662
+./.git/objects/f7/4934cbd50c48e53512cd51514b2818a922ecab
+./.git/objects/7c/cf46a529e7f356e6356b4da7b2444f51b7f377
+./.git/objects/7c/44f5183b6eb940632bd7cfdf678e8074b5c1f0
+./.git/objects/b7/4b4c23949b91ef789ed3c2c7975a11e5888a1c
+./.git/objects/49/8aa80b9da5252a3f07159035ec9abfbc8971a4
+./.git/objects/12/75a730cb25846bac415342b5dacd8491a55de0
+./.git/objects/12/51be830dd2802fa0f13d9283a0680c48b9b5a8
+./.git/objects/4b/0d916f58a83dd92b891176ee193cfcae16e09d
+./.git/objects/72/e6c270c84704d05329157ef5f2008cd905050d
+./.git/objects/72/5fe7db1e6514a18842e7fe7bb80020c9a79717
+./.git/objects/50/8b5e51d9d47332999a161a23137dba8f09dcee
+./.git/objects/a3/da21194ef2315db730af8dc60d11d468481d29
+./.git/objects/a3/0b28d1d2d1a26360ac4d92e03967b7466d7d0d
+./.git/objects/18/35129db6ae56f9f8d05264a83c8bdcef851c50
+./.git/objects/27/3cd54ad1f51087044e34e1c8d9e1f6bf787a7f
+./.git/objects/27/86bcb4d38f3797a18b1e899525c5b8da41284c
+./.git/objects/a5/1f4fb3c0ab9209a8077ad215ed34ce1fbc0bfb
+./.git/objects/a5/508a4dea0e34199e7efdbed40f095c87b085db
+./.git/objects/38/b95a5139b7ca46531377c1dba5eaffe7c1aa26
+./.git/objects/20/30e88f5722f2f718e80bf455c69489614020de
+./.git/objects/4d/7e24dc38b716ed2ec3aaef7d35febd0b4651be
+./.git/objects/4d/288eab8c54b3a32d46f10c6895065d88ec5fc7
+./.git/objects/4d/af5cbe33c4e12340e42d798a23cc300eae7891
+./.git/objects/84/6eece1a0fae504e0fee62946d8c90fae3adf41
+./.git/objects/84/72de572a67dfbdad2d3a3207cfeeac83a021bd
+./.git/objects/87/7814f7ea6aa4321cd27d979ec3f9ae51757b54
+./.git/objects/37/f6fb7ade552ef07640c47ab8c7a2754ad03de4
+./.git/objects/37/6847c5dbd4d7a234af61fe61fffe63410eec77
+./.git/objects/0b/bd24c67981452f6cd85b15b387ef9eb71ace7b
+./.git/objects/0b/a5c6d6d48603bf08265f3ef602107951ffa778
+./.git/objects/13/b3b11eb6e357e7079ec9f7821e59a2f565a11a
+./.git/objects/13/8505c4f4b3ebddbe21a7770f1885519ad7e543
+./.git/objects/43/f29d57131c2e929c05dc33e3935911a05a62e6
+./.git/objects/08/a77eaf8cc995b34a0439bf13be72ec71752f7a
+./.git/objects/bb/aec64949d74364a044fcd3b7a51b0352a42c70
+./.git/objects/b4/c2434d09481eb88bfa7c665d714399843403ce
+./.git/objects/b4/066903f7524495ba509a6e21ae6662615a2857
+./.git/objects/8a/571eb4318d76399625df9aaf2ae234bcff716b
+./.git/objects/90/46dac09df5e709021b825a63d1f934f0907a41
+./.git/objects/f6/14906f2b2f184bceff3be35c9744000a0de791
+./.git/objects/0c/4883a7b13422e70b9f9e3a2bc0ba4f273d563d
+./.git/objects/dc/a18f0c175951b57ab66e317c4ccb8a3b194f75
+./.git/objects/e9/6a5b6c06f9cc5fa7174163b51198c0ff8d7749
+./.git/objects/ec/45c886e847632797cb606c43003773d748fbe4
+./.git/objects/e7/28eb7be56a2a7f4627ba5986d4d4ec50b440af
+./.git/objects/e7/40eec3372f99fe9318b5dbe9cacbe540138aaf
+./.git/objects/68/a9e629344eea80aae5686cf3c7fa824732eb4e
+./.git/objects/a6/b0b4d877fd03ef573a7739b2cd7bc404ae8d24
+./.git/objects/ac/6e0cb777daa3b2bb0c3597b48339bdf3ca954b
+./.git/objects/ac/b65286b05fd62c78655f98100424f4f7aaff84
+./.git/objects/2d/3cf6ee2967d6ef6a18088f2a7b9e1fa794e061
+./.git/objects/1a/6a588b520920982b109f429d41ae024f0a1723
+./.git/objects/44/393cf6b2d70885ef1d94679f387293e7b102cb
+./.git/objects/5b/9f4f0743466e00a849751a43309312124af441
+./.git/objects/5c/d2767e6280c7f38cb24152b14bb3f7f6494641
+./.git/objects/5c/f7b3caf53aef176c4fab989086faf4970f265c
+./.git/objects/2c/2b12810496842b68d49c6f4723e0cecfc32157
+./.git/objects/d3/82db0f43e949caa38d4bb1c18a2dc1e343a0ec
+./.git/objects/e3/015cc4c0e81d8c4bc1eb84f808bbcd4f0bcf6d
+./.git/objects/14/582fe99a8286a3152388780ab6c1c0ceb75ddb
+./.git/objects/8c/f9c235d09b59d100d0b78740111b3789abb95f
+./.git/objects/8c/73007bdebe23477aa42c564dccd5261ac9653e
+./.git/objects/10/4981d1427f8f3a6eb6757eec6a43e41e78cded
+./.git/objects/9b/387cb7a0e53ac0f9ea4f2bdc2635d98ed69493
+./.git/objects/c2/ded3335c0d7068b80ca62af8059718663cc896
+./.git/objects/89/b8bc87fe6c80f5fc9aa572ab1cc177c9afecbe
+./.git/objects/8f/0c52048b0832e1641179249f84486cff7bd3f1
+./.git/objects/8f/ee6a4b6b11dd37329955cc2ed1ac33fdce68bb
+./.git/objects/8f/5ce69a3cafa46de67374aefde178bceb840864
+./.git/objects/8f/ccfb0b19e8e4ae0f284536179f449a3b963154
+./.git/objects/6d/1ca62d184e5bd425be43da25e7ae869dc79854
+./.git/objects/6d/6b2ac31ec247093e4beae259e9c1f2aedafa16
+./.git/objects/f9/48c347508569c5eb0ded0ec56b4a069b905535
+./.git/objects/f3/c29e3007a985ed43e28cc2e181523051ec8a11
+./.git/objects/53/e67978aaea80f6d7ecac0c5de9fb898d63f1f5
+./.git/objects/4c/ad8d4a55f1c7f78bb77cc4b241070368d79421
+./.git/objects/86/76e278b52c7cc8911830e3aa3c6297a0bf4bd4
+./.git/objects/86/87f5b6896ed6a9e3fbd7ac62f1fc70fc4b90be
+./.git/objects/86/c62ad6c034ee1a533bf00c30a4c5364bb3b908
+./.git/objects/ae/681fbc50526d5ef0fcc4e5fe19f2507445b58f
+./.git/objects/c9/eda24b7d7bf4f16c674ec6887a8e932891a182
+./.git/objects/c9/54f5cb939c31eeca4ce8c6860627b31cd27391
+./.git/objects/c9/6e1da071fd1cfa955155554d65652c85ba70a1
+./.git/objects/e2/55b4df9f4f366647b9f7b357ce2d60f6ae5cbd
+./.git/objects/e2/78f156938ecb577f293488f9dd213558c1535c
+./.git/objects/e5/d68e3b1548d7ff64db9c236878571dd2c17255
+./.git/objects/e5/3471f2a6b00b6a6c1ae9d24911fbea0cea9a1e
+./.git/objects/3d/57cf53d4c67a19ec5816688aa2e3a9b2a704db
+./.git/objects/3e/cc8937eea68248a3ac158e4143febde27b2926
+./.git/objects/1c/bbe4d2d232a75fd3180c4b852ca5fb90f02d93
+./.git/objects/1c/aab2082b6974f92929b405db1eb1505527de3f
+./.git/objects/11/58cceb56e8025a41c7c47a15a03216c985ec07
+./.git/objects/f5/eba5992054a9c584e8303da942a1f78aa1c9b5
+./.git/objects/06/fdbcf7e69ff017a7827cf075d99072eb78d889
+./.git/objects/06/37a088a01e8ddab3bf3fa98dbe804cbde1a0dc
+./.git/objects/d2/59f8975570a150bc3758a3e50de19e8f5625a1
+./.git/objects/a8/13deecf3d16a745d50ed3feafdf1e68885112d
+./.git/objects/23/8d7d6e4e5a61ae024e266c1ff4890eddb7e7ee
+./.git/objects/23/0b36c8a0b5ec1798519311d2e73ec201b90481
+./.git/objects/19/5edf17daf985256a1d90ad20a0d4ec6f7ab007
+./.git/objects/3b/6e565d8e1acca7cf6a2ac00986599b31519dab
+./.git/objects/e4/4ac3fb37b6a41d9702ebae44d3daaa0811010e
+./.git/objects/e4/3059ba946d4806c74cd690aab3ccb38ce08f03
+./.git/objects/28/b29412718b44aafdf5983420ff422da586080b
+./.git/objects/28/8f0abefa611ea35438bde81ec91c7860f5354f
+./.git/objects/1e/acc3fc859599f017f952fef18b388ff0261407
+./.git/objects/78/c3b291c5dc1138afeb92377add9c65a4bd7a4a
+./.git/objects/cb/d33bbe8fdf7f1896931a4ac7c55a3f59a03292
+./.git/objects/cb/d819fcf2e82b321321847addf1baa63ae00f43
+./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+./.git/objects/e6/751e8992ef00a1dbafdd58b1ea2329c8893433
+./.git/objects/e6/58187e84444e367b5581b3c30ac3dc70805412
+./.git/objects/91/3f150233bef68129c56bbda7a7be40c5b769d8
+./.git/objects/91/6b784468489e0938df1827f83f5b1d94bee81f
+./.git/objects/95/4ed138c49990d814cef67113fdc7513d58d06d
+./.git/objects/f2/30301a0cf3298bf17d8c2a941657b3b221af2c
+./.git/objects/02/1d6c5b24bd3ea1beb1e7c0a1d9089049e0da3c
+./.git/objects/02/3ce7a3c95b7e01e5ccd53380f9d5fde587afc3
+./.git/objects/02/72d621077aab99c21c5470c33353de2ae01882
+./.git/objects/01/9a88a0d69d026aa2a9f288f3d21a7a53b0c9fe
+./.git/objects/01/229e4e85bdb460a8cc7a721816653e4085690f
+./.git/objects/03/514ae69f53bcd88c3d69d3a8f666ee621f730d
+./.git/objects/03/50985aae1475604b08b31ef57c348ca209e230
+./.git/objects/03/680b89f6aed44b8a5e202559062ca4b26f376d
+./.git/objects/30/ea5bba43ad918722720c9b7b82c24baf2b09a5
+./.git/objects/00/3896d1c75a36bce0802ca5183c223dcbb0a8ff
+./.git/objects/7d/e724df58f13c1e300057c8794bb96b2b5ec04c
+./.git/objects/aa/ed0e3c91f9a296c80c76a7fa49fd20760cb2d0
+./.git/objects/82/b099732d8a99ca21267aa94c56da16f92b5e72
+./.git/objects/82/6b56ca7414480069b24e7d84b8623738358d56
+./.git/objects/fc/c779652a937cf775f0df43b4a8c973002bae15
+./.git/objects/fc/020f862cc6208450f40c987b3dfd67e59cac59
+./.git/objects/fc/d94fbd14faeedc75dfeb8c319d0a64c963ee83
+./.git/objects/5f/9c5a505e017ac114f63a272dd4f30ddddaa3c9
+./.git/objects/5f/a4aa0d2b81dba6874d52afaeebd60c92978943
+
+================ JSON FILES ================
+./final_attack_snapshot/timeline.json
+./final_attack_snapshot/threat_intel.json
+./final_attack_snapshot/correlation.json
+./final_attack_snapshot/system_health.json
+./final_attack_snapshot/packets_full_login.json
+./final_attack_snapshot/evidence_status.json
+./final_attack_snapshot/packets_search_first_activity.json
+./final_attack_snapshot/ai_analysis.json
+./final_attack_snapshot/auth_events.json
+./final_attack_snapshot/metrics.json
+./final_attack_snapshot/alerts.json
+./final_attack_snapshot/panel_deep_extraction.json
+./final_attack_snapshot/structured_events.json
+./final_attack_snapshot/panel_search_first.json
+./final_attack_snapshot/detection_results.json
+./final_attack_snapshot/panel_full_login.json
+./final_attack_snapshot/ssh_auth_activity.json
+./final_attack_snapshot/panel_correlation.json
+./final_attack_snapshot/successful_logins.json
+./final_attack_snapshot/network_packets.json
+./final_attack_snapshot/normalized_events.json
+./final_attack_snapshot/incident_status.json
+./final_attack_snapshot/live_attack_status.json
+./final_attack_snapshot/sensitive_access_alerts.json
+./final_attack_snapshot/overview.json
+./final_attack_snapshot/rule_status.json
+./final_attack_snapshot/firewall_actions.json
+./final_attack_snapshot/packets_deep_extraction.json
+./final_attack_snapshot/baseline_comparison.json
+./final_attack_snapshot/privilege_activity.json
+./final_attack_snapshot/panel_live_state.json
+./final_attack_snapshot/system_status.json
+./final_attack_snapshot/containment_status.json
+./data/timeline.json
+./data/threat_intel.json
+./data/correlation.json
+./data/evidence_status.json
+./data/ai_analysis.json
+./data/auth_events.json
+./data/metrics.json
+./data/alerts.json
+./data/structured_events.json
+./data/network_packets.json
+./data/incident_status.json
+./data/overview.json
+./data/rule_status.json
+./data/baseline_comparison.json
+./data/system_status.json
+./data/containment_status.json
+./incidents/INC-002/incident_queue.json
+./incidents/INC-002/incident_status.json
+./incidents/INC-002/incident_ticket.json
+./incidents/INC-001/timeline.json
+./incidents/INC-001/threat_intel.json
+./incidents/INC-001/system_health.json
+./incidents/INC-001/network/network_events.json
+./incidents/INC-001/network/network_analysis.json
+./incidents/INC-001/metrics.json
+./incidents/INC-001/structured_events.json
+./incidents/INC-001/log_summary.json
+./incidents/INC-001/firewall_actions.json
+./incidents/INC-001/ip_reputation.json
+./incidents/INC-001/detection/system_health.json
+./incidents/INC-001/detection/firewall_actions.json
+./incidents/INC-001/detection/attack_detection.json
+./incidents/INC-001/detection/system_status.json
+./incidents/INC-001/system_status.json
+./incidents/incident_ticket.json
+./enterprise_siem.json
+./venv/lib/python3.12/site-packages/pillow-12.2.0.dist-info/sboms/auditwheel.cdx.json
+./real_siem_db.json
+./siem_logs/incidents.json
+./evidence/network_events.json
+./evidence/network_analysis.json
+./timeline/timeline.json
+./timeline/metrics.json
+./outputs/threat_intel.json
+./outputs/correlation.json
+./outputs/system_health.json
+./outputs/packets_full_login.json
+./outputs/packets_search_first_activity.json
+./outputs/ai_analysis.json
+./outputs/alerts.json
+./outputs/panel_deep_extraction.json
+./outputs/panel_search_first.json
+./outputs/detection_results.json
+./outputs/panel_full_login.json
+./outputs/ssh_auth_activity.json
+./outputs/panel_correlation.json
+./outputs/successful_logins.json
+./outputs/network_packets.json
+./outputs/normalized_events.json
+./outputs/live_attack_status.json
+./outputs/sensitive_access_alerts.json
+./outputs/firewall_actions.json
+./outputs/packets_deep_extraction.json
+./outputs/privilege_activity.json
+./outputs/panel_live_state.json
+./outputs/system_status.json
+./outputs/containment_status.json
+
+================ RECENT JSON CHANGES ================
+2026-06-14 01:56:30.795064795 +0300 475522 ./real_siem_db.json
+2026-06-10 01:05:07.124013830 +0300 27107 ./final_attack_snapshot/network_packets.json
+2026-06-10 01:05:07.122632173 +0300 27107 ./outputs/network_packets.json
+2026-06-10 01:05:07.121997823 +0300 27107 ./data/network_packets.json
+2026-06-10 01:05:04.929002358 +0300 815 ./final_attack_snapshot/threat_intel.json
+2026-06-10 01:05:04.928675956 +0300 116 ./final_attack_snapshot/system_status.json
+2026-06-10 01:05:04.928356156 +0300 210 ./final_attack_snapshot/system_health.json
+2026-06-10 01:05:04.927971454 +0300 5642 ./final_attack_snapshot/successful_logins.json
+2026-06-10 01:05:04.927563952 +0300 69286 ./final_attack_snapshot/ssh_auth_activity.json
+2026-06-10 01:05:04.927234351 +0300 2 ./final_attack_snapshot/sensitive_access_alerts.json
+2026-06-10 01:05:04.926828950 +0300 407 ./final_attack_snapshot/privilege_activity.json
+2026-06-10 01:05:04.926482648 +0300 605 ./final_attack_snapshot/panel_search_first.json
+2026-06-10 01:05:04.925871546 +0300 177834 ./final_attack_snapshot/panel_live_state.json
+2026-06-10 01:05:04.925502545 +0300 438 ./final_attack_snapshot/panel_full_login.json
+2026-06-10 01:05:04.925022043 +0300 9459 ./final_attack_snapshot/panel_deep_extraction.json
+2026-06-10 01:05:04.924698342 +0300 2 ./final_attack_snapshot/panel_correlation.json
+2026-06-10 01:05:04.924374141 +0300 2 ./final_attack_snapshot/packets_search_first_activity.json
+2026-06-10 01:05:04.923934639 +0300 2 ./final_attack_snapshot/packets_full_login.json
+2026-06-10 01:05:04.923599438 +0300 2 ./final_attack_snapshot/packets_deep_extraction.json
+2026-06-10 01:05:04.922624768 +0300 2 ./final_attack_snapshot/normalized_events.json
+2026-06-10 01:05:04.922227233 +0300 183 ./final_attack_snapshot/live_attack_status.json
+2026-06-10 01:05:04.921813031 +0300 231 ./final_attack_snapshot/firewall_actions.json
+2026-06-10 01:05:04.921236029 +0300 323 ./final_attack_snapshot/correlation.json
+2026-06-10 01:05:04.921236029 +0300 0 ./final_attack_snapshot/detection_results.json
+2026-06-10 01:05:04.920847628 +0300 123 ./final_attack_snapshot/containment_status.json
+2026-06-10 01:05:04.920491127 +0300 13338 ./final_attack_snapshot/alerts.json
+2026-06-10 01:05:04.920005925 +0300 295 ./final_attack_snapshot/ai_analysis.json
+2026-06-10 01:05:04.911932296 +0300 310 ./final_attack_snapshot/timeline.json
+2026-06-10 01:05:04.910410390 +0300 11521 ./final_attack_snapshot/structured_events.json
+2026-06-10 01:05:04.909909089 +0300 200 ./final_attack_snapshot/rule_status.json
+2026-06-10 01:05:04.909559688 +0300 491 ./final_attack_snapshot/overview.json
+2026-06-10 01:05:04.908798585 +0300 177 ./final_attack_snapshot/metrics.json
+2026-06-10 01:05:04.908420583 +0300 347 ./final_attack_snapshot/incident_status.json
+2026-06-10 01:05:04.907998782 +0300 344 ./final_attack_snapshot/evidence_status.json
+2026-06-10 01:05:04.906708778 +0300 197 ./final_attack_snapshot/baseline_comparison.json
+2026-06-10 01:05:04.906025575 +0300 69286 ./final_attack_snapshot/auth_events.json
+2026-06-10 01:05:04.897550845 +0300 13338 ./outputs/alerts.json
+2026-06-10 01:05:04.890719620 +0300 295 ./outputs/ai_analysis.json
+2026-06-10 01:05:04.883624636 +0300 407 ./outputs/privilege_activity.json
+2026-06-10 01:05:04.877624616 +0300 323 ./outputs/correlation.json
+2026-06-10 01:05:04.871624596 +0300 344 ./data/evidence_status.json
+2026-06-10 01:05:04.866624579 +0300 186 ./data/containment_status.json
+2026-06-10 01:05:04.858624552 +0300 197 ./data/baseline_comparison.json
+2026-06-10 01:05:04.852624532 +0300 295 ./data/ai_analysis.json
+2026-06-10 01:05:04.847624515 +0300 404 ./data/threat_intel.json
+2026-06-10 01:05:04.841624495 +0300 347 ./data/incident_status.json
+2026-06-10 01:05:04.836624478 +0300 177 ./data/metrics.json
+2026-06-10 00:57:01.294968877 +0300 200 ./data/rule_status.json
+2026-06-10 00:57:01.294709651 +0300 293 ./data/system_status.json
+2026-06-10 00:57:01.290711636 +0300 310 ./data/timeline.json
+2026-06-10 00:57:01.284854415 +0300 13338 ./data/alerts.json
+2026-06-10 00:57:01.283968839 +0300 11521 ./data/correlation.json
+2026-06-10 00:57:01.283390409 +0300 69286 ./data/auth_events.json
+2026-06-10 00:57:01.278793393 +0300 11521 ./data/structured_events.json
+2026-06-10 00:57:01.267821353 +0300 5642 ./outputs/successful_logins.json
+2026-06-10 00:57:01.264968774 +0300 69286 ./outputs/ssh_auth_activity.json
+2026-06-10 00:57:01.259968757 +0300 177834 ./outputs/panel_live_state.json
+2026-06-10 00:11:25.530646215 +0300 1358 ./venv/lib/python3.12/site-packages/pillow-12.2.0.dist-info/sboms/auditwheel.cdx.json
+2026-06-09 23:16:27.753969140 +0300 2 ./outputs/panel_correlation.json
+2026-06-09 23:16:27.753625439 +0300 2 ./outputs/packets_deep_extraction.json
+2026-06-09 23:16:27.753291637 +0300 2 ./outputs/packets_full_login.json
+2026-06-09 23:16:27.752828635 +0300 2 ./outputs/packets_search_first_activity.json
+2026-06-09 22:32:02.897225481 +0300 9459 ./outputs/panel_deep_extraction.json
+2026-06-09 22:32:02.896598679 +0300 438 ./outputs/panel_full_login.json
+2026-06-09 22:32:02.896008030 +0300 605 ./outputs/panel_search_first.json
+2026-06-09 02:27:26.485510261 +0300 3957 ./enterprise_siem.json
+2026-06-08 23:37:42.776788697 +0300 598 ./siem_logs/incidents.json
+2026-06-08 22:22:52.992802768 +0300 2 ./outputs/sensitive_access_alerts.json
+2026-06-08 22:22:52.991737866 +0300 2 ./outputs/normalized_events.json
+2026-05-09 23:09:05.211380020 +0300 491 ./data/overview.json
+2026-04-25 20:38:04.485055255 +0300 123 ./outputs/containment_status.json
+2026-04-21 18:11:42.142468231 +0200 815 ./outputs/threat_intel.json
+2026-04-14 20:36:35.928069626 +0200 285 ./timeline/metrics.json
+2026-04-14 20:36:35.915600078 +0200 940 ./timeline/timeline.json
+2026-04-14 19:40:22.786169265 +0200 1726 ./incidents/incident_ticket.json
+2026-04-14 19:36:11.245535747 +0200 333 ./evidence/network_events.json
+2026-04-14 19:36:11.242535755 +0200 944 ./evidence/network_analysis.json
+2026-04-14 17:30:48.633588572 +0200 0 ./outputs/detection_results.json
+2026-04-14 15:28:52.093256989 +0200 231 ./outputs/firewall_actions.json
+2026-04-14 15:25:37.198016349 +0200 183 ./outputs/live_attack_status.json
+2026-03-15 00:46:51.157642819 +0200 188 ./incidents/INC-001/log_summary.json
+2026-03-15 00:46:33.011575647 +0200 591 ./incidents/INC-001/structured_events.json
+2026-03-15 00:11:09.177713993 +0200 159 ./incidents/INC-001/ip_reputation.json
+2026-03-15 00:11:09.175713986 +0200 187 ./incidents/INC-001/threat_intel.json
+2026-03-15 00:02:36.287815460 +0200 114 ./incidents/INC-002/incident_queue.json
+2026-03-15 00:02:23.679768791 +0200 177 ./incidents/INC-002/incident_status.json
+2026-03-15 00:01:54.590661112 +0200 240 ./incidents/INC-002/incident_ticket.json
+2026-03-14 23:50:43.235175993 +0200 210 ./incidents/INC-001/timeline.json
+2026-03-14 23:50:25.249109415 +0200 175 ./incidents/INC-001/metrics.json
+2026-03-14 23:32:47.353193466 +0200 247 ./incidents/INC-001/network/network_analysis.json
+2026-03-14 23:32:29.630127863 +0200 255 ./incidents/INC-001/network/network_events.json
+2026-03-14 23:14:45.820463074 +0200 256 ./incidents/INC-001/detection/attack_detection.json
+2026-03-14 22:27:16.480907627 +0200 116 ./incidents/INC-001/system_status.json
+2026-03-14 22:27:16.480049296 +0200 210 ./incidents/INC-001/system_health.json
+2026-03-14 22:27:16.479348207 +0200 128 ./incidents/INC-001/firewall_actions.json
+2026-03-14 22:07:29.015578899 +0200 116 ./incidents/INC-001/detection/system_status.json
+2026-03-14 22:07:29.015535108 +0200 210 ./incidents/INC-001/detection/system_health.json
+2026-03-14 22:07:29.015475988 +0200 128 ./incidents/INC-001/detection/firewall_actions.json
+2026-03-14 20:57:38.729964257 +0200 210 ./outputs/system_health.json
+2026-03-14 20:57:27.301138172 +0200 116 ./outputs/system_status.json
+
+================ EMPTY JSON FILES ================
+./final_attack_snapshot/detection_r

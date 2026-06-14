@@ -1,12 +1,12 @@
 {
   "status": "attack_live",
-  "last_updated": "2026-06-09T23:23:19",
+  "last_updated": "2026-06-10T01:05:04",
   "incident_id": "INC-003",
   "classification": "Multi-Stage SSH Intrusion",
   "confidence": "VERY HIGH",
   "source_ip": "192.168.1.21",
   "target_ip": "192.168.1.17",
-  "failed_attempts": 98,
-  "successful_login": 7,
+  "failed_attempts": 168,
+  "successful_login": 12,
   "final_severity": "critical"
 }

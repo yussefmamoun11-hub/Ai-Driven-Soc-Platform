@@ -1,10 +1,8 @@
 {
-  "status": "ready",
-  "last_updated": "2026-06-09T23:23:19",
-  "attempts": 98,
-  "attempts_count": 98,
-  "alerts": 3,
-  "alert_count": 3,
+  "attempts": 168,
+  "attempts_count": 168,
+  "alerts": 30,
+  "active_alerts": 30,
   "mttd": "5s",
   "mttr": "32s"
 }

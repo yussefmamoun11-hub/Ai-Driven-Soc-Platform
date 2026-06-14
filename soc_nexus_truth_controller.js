@@ -19,9 +19,9 @@
     document.querySelectorAll("*").forEach(e=>{
       if(!e.children.length && (e.textContent||"").includes("FILTER:")) e.textContent="FILTER: ip.src == "+ip;
     });
-    tb.innerHTML=rows.slice(-16).map((r,i)=>`
+    tb.innerHTML=[...rows].reverse().map((r,i)=>`
       <tr class="r-ssh r-new">
-        <td class="td-no">${pick(r,["no","id","seq"],i+1)}</td>
+        <td class="td-no">${i+1}</td>
         <td class="td-ts">${pick(r,["time","timestamp"],"")}</td>
         <td class="td-src">${pick(r,["source","src","src_ip","source_ip"],"-")}</td>
         <td class="td-dst">${pick(r,["destination","dst","dst_ip"],"Ubuntu Host")}</td>
@@ -36,7 +36,7 @@
     const tb=document.querySelector(".evtbl tbody"); if(!tb)return;
     const badge=[...document.querySelectorAll(".ph-badge")].find(e=>(e.closest(".pnl")?.innerText||"").includes("Correlated Security Events"));
     if(badge) badge.textContent=rows.length+" EVENTS";
-    tb.innerHTML=rows.slice(-10).map(r=>`
+    tb.innerHTML=[...rows].reverse().map(r=>`
       <tr>
         <td style="font-family:var(--mono);font-size:9px;color:var(--t3)">${String(pick(r,["time","timestamp"],"")).split("T").pop()}</td>
         <td style="font-family:var(--mono);font-size:9px;color:var(--c)">${pick(r,["source_ip","source","src_ip"],"-")}</td>
@@ -50,7 +50,7 @@
     const body=document.getElementById("x-ssh-body"), badge=document.getElementById("x-ssh-badge");
     if(!body||!rows)return;
     if(badge) badge.textContent=rows.length+" EVENTS";
-    body.innerHTML=rows.length ? rows.slice(-10).map(r=>`
+    body.innerHTML=rows.length ? [...rows].reverse().map(r=>`
       <div class="xmini">
         <span class="xmini-ts">${String(pick(r,["time","timestamp"],"")).split("T").pop()}</span>
         <span class="xmini-msg">${pick(r,["info","description","message"],"")}</span>
@@ -62,7 +62,7 @@
     const body=document.getElementById("x-login-body"), badge=document.getElementById("x-login-badge");
     if(!body||!rows)return;
     if(badge) badge.textContent=rows.length;
-    body.innerHTML=rows.length ? rows.slice(-6).map(r=>`
+    body.innerHTML=rows.length ? [...rows].reverse().map(r=>`
       <div class="xmini">
         <span class="xmini-ts">${String(pick(r,["time","timestamp"],"")).split("T").pop()}</span>
         <span class="xmini-msg">${pick(r,["description","message","event"],"Successful SSH login")}</span>

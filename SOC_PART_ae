@@ -1,0 +1,405 @@
+[Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./report_part_ab:live_all_panels_controller.js:  threat: "data/threat_intel.json",
+./report_part_ab:./live_all_panels_controller.js:  ai: "data/ai_analysis.json",
+./report_part_ab:./live_all_panels_controller.js:  containment: "data/containment_status.json",
+./report_part_ab:./live_all_panels_controller.js:  evidence: "data/evidence_status.json",
+./report_part_ab:./live_all_panels_controller.js:  baseline: "data/baseline_comparison.json",
+./report_part_ab:./live_all_panels_controller.js:  alerts: "data/alerts.json",
+./report_part_ab:./live_all_panels_controller.js:  correlation: "outputs/correlation.json",
+./report_part_ab:./live_all_panels_controller.js:  privilege: "outputs/privilege_activity.json"
+./report_part_ab:./live_all_panels_controller.js:    const d = await r.json();
+./report_part_ab:./packet_capture_dashboard.py:    const d=await r.json();
+./report_part_ab:./INSTALL_UNIFIED_8080_LIVE_SIEM.sh:DB_FILE = os.path.join(ROOT, "real_siem_db.json")
+./report_part_ab:./soc_live_pdf_bridge.py:LOG_SOURCE = "/tmp/soc_live_events.jsonl"  # هنفترض events هنا
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    let r=await fetch("/outputs/panel_live_state.json?x="+Date.now(),{cache:"no-store"});
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    if(!r.ok) r=await fetch("/data/panel_live_state.json?x="+Date.now(),{cache:"no-store"});
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    return await r.json();
+./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:curl -s "http://192.168.1.17:8080/outputs/panel_live_state.json" | head -5 || true
+./report_part_ab:./soc_unified_8080_live.py:DB_FILE = os.path.join(ROOT, "real_siem_db.json")
+./report_part_ab:./soc_detection_engine.py.bak_day5:    write_json(normalized,       "normalized_events.json")
+./report_part_ab:./soc_detection_engine.py.bak_day5:    write_json(privilege_events, "privilege_activity.json")
+./report_part_ab:./soc_detection_engine.py.bak_day5:    write_json(sensitive_events, "sensitive_access_alerts.json")
+./report_part_ab:./soc_detection_engine.py.bak_day5:    write_json(ai_result,        "ai_analysis.json")
+./report_part_ab:./soc_detection_engine.py.bak_day5:    write_json(correlation,      "correlation.json")
+./report_part_ab:./incidents/INC-001/report/evidence_summary.txt:system_status.json
+./report_part_ab:./incidents/INC-001/report/evidence_summary.txt:system_health.json
+./report_part_ab:./incidents/INC-001/report/evidence_summary.txt:firewall_actions.json
+./report_part_ab:./incidents/incident_ticket.json:    "network_analysis.json",
+./report_part_ab:./incidents/incident_ticket.json:    "detection_results.json",
+./report_part_ab:./incidents/incident_ticket.json:    "alerts.json"
+./report_part_ab:./monitor/frontend/script.js:    const alerts = await safeFetch("/outputs/alerts.json");
+./report_part_ab:./monitor/frontend/script.js:    const ai = await safeFetch("/outputs/ai_analysis.json");
+./report_part_ab:./monitor/frontend/script.js:    const corr = await safeFetch("/outputs/correlation.json");
+./report_part_ab:./monitor/frontend/script.js:    const priv = await safeFetch("/outputs/privilege_activity.json");
+./report_part_ab:./monitor/frontend/force_packet_capture_dom_v2.js:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./report_part_ab:./monitor/frontend/force_packet_capture_dom_v2.js:        const d = await r.json();
+./report_part_ab:./monitor/frontend/sticky_final_state.js:    if (!String(url).includes(".json")) return res;
+./report_part_ab:./monitor/frontend/sticky_final_state.js:      const data = await res.clone().json();
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  metrics: "data/metrics.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  incident: "data/incident_status.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  threat: "data/threat_intel.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  ai: "data/ai_analysis.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  containment: "data/containment_status.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  evidence: "data/evidence_status.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  baseline: "data/baseline_comparison.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  alerts: "data/alerts.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  correlation: "outputs/correlation.json",
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:  privilege: "outputs/privilege_activity.json"
+./report_part_ab:./monitor/frontend/live_all_panels_controller.js:    const d = await r.json();
+./report_part_ab:./monitor/frontend/force_packet_capture_override.js:      "data/network_packets.json",
+./report_part_ab:./monitor/frontend/force_packet_capture_override.js:      "outputs/network_packets.json",
+./report_part_ab:./monitor/frontend/force_packet_capture_override.js:      "final_attack_snapshot/network_packets.json"
+./report_part_ab:./monitor/frontend/force_packet_capture_override.js:        const data = await r.json();
+./report_part_ab:./monitor/frontend/index.html:        let a = await fetch('../outputs/alerts.json');
+./report_part_ab:./monitor/frontend/index.html:        let b = await fetch('../outputs/ai_analysis.json');
+./report_part_ab:./monitor/frontend/index.html:        let c = await fetch('../outputs/correlation.json');
+./report_part_ab:./monitor/frontend/index.html:        let d = await fetch('../outputs/privilege_activity.json');
+./report_part_ab:./monitor/frontend/index.html:      "/data/network_packets.json",
+./report_part_ab:./monitor/frontend/index.html:      "/outputs/network_packets.json",
+./report_part_ab:./monitor/frontend/index.html:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./monitor/frontend/index.html:        const d=await r.json();
+./report_part_ab:./monitor/frontend/packet_capture_fix.js:      return await r.json();
+./report_part_ab:./monitor/frontend/packet_capture_fix.js:      await getJSON("data/network_packets.json") ||
+./report_part_ab:./monitor/frontend/packet_capture_fix.js:      await getJSON("outputs/network_packets.json") ||
+./report_part_ab:./monitor/frontend/soc_packet_enterprise_fix.js:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./report_part_ab:./monitor/frontend/soc_packet_enterprise_fix.js:        const d = await r.json();
+./report_part_ab:./monitor/frontend/packet_stream_dashboard_patch.js:      const d = await r.json();
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/network_packets.json" '[]'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/overview.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/structured_events.json" '[]'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/incident_status.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/metrics.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/threat_intel.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/containment_status.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/timeline.json" '[]'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/evidence_status.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/system_status.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/rule_status.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/baseline_comparison.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:create_if_missing "$DATA/runtime_info.json" '{}'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    detection: 'data/detection_results.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    alerts: 'data/alerts.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    ai: 'data/ai_analysis.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    correlation: 'data/correlation.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    privilege: 'data/privilege_activity.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    packets: 'data/network_packets.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    overview: 'data/overview.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    events: 'data/structured_events.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    incident: 'data/incident_status.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    metrics: 'data/metrics.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    threat: 'data/threat_intel.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    contain: 'data/containment_status.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    timeline: 'data/timeline.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    evidence: 'data/evidence_status.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    sources: 'data/system_status.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    rules: 'data/rule_status.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    baseline: 'data/baseline_comparison.json',
+./report_part_ab:./monitor/convert_monitor_to_live.sh:    runtime: 'data/runtime_info.json'
+./report_part_ab:./monitor/convert_monitor_to_live.sh:      return await res.json();
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:  create_if_missing_or_invalid "$OUT/detection_results.json" "[]"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:  create_if_missing_or_invalid "$OUT/alerts.json" "[]"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:  create_if_missing_or_invalid "$OUT/ai_analysis.json" "{}"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:  create_if_missing_or_invalid "$OUT/correlation.json" "{}"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:  create_if_missing_or_invalid "$OUT/privilege_activity.json" "[]"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:detection = load_json(out / "detection_results.json", [])
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:alerts = load_json(out / "alerts.json", [])
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:ai = load_json(out / "ai_analysis.json", {})
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:corr = load_json(out / "correlation.json", {})
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:priv = load_json(out / "privilege_activity.json", [])
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:            "source": "detection_results.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:        "source": "detection_results.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:            "source": "detection_results.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:            "source": "privilege_activity.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:            "source": "detection_results.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("auth_events.json", auth_events)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("fail2ban_events.json", fail2ban_events)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("low_activity_events.json", low_events)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("medium_activity_events.json", medium_events)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("structured_events.json", structured)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("overview.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("incident_status.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:    "source": "correlation.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("metrics.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("threat_intel.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("containment_status.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("timeline.json", timeline)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("evidence_status.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("system_status.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("rule_status.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("baseline_comparison.json", {
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("network_packets.json", packets)
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:runtime_path = data / "runtime_info.json"
+./report_part_ab:./monitor/complete_kanzy_monitor_suite_idempotent.sh:save_json_if_missing_or_invalid("runtime_info.json", runtime)
+./report_part_ab:./soc_mini_siem.py:    file_path = "siem_logs/incidents.json"
+./report_part_ab:./.git/hooks/fsmonitor-watchman.sample:	# open (my $fh, ">", ".git/watchman-query.json");
+./report_part_ab:./.git/hooks/fsmonitor-watchman.sample:	# open ($fh, ">", ".git/watchman-response.json");
+./report_part_ab:./force_packet_capture_override.js:      "data/network_packets.json",
+./report_part_ab:./force_packet_capture_override.js:      "outputs/network_packets.json",
+./report_part_ab:./force_packet_capture_override.js:      "final_attack_snapshot/network_packets.json"
+./report_part_ab:./force_packet_capture_override.js:        const data = await r.json();
+./report_part_ab:./FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh:        (d / "network_packets.json").write_text(json.dumps(packets, indent=2))
+./report_part_ab:./FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh:      "/data/network_packets.json",
+./report_part_ab:./FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh:      "/outputs/network_packets.json",
+./report_part_ab:./FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./FIX_PACKET_CAPTURE_ENTERPRISE_LIVE_FINAL.sh:        const d=await r.json();
+./report_part_ab:./index.html:  packets:   `${BASE_URL}/data/network_packets.json`,
+./report_part_ab:./index.html:  overview:  `${BASE_URL}/data/overview.json`,
+./report_part_ab:./index.html:  events:    `${BASE_URL}/data/structured_events.json`,
+./report_part_ab:./index.html:  alert:     `${BASE_URL}/data/alerts.json`,
+./report_part_ab:./index.html:  incident:  `${BASE_URL}/data/incident_status.json`,
+./report_part_ab:./index.html:  ai:        `${BASE_URL}/data/ai_analysis.json`,
+./report_part_ab:./index.html:  metrics:   `${BASE_URL}/data/metrics.json`,
+./report_part_ab:./index.html:  threat:    `${BASE_URL}/data/threat_intel.json`,
+./report_part_ab:./index.html:  contain:   `${BASE_URL}/data/containment_status.json`,
+./report_part_ab:./index.html:  timeline:  `${BASE_URL}/data/timeline.json`,
+./report_part_ab:./index.html:  evidence:  `${BASE_URL}/data/evidence_status.json`,
+./report_part_ab:./index.html:  sources:   `${BASE_URL}/data/system_status.json`,
+./report_part_ab:./index.html:  rules:     `${BASE_URL}/data/rule_status.json`,
+./report_part_ab:./index.html:  baseline:  `${BASE_URL}/data/baseline_comparison.json`,
+./report_part_ab:./index.html:async function load(url){ const r = await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(url); return r.json(); }
+./report_part_ab:./index.html:    low:       _BASE + '/data/low_activity_events.json',
+./report_part_ab:./index.html:    medium:    _BASE + '/data/medium_activity_events.json',
+./report_part_ab:./index.html:    auth:      _BASE + '/data/auth_events.json',
+./report_part_ab:./index.html:    corr:      _BASE + '/data/correlation.json',
+./report_part_ab:./index.html:    priv:      _BASE + '/data/privilege_activity.json',
+./report_part_ab:./index.html:    sensitive: _BASE + '/outputs/sensitive_access_alerts.json',
+./report_part_ab:./index.html:    runtime:   _BASE + '/data/runtime_info.json',
+./report_part_ab:./index.html:    sysstat:   _BASE + '/data/system_status.json',
+./report_part_ab:./index.html:      .then(function (r) { return r.ok ? r.json() : null; })
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Low Activity</div><div class="day5-value day5-ok" id="d5-low">Waiting</div><div class="day5-src">low_activity_events.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Medium Activity</div><div class="day5-value day5-warn" id="d5-medium">Waiting</div><div class="day5-src">medium_activity_events.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Post-Login</div><div class="day5-value" id="d5-post">Waiting</div><div class="day5-src">post_login_activity.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">System Discovery</div><div class="day5-value" id="d5-system">Waiting</div><div class="day5-src">system_discovery.json · T1082</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">User Discovery</div><div class="day5-value" id="d5-user">Waiting</div><div class="day5-src">user_discovery.json · T1033</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Sensitive Files</div><div class="day5-value day5-warn" id="d5-sensitive">Waiting</div><div class="day5-src">sensitive_access_alerts.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Privilege Abuse</div><div class="day5-value day5-warn" id="d5-privilege">Waiting</div><div class="day5-src">privilege_activity.json · T1548</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Panel Freshness</div><div class="day5-value day5-ai" id="d5-freshness">Waiting</div><div class="day5-src">panel_health.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Fallback State</div><div class="day5-value" id="d5-fallback">Waiting</div><div class="day5-src">fallback_state.json</div></div>
+./report_part_ab:./index.html:      <div class="day5-card"><div class="day5-label">Closure</div><div class="day5-value day5-ok" id="d5-closure">Waiting</div><div class="day5-src">closure_status.json</div></div>
+./report_part_ab:./index.html:        if (res.ok) return await res.json();
+./report_part_ab:./index.html:    const low = await loadAny('low_activity_events.json');
+./report_part_ab:./index.html:    const med = await loadAny('medium_activity_events.json');
+./report_part_ab:./index.html:    const post = await loadAny('post_login_activity.json');
+./report_part_ab:./index.html:    const sys = await loadAny('system_discovery.json');
+./report_part_ab:./index.html:    const usr = await loadAny('user_discovery.json');
+./report_part_ab:./index.html:    const sens = await loadAny('sensitive_access_alerts.json');
+./report_part_ab:./index.html:    const priv = await loadAny('privilege_activity.json');
+./report_part_ab:./index.html:    const health = await loadAny('panel_health.json');
+./report_part_ab:./index.html:    const fallback = await loadAny('fallback_state.json');
+./report_part_ab:./index.html:    const closure = await loadAny('closure_status.json');
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:PACKETS = DATA / "network_packets.json"
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:ALERTS = OUT / "alerts.json"
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:CORR = OUT / "correlation.json"
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:PRIV = OUT / "privilege_activity.json"
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:SSH = OUT / "ssh_auth_activity.json"
+./report_part_ab:./FIX_LIVE_PANELS_STABLE_DATA.sh:SUCCESS = OUT / "successful_logins.json"
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  packets:   `${BASE_URL}/data/network_packets.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  overview:  `${BASE_URL}/data/overview.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  events:    `${BASE_URL}/data/structured_events.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  alert:     `${BASE_URL}/data/alerts.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  incident:  `${BASE_URL}/data/incident_status.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  ai:        `${BASE_URL}/data/ai_analysis.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  metrics:   `${BASE_URL}/data/metrics.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  threat:    `${BASE_URL}/data/threat_intel.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  contain:   `${BASE_URL}/data/containment_status.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  timeline:  `${BASE_URL}/data/timeline.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  evidence:  `${BASE_URL}/data/evidence_status.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  sources:   `${BASE_URL}/data/system_status.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  rules:     `${BASE_URL}/data/rule_status.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:  baseline:  `${BASE_URL}/data/baseline_comparison.json`,
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:async function load(url){ const r = await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(url); return r.json(); }
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    low:       _BASE + '/data/low_activity_events.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    medium:    _BASE + '/data/medium_activity_events.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    auth:      _BASE + '/data/auth_events.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    corr:      _BASE + '/data/correlation.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    priv:      _BASE + '/data/privilege_activity.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    sensitive: _BASE + '/outputs/sensitive_access_alerts.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    runtime:   _BASE + '/data/runtime_info.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    sysstat:   _BASE + '/data/system_status.json',
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      .then(function (r) { return r.ok ? r.json() : null; })
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Low Activity</div><div class="day5-value day5-ok" id="d5-low">Waiting</div><div class="day5-src">low_activity_events.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Medium Activity</div><div class="day5-value day5-warn" id="d5-medium">Waiting</div><div class="day5-src">medium_activity_events.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Post-Login</div><div class="day5-value" id="d5-post">Waiting</div><div class="day5-src">post_login_activity.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">System Discovery</div><div class="day5-value" id="d5-system">Waiting</div><div class="day5-src">system_discovery.json · T1082</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">User Discovery</div><div class="day5-value" id="d5-user">Waiting</div><div class="day5-src">user_discovery.json · T1033</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Sensitive Files</div><div class="day5-value day5-warn" id="d5-sensitive">Waiting</div><div class="day5-src">sensitive_access_alerts.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Privilege Abuse</div><div class="day5-value day5-warn" id="d5-privilege">Waiting</div><div class="day5-src">privilege_activity.json · T1548</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Panel Freshness</div><div class="day5-value day5-ai" id="d5-freshness">Waiting</div><div class="day5-src">panel_health.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Fallback State</div><div class="day5-value" id="d5-fallback">Waiting</div><div class="day5-src">fallback_state.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:      <div class="day5-card"><div class="day5-label">Closure</div><div class="day5-value day5-ok" id="d5-closure">Waiting</div><div class="day5-src">closure_status.json</div></div>
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:        if (res.ok) return await res.json();
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const low = await loadAny('low_activity_events.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const med = await loadAny('medium_activity_events.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const post = await loadAny('post_login_activity.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const sys = await loadAny('system_discovery.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const usr = await loadAny('user_discovery.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const sens = await loadAny('sensitive_access_alerts.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const priv = await loadAny('privilege_activity.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const health = await loadAny('panel_health.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const fallback = await loadAny('fallback_state.json');
+./report_part_ab:./backups/real_data_fix_20260609_231627/index.html.bak:    const closure = await loadAny('closure_status.json');
+./report_part_ab:./backups/live_panel_fix_20260609_225008/force_packet_capture_dom_v2.js.bak:      const r = await fetch("/outputs/panel_live_state.json?t=" + Date.now(), {cache:"no-store"});
+./report_part_ab:./backups/live_panel_fix_20260609_225008/force_packet_capture_dom_v2.js.bak:      const s = await r.json();
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:        let a = await fetch('../outputs/alerts.json');
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:        let b = await fetch('../outputs/ai_analysis.json');
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:        let c = await fetch('../outputs/correlation.json');
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:        let d = await fetch('../outputs/privilege_activity.json');
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:      "/data/network_packets.json",
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:      "/outputs/network_packets.json",
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./backups/unified_8080_20260609_212447/index.html.bak:        const d=await r.json();
+./report_part_ab:./backups/unified_8080_20260609_212447/script.js.bak:    const alerts = await safeFetch("/outputs/alerts.json");
+./report_part_ab:./backups/unified_8080_20260609_212447/script.js.bak:    const ai = await safeFetch("/outputs/ai_analysis.json");
+./report_part_ab:./backups/unified_8080_20260609_212447/script.js.bak:    const corr = await safeFetch("/outputs/correlation.json");
+./report_part_ab:./backups/unified_8080_20260609_212447/script.js.bak:    const priv = await safeFetch("/outputs/privilege_activity.json");
+./report_part_ab:./backups/panel_distribution_20260609_221253/force_packet_capture_dom_v2.js.bak:      const r = await fetch("/outputs/panel_live_state.json?t="+Date.now(), {cache:"no-store"});
+./report_part_ab:./backups/panel_distribution_20260609_221253/force_packet_capture_dom_v2.js.bak:      const s = await r.json();
+./report_part_ab:./backups/panel_distribution_20260609_221905/force_packet_capture_dom_v2.js.bak:      const r = await fetch("/outputs/panel_live_state.json?t=" + Date.now(), {cache:"no-store"});
+./report_part_ab:./backups/panel_distribution_20260609_221905/force_packet_capture_dom_v2.js.bak:      const s = await r.json();
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:        let a = await fetch('../outputs/alerts.json');
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:        let b = await fetch('../outputs/ai_analysis.json');
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:        let c = await fetch('../outputs/correlation.json');
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:        let d = await fetch('../outputs/privilege_activity.json');
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:      "/data/network_packets.json",
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:      "/outputs/network_packets.json",
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./backups/stable_distributed_20260609_223555/index.html.bak:        const d=await r.json();
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:        let a = await fetch('../outputs/alerts.json');
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:        let b = await fetch('../outputs/ai_analysis.json');
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:        let c = await fetch('../outputs/correlation.json');
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:        let d = await fetch('../outputs/privilege_activity.json');
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:      "/data/network_packets.json",
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:      "/outputs/network_packets.json",
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./backups/frontend_conflict_fix_20260609_224515/index.html.bak:        const d=await r.json();
+./report_part_ab:./backups/live_panel_fix_20260609_214930/force_packet_capture_dom_v2.js.bak:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./report_part_ab:./backups/live_panel_fix_20260609_214930/force_packet_capture_dom_v2.js.bak:        const d = await r.json();
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:        let a = await fetch('../outputs/alerts.json');
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:        let b = await fetch('../outputs/ai_analysis.json');
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:        let c = await fetch('../outputs/correlation.json');
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:        let d = await fetch('../outputs/privilege_activity.json');
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:      "/data/network_packets.json",
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:      "/outputs/network_packets.json",
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./backups/final_no_flicker_20260609_221825/index.html.bak:        const d=await r.json();
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./report_part_ab:./backups/live_panel_fix_20260609_215318/force_packet_capture_dom_v2.js.bak:      const r = await fetch("/outputs/panel_live_state.json?t="+Date.now(), {cache:"no-store"});
+./report_part_ab:./backups/live_panel_fix_20260609_215318/force_packet_capture_dom_v2.js.bak:      const s = await r.json();
+./report_part_ab:./packet_capture_fix.js:      return await r.json();
+./report_part_ab:./packet_capture_fix.js:      await getJSON("data/network_packets.json") ||
+./report_part_ab:./packet_capture_fix.js:      await getJSON("outputs/network_packets.json") ||
+./report_part_ab:./soc_nexus_live_state_writer.py:STATE=OUT/"panel_live_state.json"
+./report_part_ab:./soc_nexus_live_state_writer.py:PACKETS=DATA/"network_packets.json"
+./report_part_ab:./soc_nexus_live_state_writer.py:CORR=OUT/"correlation.json"
+./report_part_ab:./soc_nexus_live_state_writer.py:SSH=OUT/"ssh_auth_activity.json"
+./report_part_ab:./soc_nexus_live_state_writer.py:SUCCESS=OUT/"successful_logins.json"
+./report_part_ab:./soc_nexus_live_state_writer.py:ALERTS=OUT/"alerts.json"
+./report_part_ab:./packet_capture_live_writer.py:        (d / "network_packets.json").write_text(json.dumps(packets, indent=2))
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/normalized_events.json ] && echo "✔ normalized_events" || echo "❌ normalized_events"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/correlation.json ] && echo "✔ correlation" || echo "❌ correlation"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/ai_analysis.json ] && echo "✔ ai_analysis" || echo "❌ ai_analysis"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/system_status.json ] && echo "✔ system_status" || echo "❌ system_status"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/firewall_actions.json ] && echo "✔ firewall_actions" || echo "❌ firewall_actions"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/evidence/network_events.json ] && echo "✔ network_events" || echo "❌ network_events"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/evidence/network_analysis.json ] && echo "✔ network_analysis" || echo "❌ network_analysis"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/incidents/incident_ticket.json ] && echo "✔ incident_ticket" || echo "❌ incident_ticket"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/timeline/timeline.json ] && echo "✔ timeline" || echo "❌ timeline"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/timeline/metrics.json ] && echo "✔ metrics" || echo "❌ metrics"
+./report_part_ab:./check_team_progress.sh:[ -f $BASE/outputs/threat_intel.json ] && echo "✔ threat_intel" || echo "❌ threat_intel"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:STATE=OUT/"panel_live_state.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:PACKETS=DATA/"network_packets.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:CORR=OUT/"correlation.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:SSH=OUT/"ssh_auth_activity.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:SUCCESS=OUT/"successful_logins.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:ALERTS=OUT/"alerts.json"
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:      const r = await fetch("/outputs/panel_live_state.json?t="+Date.now(), {cache:"no-store"});
+./report_part_ab:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:      const s = await r.json();
+./report_part_ab:./soc_instant_all_panels_live.sh:files=["data/metrics.json","data/overview.json","data/baseline_comparison.json","data/alerts.json"]
+./report_part_ab:./soc_instant_all_panels_live.sh:files=["data/metrics.json","data/alerts.json","data/overview.json"]
+./report_part_ab:./soc_instant_all_panels_live.sh:  cat > data/incident_status.json <<JSON
+./report_part_ab:./soc_instant_all_panels_live.sh:  cat > data/threat_intel.json <<JSON
+./report_part_ab:./soc_instant_all_panels_live.sh:  cat > data/containment_status.json <<JSON
+./report_part_ab:./soc_instant_all_panels_live.sh:  cat > data/metrics.json <<JSON
+./report_part_ab:./soc_instant_all_panels_live.sh:  cat > outputs/correlation.json <<JSON
+./report_part_ab:./soc_instant_all_panels_live.sh:  [ -f data/alerts.json ] && cp data/alerts.json outputs/alerts.json
+./report_part_ab:./soc_instant_all_panels_live.sh:  [ -f data/ai_analysis.json ] && cp data/ai_analysis.json outputs/ai_analysis.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    cp data/incident_status.json final_attack_snapshot/incident_status.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    cp data/threat_intel.json final_attack_snapshot/threat_intel.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    cp data/containment_status.json final_attack_snapshot/containment_status.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    cp data/metrics.json final_attack_snapshot/metrics.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    cp outputs/correlation.json final_attack_snapshot/correlation.json
+./report_part_ab:./soc_instant_all_panels_live.sh:    *.json)
+./report_part_ab:./packet_capture_inline_patch.txt:      "/data/network_packets.json",
+./report_part_ab:./packet_capture_inline_patch.txt:      "/outputs/network_packets.json",
+./report_part_ab:./packet_capture_inline_patch.txt:      "/final_attack_snapshot/network_packets.json"
+./report_part_ab:./packet_capture_inline_patch.txt:        const d=await r.json();
+./report_part_ab:./distribute_panels.py:panel = json.loads((OUT / "panel_live_state.json").read_text())
+./report_part_ab:./distribute_panels.py:(OUT / "panel_search_first.json").write_text(json.dumps(search_first, indent=2))
+./report_part_ab:./distribute_panels.py:(OUT / "panel_full_login.json").write_text(json.dumps(full_login, indent=2))
+./report_part_ab:./distribute_panels.py:(OUT / "panel_deep_extraction.json").write_text(json.dumps(deep_extraction, indent=2))
+./report_part_ab:./distribute_panels.py:(OUT / "panel_correlation.json").write_text(json.dumps(correlation_panel, indent=2))
+./report_part_ab:./soc_ai_analyst_pro.py:DB_FILE = "siem_db.json"
+./report_part_ab:./soc_auto_live_orchestrator.sh:    d=json.load(open("data/metrics.json"))
+./report_part_ab:./soc_auto_live_orchestrator.sh:    d=json.load(open("data/metrics.json"))
+./report_part_ab:./soc_auto_live_orchestrator.sh:    d=json.load(open("data/incident_status.json"))
+./report_part_ab:./soc_auto_live_orchestrator.sh:    d=json.load(open("data/threat_intel.json"))
+./report_part_ab:./soc_auto_live_orchestrator.sh:  [ -f data/alerts.json ] && cp data/alerts.json outputs/alerts.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:  [ -f data/ai_analysis.json ] && cp data/ai_analysis.json outputs/ai_analysis.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > outputs/correlation.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > outputs/privilege_activity.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/threat_intel.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/incident_status.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/containment_status.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/incident_status.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/containment_status.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cat > data/evidence_status.json <<JSON
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f data/incident_status.json final_attack_snapshot/incident_status.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f data/threat_intel.json final_attack_snapshot/threat_intel.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f data/containment_status.json final_attack_snapshot/containment_status.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f data/evidence_status.json final_attack_snapshot/evidence_status.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f outputs/correlation.json final_attack_snapshot/correlation.json
+./report_part_ab:./soc_auto_live_orchestrator.sh:    cp -f outputs/privilege_activity.json final_attack_snapshot/privilege_activity.json
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:      const r=await fetch("/outputs/panel_live_state.json?t="+Date.now(),{cache:"no-store"});
+./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:      const s=await r.json();
+./report_part_ab:./real_siem_db.json:    "raw_log": "2026-06-14T01:18:11.703947+03:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : TTY=pts/1 ; PWD=/home/mamoun/FINAL_SOC_MONITOR ; USER=root ; COMMAND=/usr/bin/lsof /home/youssef-amr/soc_project/outputs/ai_analysis.json /home/youssef-amr/soc_project/outputs/alerts.json /home/youssef-amr/soc_project/outputs/audit_post_login.log /home/youssef-amr/soc_project/outputs/auth_events_raw.log /home/youssef-amr/soc_project/outputs/auth.log.post_login /home/youssef-amr/soc_project/outputs/containment_status.json /home/youssef-amr/soc_project/outputs/correlation.json /home/youssef-amr/soc_project/outputs/detection_results.json /home/youssef-amr/soc_project/outputs/failed_logins.log /home/youssef-amr/soc_project/outputs/fallback_state.json /home/youssef-amr/soc_project/outputs/firewall_actions.json /home/youssef-amr/soc_project/outputs/firewall_status.txt /home/youssef-amr/soc_project/outputs/live_attack_status.json /home/youssef-amr/soc_project/outputs/network_packets.json"
+./report_part_ab:./real_siem_db.json:    "raw_log": "2026-06-14T01:18:11.705378+03:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : (command continued) /home/youssef-amr/soc_project/outputs/normalized_events.json /home/youssef-amr/soc_project/outputs/packets_deep_extraction.json /home/youssef-amr/soc_project/outputs/packets_full_login.json /home/youssef-amr/soc_project/outputs/packets_search_first_activity.json /home/youssef-amr/soc_project/outputs/panel_correlation.json /home/youssef-amr/soc_project/outputs/panel_deep_extraction.json /home/youssef-amr/soc_project/outputs/panel_full_login.json /home/youssef-amr/soc_project/outputs/panel_health.json /home/youssef-amr/soc_project/outputs/panel_live_state_backup.json /home/youssef-amr/soc_project/outputs/panel_live_state.json /home/youssef-amr/soc_project/outputs/panel_search_first.json /home/youssef-amr/soc_project/outputs/privilege_activity.json /home/youssef-amr/soc_project/outputs/reports /home/youssef-amr/soc_project/outputs/sensitive_access_alerts.json /home/youssef-amr/soc_project/outputs/session_and_sudo.log"
+./report_part_ab:./real_siem_db.json:    "raw_log": "2026-06-14T01:18:11.705518+03:00 youssef-amr-VMware-Virtual-Platform sudo:   mamoun : (command continued) /home/youssef-amr/soc_project/outputs/session_opened_events.log /home/youssef-amr/soc_project/outputs/sharaf_demo_only.sh /home/youssef-amr/soc_project/outputs/ssh_auth_activity.json /home/youssef-amr/soc_project/outputs/successful_logins.json /home/youssef-amr/soc_project/outputs/successful_logins.log /home/youssef-amr/soc_project/o

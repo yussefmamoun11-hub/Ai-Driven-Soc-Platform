@@ -1,8 +1,6 @@
 {
-  "status": "CONTAINED",
-  "ufw_firewall": "ENABLED",
+  "firewall": "ENABLED",
   "fail2ban": "ACTIVE",
-  "block_ip_rule": "APPLIED",
-  "quarantine": "NOT REQUIRED",
-  "result": "Attack successfully blocked"
+  "action": "PENDING",
+  "result": "waiting"
 }

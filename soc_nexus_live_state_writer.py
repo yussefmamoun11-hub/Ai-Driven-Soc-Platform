@@ -41,16 +41,16 @@ def write(path,obj):
     tmp.replace(path)
 
 def process(line):
-    t=now(); src=ip(line); u=user(line)
+    t=line[:19]; src=ip(line); u=user(line)
 
     if "sshd[" in line and "Failed password" in line:
         failed[src].append(time.time())
         attempts=len([x for x in failed[src] if time.time()-x<180])
 
         p={
-          "timestamp":t,"source":src,"src_ip":src,
-          "destination":"192.168.1.17","proto":"SSH","len":84,
-          "info":f"Failed SSH authentication attempt for {u}",
+          "timestamp":t,"time":t,"source":src,"src":src,"src_ip":src,
+          "destination":"192.168.1.17","dst":"192.168.1.17","proto":"SSH","protocol":"SSH","len":84,"length":84,
+          "info":f"Failed SSH authentication attempt for {u}","packet_info":f"Failed SSH authentication attempt for {u}",
           "raw":line.strip()
         }
         packets.append(p); ssh.append(p)
@@ -74,9 +74,20 @@ def process(line):
         }
         success.append(e); ssh.append(e)
         packets.append({
-          "timestamp":t,"source":src,"src_ip":src,
-          "destination":"192.168.1.17","proto":"SSH","len":84,
-          "info":f"Successful SSH login for {u}","raw":line.strip()
+          "timestamp": t,
+          "time": t,
+          "source": src,
+          "src": src,
+          "src_ip": src,
+          "destination": "192.168.1.17",
+          "dst": "192.168.1.17",
+          "proto": "SSH",
+          "protocol": "SSH",
+          "len": 84,
+          "length": 84,
+          "info": f"Successful SSH login for {u}",
+          "packet_info": f"Successful SSH login for {u}",
+          "raw": line.strip()
         })
         corr.append({
           "time":t,"source_ip":src,"destination":"192.168.1.17",
@@ -98,6 +109,7 @@ def flush():
     write(CORR,list(corr))
     write(SSH,list(ssh))
     write(SUCCESS,list(success))
+    write(DATA/"successful_logins.json",list(success))
     write(ALERTS,list(alerts))
 
 def main():

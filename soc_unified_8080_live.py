@@ -32,7 +32,7 @@ def load_db():
 def save_db(data):
     try:
         with open(DB_FILE, "w", encoding="utf-8") as f:
-            json.dump(data[-1000:], f, indent=2)
+            json.dump(data, f, indent=2)
     except Exception as e:
         print("[DB ERROR]", e, flush=True)
 
@@ -64,8 +64,8 @@ def build_packet(line, attack, ip):
         "src_ip": ip,
         "destination": "Ubuntu Host",
         "dst_ip": "Ubuntu Host",
-        "proto": "SSH" if "password" in line else "SYSLOG",
-        "protocol": "SSH" if "password" in line else "SYSLOG",
+        "proto": "SYSLOG",
+        "protocol": "SYSLOG",
         "len": 84,
         "info": line.strip()[:240],
         "raw": line.strip()
@@ -85,7 +85,7 @@ def correlate(event):
                 "source_ip": ip,
                 "severity": "CRITICAL",
                 "summary": f"{len(hits)} failed SSH attempts from {ip} within 60 seconds",
-                "timeline": list(timeline)[-20:]
+                "timeline": list(timeline)
             }
 
     return {
@@ -94,7 +94,7 @@ def correlate(event):
         "source_ip": ip,
         "severity": event.get("severity", "LOW"),
         "summary": event.get("analysis", "Security event observed"),
-        "timeline": list(timeline)[-20:]
+        "timeline": list(timeline)
     }
 
 def emit_event(line):
@@ -175,11 +175,28 @@ def static_files(path):
 
 @app.route("/api/live/events")
 def api_events():
-    return jsonify(list(last_events) or load_db()[-100:])
+    return jsonify(list(last_events) or load_db())
+
 
 @app.route("/api/live/packets")
 def api_packets():
-    return jsonify(list(last_packets))
+    import json
+    from pathlib import Path
+
+    pkt_file = Path("data/network_packets.json")
+
+    try:
+        data = json.loads(pkt_file.read_text(encoding="utf-8"))
+
+        for row in data:
+            row["proto"] = "SSH"
+            row["protocol"] = "SSH"
+
+        return jsonify(data)
+
+    except Exception as e:
+        return jsonify([])
+
 
 @app.route("/api/live/correlation")
 def api_corr():
@@ -188,7 +205,7 @@ def api_corr():
 @socketio.on("connect")
 def connected():
     socketio.emit("soc_bootstrap", {
-        "events": list(last_events) or load_db()[-50:],
+        "events": list(last_events) or load_db(),
         "packets": list(last_packets),
         "timeline": list(timeline)
     }, to=request.sid)
@@ -197,3 +214,5 @@ if __name__ == "__main__":
     threading.Thread(target=authlog_watcher, daemon=True).start()
     print("🔥 Unified SOC/SIEM running ONLY on http://0.0.0.0:8080", flush=True)
     socketio.run(app, host="0.0.0.0", port=8080, debug=False)
+
+

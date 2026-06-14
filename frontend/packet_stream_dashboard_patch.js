@@ -87,7 +87,7 @@
 
   async function fallback(){
     try{
-      const r = await fetch(API + "/api/packets?t=" + Date.now(), {cache:"no-store"});
+      const r = await fetch(API + "/api/live/packets?t=" + Date.now(), {cache:"no-store"});
       const d = await r.json();
       if(d.packets && d.packets.length){
         localStorage.setItem("SOC_PACKET_STREAM_LAST", JSON.stringify(d.packets));

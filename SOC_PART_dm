@@ -1,0 +1,420 @@
+))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./INSTALL_PACKET_DASHBOARD_SERVICE.sh:            self.wfile.write(json.dumps(data).encode())
+./soc_diagnostic_report.txt:./INSTALL_PACKET_DASHBOARD_SERVICE.sh:        self.wfile.write(b'''<!doctype html>
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:def write(path, obj):
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "panel_live_state.json", state)
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(DATA / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "correlation.json", list(corr))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "ssh_auth_activity.json", list(ssh))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "successful_logins.json", list(success))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./packet_capture_dashboard.py:            self.wfile.write(json.dumps(data).encode())
+./soc_diagnostic_report.txt:./packet_capture_dashboard.py:        self.wfile.write('''<!doctype html>
+./soc_diagnostic_report.txt:./soc_live_pdf_bridge.py:            f.write(json.dumps(e) + "\n")
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"baseline_compari
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:def write(path,obj):
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./soc_mini_siem.py:        f.write(html)
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:def atomic_write(path, obj):
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(PACKETS, list(CACHE["packets"]))
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(ALERTS, list(CACHE["alerts"]))
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(CORR, list(CACHE["corr"]))
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(PRIV, list(CACHE["priv"]))
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(SSH, list(CACHE["ssh"]))
+./soc_diagnostic_report.txt:./FIX_LIVE_PANELS_STABLE_DATA.sh:    atomic_write(SUCCESS, list(CACHE["success"]))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:def write(path,obj):
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:def write(path,obj):
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(STATE,state)
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(PACKETS,list(packets))
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(CORR,list(corr))
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(SSH,list(ssh))
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(SUCCESS,list(success))
+./soc_diagnostic_report.txt:./soc_nexus_live_state_writer.py:    write(ALERTS,list(alerts))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_fixed.py:        f.write(html)
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:def write(path,obj):
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(STATE,state)
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(PACKETS,list(packets))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(CORR,list(corr))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(SSH,list(ssh))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(SUCCESS,list(success))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_LIVE_PANELS.sh:    write(ALERTS,list(alerts))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:def write(path,obj):
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:def write(p,o):
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./src/soc_tool/attack_engine.py:        f.write(f"[{ts_str}] [RUN-{get_run():03d}] {msg}\n")
+./soc_diagnostic_report.txt:./src/soc_tool/attack_engine.py:        f.write(f"[{ts_str}] {msg}\n")
+./soc_diagnostic_report.txt:./src/soc_tool/attack_engine.py:        f.write(f"Stage 1 — Recon | Run #{run:03d} | {ts_str}\n"
+./soc_diagnostic_report.txt:./src/soc_tool/attack_engine.py:            f.write(f"[{phase.upper()}]\n{data}\n{'─'*40}\n\n")
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_fixed.py.bak:        f.write(html)
+./soc_diagnostic_report.txt:./ENTERPRISE_PACKET_STREAM_FINAL.sh:            self.wfile.write(json.dumps({
+./soc_diagnostic_report.txt:./ENTERPRISE_PACKET_STREAM_FINAL.sh:                        self.wfile.write(f"data: {data}\n\n".encode())
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:def write(path,obj):
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:def atomic_write(path, obj):
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(PACKETS, list(CACHE["packets"]))
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(ALERTS, list(CACHE["alerts"]))
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(CORR, list(CACHE["corr"]))
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(PRIV, list(CACHE["priv"]))
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(SSH, list(CACHE["ssh"]))
+./soc_diagnostic_report.txt:./soc_live_panels_stable_writer.py:    atomic_write(SUCCESS, list(CACHE["success"]))
+./soc_diagnostic_report.txt:./packet_stream_server.py:            self.wfile.write(json.dumps({
+./soc_diagnostic_report.txt:./packet_stream_server.py:                        self.wfile.write(f"data: {data}\n\n".encode())
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_at:./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "panel_live_state.json", state)
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(DATA / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "correlation.json", list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "ssh_auth_activity.json", list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "successful_logins.json", list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "panel_live_state.json", state)
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(DATA / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "correlation.json", list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "ssh_auth_activity.json", list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "successful_logins.json", list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_ab:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./report_part_ab:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "panel_live_state.json", state)
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(DATA / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "correlation.json", list(corr))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "ssh_auth_activity.json", list(ssh))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "successful_logins.json", list(success))
+./soc_diagnostic_report.txt:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_as:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:def write(path,obj):
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:def write(p,o):
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./src/soc_tool/attack_engine.py:        f.write(f"[{ts_str}] [RUN-{get_run():03d}] {msg}\n")
+./src/soc_tool/attack_engine.py:        f.write(f"[{ts_str}] {msg}\n")
+./src/soc_tool/attack_engine.py:        f.write(f"Stage 1 — Recon | Run #{run:03d} | {ts_str}\n"
+./src/soc_tool/attack_engine.py:            f.write(f"[{phase.upper()}]\n{data}\n{'─'*40}\n\n")
+./soc_ai_full_pipeline_fixed.py.bak:        f.write(html)
+./ENTERPRISE_PACKET_STREAM_FINAL.sh:            self.wfile.write(json.dumps({
+./ENTERPRISE_PACKET_STREAM_FINAL.sh:                        self.wfile.write(f"data: {data}\n\n".encode())
+./soc_nexus_truth_writer.py:def write(path,obj):
+./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_nexus_truth_

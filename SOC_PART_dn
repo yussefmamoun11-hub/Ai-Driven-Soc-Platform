@@ -1,0 +1,338 @@
+writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"baseline_comparison.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_live_panels_stable_writer.py:def atomic_write(path, obj):
+./soc_live_panels_stable_writer.py:    atomic_write(PACKETS, list(CACHE["packets"]))
+./soc_live_panels_stable_writer.py:    atomic_write(ALERTS, list(CACHE["alerts"]))
+./soc_live_panels_stable_writer.py:    atomic_write(CORR, list(CACHE["corr"]))
+./soc_live_panels_stable_writer.py:    atomic_write(PRIV, list(CACHE["priv"]))
+./soc_live_panels_stable_writer.py:    atomic_write(SSH, list(CACHE["ssh"]))
+./soc_live_panels_stable_writer.py:    atomic_write(SUCCESS, list(CACHE["success"]))
+./packet_stream_server.py:            self.wfile.write(json.dumps({
+./packet_stream_server.py:                        self.wfile.write(f"data: {data}\n\n".encode())
+
+================ OUTPUT DIRECTORIES ================
+./data
+./logs
+./incidents/INC-001/logs
+./.git/logs
+./venv/lib/python3.12/site-packages/websocket/tests/data
+./venv/lib/python3.12/site-packages/werkzeug/datastructures
+./venv/lib/python3.12/site-packages/pip/_vendor/chardet/metadata
+./venv/lib/python3.12/site-packages/pip/_internal/metadata
+./venv/lib/python3.12/site-packages/fontTools/unicodedata
+./venv/lib/python3.12/site-packages/fpdf/data
+./backups/real_data_fix_20260609_231627
+./backups/live_panel_fix_20260609_225008
+./backups/final_live_panels_20260609_223750
+./backups/live_panel_fix_20260609_214930
+./backups/live_panel_fix_20260609_215318
+./siem_logs
+./outputs
+
+================ RECENTLY MODIFIED FILES ================
+2026-06-14 02:01:15.6462051860 ./FULL_SOC_DIAGNOSTIC_REPORT.txt
+2026-06-14 01:59:45.6558449120 ./soc_diagnostic_report.txt
+2026-06-14 01:59:10.6047045910 ./report_part_at
+2026-06-14 01:59:10.6047045910 ./report_part_as
+2026-06-14 01:59:10.6047045910 ./report_part_ar
+2026-06-14 01:59:10.6047045910 ./report_part_aq
+2026-06-14 01:59:10.6047045910 ./report_part_ap
+2026-06-14 01:59:10.6037045860 ./report_part_ao
+2026-06-14 01:59:10.6037045860 ./report_part_an
+2026-06-14 01:59:10.6037045860 ./report_part_am
+2026-06-14 01:59:10.6037045860 ./report_part_al
+2026-06-14 01:59:10.6037045860 ./report_part_ak
+2026-06-14 01:59:10.6037045860 ./report_part_aj
+2026-06-14 01:59:10.6037045860 ./report_part_ai
+2026-06-14 01:59:10.6037045860 ./report_part_ah
+2026-06-14 01:59:10.6037045860 ./report_part_ag
+2026-06-14 01:59:10.6037045860 ./report_part_af
+2026-06-14 01:59:10.6027045820 ./report_part_ae
+2026-06-14 01:59:10.6027045820 ./report_part_ad
+2026-06-14 01:59:10.6027045820 ./report_part_ac
+2026-06-14 01:59:10.6027045820 ./report_part_ab
+2026-06-14 01:59:10.6027045820 ./report_part_aa
+2026-06-14 01:56:30.7960647990 ./runtime/unified_8080_live.log
+2026-06-14 01:56:30.7950647950 ./real_siem_db.json
+2026-06-14 01:56:13.5729958470 ./.git/index
+2026-06-14 01:52:21.8291948930 ./index.html
+2026-06-14 01:52:21.8261514380 ./frontend/index.html
+2026-06-10 01:05:07.1240138300 ./final_attack_snapshot/network_packets.json
+2026-06-10 01:05:07.1226321730 ./outputs/network_packets.json
+2026-06-10 01:05:07.1219978230 ./data/network_packets.json
+2026-06-10 01:05:04.9290023580 ./final_attack_snapshot/threat_intel.json
+2026-06-10 01:05:04.9286759560 ./final_attack_snapshot/system_status.json
+2026-06-10 01:05:04.9283561560 ./final_attack_snapshot/system_health.json
+2026-06-10 01:05:04.9279714540 ./final_attack_snapshot/successful_logins.json
+2026-06-10 01:05:04.9275639520 ./final_attack_snapshot/ssh_auth_activity.json
+2026-06-10 01:05:04.9272343510 ./final_attack_snapshot/sensitive_access_alerts.json
+2026-06-10 01:05:04.9268289500 ./final_attack_snapshot/privilege_activity.json
+2026-06-10 01:05:04.9264826480 ./final_attack_snapshot/panel_search_first.json
+2026-06-10 01:05:04.9258715460 ./final_attack_snapshot/panel_live_state.json
+2026-06-10 01:05:04.9255025450 ./final_attack_snapshot/panel_full_login.json
+2026-06-10 01:05:04.9250220430 ./final_attack_snapshot/panel_deep_extraction.json
+2026-06-10 01:05:04.9246983420 ./final_attack_snapshot/panel_correlation.json
+2026-06-10 01:05:04.9243741410 ./final_attack_snapshot/packets_search_first_activity.json
+2026-06-10 01:05:04.9239346390 ./final_attack_snapshot/packets_full_login.json
+2026-06-10 01:05:04.9235994380 ./final_attack_snapshot/packets_deep_extraction.json
+2026-06-10 01:05:04.9226247680 ./final_attack_snapshot/normalized_events.json
+2026-06-10 01:05:04.9222272330 ./final_attack_snapshot/live_attack_status.json
+2026-06-10 01:05:04.9218130310 ./final_attack_snapshot/firewall_actions.json
+2026-06-10 01:05:04.9212360290 ./final_attack_snapshot/detection_results.json
+2026-06-10 01:05:04.9212360290 ./final_attack_snapshot/correlation.json
+2026-06-10 01:05:04.9208476280 ./final_attack_snapshot/containment_status.json
+2026-06-10 01:05:04.9204911270 ./final_attack_snapshot/alerts.json
+2026-06-10 01:05:04.9200059250 ./final_attack_snapshot/ai_analysis.json
+2026-06-10 01:05:04.9119322960 ./final_attack_snapshot/timeline.json
+2026-06-10 01:05:04.9104103900 ./final_attack_snapshot/structured_events.json
+2026-06-10 01:05:04.9099090890 ./final_attack_snapshot/rule_status.json
+2026-06-10 01:05:04.9095596880 ./final_attack_snapshot/overview.json
+2026-06-10 01:05:04.9087985850 ./final_attack_snapshot/metrics.json
+2026-06-10 01:05:04.9084205830 ./final_attack_snapshot/incident_status.json
+2026-06-10 01:05:04.9079987820 ./final_attack_snapshot/evidence_status.json
+2026-06-10 01:05:04.9067087780 ./final_attack_snapshot/baseline_comparison.json
+2026-06-10 01:05:04.9060255750 ./final_attack_snapshot/auth_events.json
+2026-06-10 01:05:04.8975508450 ./outputs/alerts.json
+2026-06-10 01:05:04.8907196200 ./outputs/ai_analysis.json
+2026-06-10 01:05:04.8836246360 ./outputs/privilege_activity.json
+2026-06-10 01:05:04.8776246160 ./outputs/correlation.json
+2026-06-10 01:05:04.8716245960 ./data/evidence_status.json
+2026-06-10 01:05:04.8666245790 ./data/containment_status.json
+2026-06-10 01:05:04.8586245520 ./data/baseline_comparison.json
+2026-06-10 01:05:04.8526245320 ./data/ai_analysis.json
+2026-06-10 01:05:04.8476245150 ./data/threat_intel.json
+2026-06-10 01:05:04.8416244950 ./data/incident_status.json
+2026-06-10 01:05:04.8366244780 ./data/metrics.json
+2026-06-10 00:57:01.2949688770 ./data/rule_status.json
+2026-06-10 00:57:01.2947096510 ./data/system_status.json
+2026-06-10 00:57:01.2907116360 ./data/timeline.json
+2026-06-10 00:57:01.2848544150 ./data/alerts.json
+2026-06-10 00:57:01.2839688390 ./data/correlation.json
+2026-06-10 00:57:01.2833904090 ./data/auth_events.json
+2026-06-10 00:57:01.2787933930 ./data/structured_events.json
+2026-06-10 00:57:01.2678213530 ./outputs/successful_logins.json
+2026-06-10 00:57:01.2649687740 ./outputs/ssh_auth_activity.json
+2026-06-10 00:57:01.2599687570 ./outputs/panel_live_state.json
+2026-06-10 00:11:27.4199085220 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/RECORD
+2026-06-10 00:11:27.4176527520 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/REQUESTED
+2026-06-10 00:11:27.4170010120 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/INSTALLER
+2026-06-10 00:11:27.4164970100 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/util.cpython-312.pyc
+2026-06-10 00:11:27.4116212920 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/unicode_script.cpython-312.pyc
+2026-06-10 00:11:27.4051688680 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/transitions.cpython-312.pyc
+2026-06-10 00:11:27.4034931620 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/text_region.cpython-312.pyc
+2026-06-10 00:11:27.3983145430 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/template.cpython-312.pyc
+2026-06-10 00:11:27.3928892230 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/table.cpython-312.pyc
+2026-06-10 00:11:27.3871967020 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/syntax.cpython-312.pyc
+2026-06-10 00:11:27.3833825880 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/svg.cpython-312.pyc
+2026-06-10 00:11:27.3712840430 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/structure_tree.cpython-312.pyc
+2026-06-10 00:11:27.3697559380 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/sign.cpython-312.pyc
+2026-06-10 00:11:27.3685277330 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/recorder.cpython-312.pyc
+2026-06-10 00:11:27.3674016290 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/prefs.cpython-312.pyc
+2026-06-10 00:11:27.3652618210 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/pattern.cpython-312.pyc
+2026-06-10 00:11:27.3525170740 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/output.cpython-312.pyc
+2026-06-10 00:11:27.3346017080 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/outline.cpython-312.pyc
+2026-06-10 00:11:27.3325104010 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/linearization.cpython-312.pyc
+2026-06-10 00:11:27.3298735900 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/line_break.cpython-312.pyc
+2026-06-10 00:11:27.3232745660 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/image_parsing.cpython-312.pyc
+2026-06-10 00:11:27.3180086470 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/image_datastructures.cpython-312.pyc
+2026-06-10 00:11:27.3165194420 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/html.cpython-312.pyc
+2026-06-10 00:11:27.3083359110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/graphics_state.cpython-312.pyc
+2026-06-10 00:11:27.3053397010 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/fpdf.cpython-312.pyc
+2026-06-10 00:11:27.2605284350 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/fonts.cpython-312.pyc
+2026-06-10 00:11:27.2457781810 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/font_type_3.cpython-312.pyc
+2026-06-10 00:11:27.2359255440 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/errors.cpython-312.pyc
+2026-06-10 00:11:27.2348681410 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/enums.cpython-312.pyc
+2026-06-10 00:11:27.2267195110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/encryption.cpython-312.pyc
+2026-06-10 00:11:27.2195565840 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/drawing_primitives.cpython-312.pyc
+2026-06-10 00:11:27.2142900650 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/drawing.cpython-312.pyc
+2026-06-10 00:11:27.1828638490 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/deprecation.cpython-312.pyc
+2026-06-10 00:11:27.1811713430 ./venv/lib/python3.12/site-packages/fpdf/data/color_profiles/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1803397400 ./venv/lib/python3.12/site-packages/fpdf/data/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1793855360 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/bidi.cpython-312.pyc
+2026-06-10 00:11:27.1724647110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/annotations.cpython-312.pyc
+2026-06-10 00:11:27.1704172030 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/actions.cpython-312.pyc
+2026-06-10 00:11:27.1688324980 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1675491930 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/top_level.txt
+2026-06-10 00:11:27.1672106910 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/entry_points.txt
+2026-06-10 00:11:27.1667800900 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/WHEEL
+2026-06-10 00:11:27.1662990880 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/METADATA
+2026-06-10 00:11:27.1656886860 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/licenses/LICENSE
+2026-06-10 00:11:27.1652248840 ./venv/lib/python3.12/site-packages/fpdf/data/color_profiles/sRGB2014.icc.LICENSE
+2026-06-10 00:11:27.1647452820 ./venv/lib/python3.12/site-packages/fpdf/data/color_profiles/sRGB2014.icc
+2026-06-10 00:11:27.1640046800 ./venv/lib/python3.12/site-packages/fpdf/data/color_profiles/__init__.py
+2026-06-10 00:11:27.1634381780 ./venv/lib/python3.12/site-packages/fpdf/util.py
+2026-06-10 00:11:27.1634381780 ./venv/lib/python3.12/site-packages/fpdf/data/__init__.py
+2026-06-10 00:11:27.1628573750 ./venv/lib/python3.12/site-packages/fpdf/unicode_script.py
+2026-06-10 00:11:27.1623871740 ./venv/lib/python3.12/site-packages/fpdf/transitions.py
+2026-06-10 00:11:27.1618888720 ./venv/lib/python3.12/site-packages/fpdf/text_region.py
+2026-06-10 00:11:27.1614365700 ./venv/lib/python3.12/site-packages/fpdf/template.py
+2026-06-10 00:11:27.1608879680 ./venv/lib/python3.12/site-packages/fpdf/table.py
+2026-06-10 00:11:27.1599345650 ./venv/lib/python3.12/site-packages/fpdf/syntax.py
+2026-06-10 00:11:27.1594236630 ./venv/lib/python3.12/site-packages/fpdf/svg.py
+2026-06-10 00:11:27.1588146600 ./venv/lib/python3.12/site-packages/fpdf/structure_tree.py
+2026-06-10 00:11:27.1584480590 ./venv/lib/python3.12/site-packages/fpdf/sign.py
+2026-06-10 00:11:27.1579892570 ./venv/lib/python3.12/site-packages/fpdf/recorder.py
+2026-06-10 00:11:27.1576184560 ./venv/lib/python3.12/site-packages/fpdf/py.typed
+2026-06-10 00:11:27.1572503550 ./venv/lib/python3.12/site-packages/fpdf/prefs.py
+2026-06-10 00:11:27.1567548530 ./venv/lib/python3.12/site-packages/fpdf/pattern.py
+2026-06-10 00:11:27.1560076500 ./venv/lib/python3.12/site-packages/fpdf/output.py
+2026-06-10 00:11:27.1554507480 ./venv/lib/python3.12/site-packages/fpdf/outline.py
+2026-06-10 00:11:27.1549863460 ./venv/lib/python3.12/site-packages/fpdf/linearization.py
+2026-06-10 00:11:27.1545651450 ./venv/lib/python3.12/site-packages/fpdf/line_break.py
+2026-06-10 00:11:27.1540025420 ./venv/lib/python3.12/site-packages/fpdf/image_parsing.py
+2026-06-10 00:11:27.1535376410 ./venv/lib/python3.12/site-packages/fpdf/image_datastructures.py
+2026-06-10 00:11:27.1529574390 ./venv/lib/python3.12/site-packages/fpdf/html.py
+2026-06-10 00:11:27.1516518300 ./venv/lib/python3.12/site-packages/fpdf/graphics_state.py
+2026-06-10 00:11:27.1506518270 ./venv/lib/python3.12/site-packages/fpdf/fpdf.py
+2026-06-10 00:11:27.1497349270 ./venv/lib/python3.12/site-packages/fpdf/fonts.py
+2026-06-10 00:11:27.1486518200 ./venv/lib/python3.12/site-packages/fpdf/font_type_3.py
+2026-06-10 00:11:27.1486065230 ./venv/lib/python3.12/site-packages/fpdf/errors.py
+2026-06-10 00:11:27.1476518160 ./venv/lib/python3.12/site-packages/fpdf/enums.py
+2026-06-10 00:11:27.1475535190 ./venv/lib/python3.12/site-packages/fpdf/encryption.py
+2026-06-10 00:11:27.1469143170 ./venv/lib/python3.12/site-packages/fpdf/drawing_primitives.py
+2026-06-10 00:11:27.1458561120 ./venv/lib/python3.12/site-packages/fpdf/drawing.py
+2026-06-10 00:11:27.1446518060 ./venv/lib/python3.12/site-packages/fpdf/deprecation.py
+2026-06-10 00:11:27.1446007080 ./venv/lib/python3.12/site-packages/fpdf/bidi.py
+2026-06-10 00:11:27.1439392050 ./venv/lib/python3.12/site-packages/fpdf/annotations.py
+2026-06-10 00:11:27.1435306040 ./venv/lib/python3.12/site-packages/fpdf/actions.py
+2026-06-10 00:11:27.1426517990 ./venv/lib/python3.12/site-packages/fpdf/__init__.py
+2026-06-10 00:11:27.1339305690 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/RECORD
+2026-06-10 00:11:27.1298976540 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/INSTALLER
+2026-06-10 00:11:27.1294904530 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/xmlrpc.cpython-312.pyc
+2026-06-10 00:11:27.1275796450 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/sax.cpython-312.pyc
+2026-06-10 00:11:27.1267212420 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/pulldom.cpython-312.pyc
+2026-06-10 00:11:27.1259699390 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/minidom.cpython-312.pyc
+2026-06-10 00:11:27.1252210370 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/lxml.cpython-312.pyc
+2026-06-10 00:11:27.1236983310 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/expatreader.cpython-312.pyc
+2026-06-10 00:11:27.1226241270 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/expatbuilder.cpython-312.pyc
+2026-06-10 00:11:27.1211708210 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/common.cpython-312.pyc
+2026-06-10 00:11:27.1198166160 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/cElementTree.cpython-312.pyc
+2026-06-10 00:11:27.1186517160 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1183698120 ./venv/lib/python3.12/site-packages/defusedxml/__pycache__/ElementTree.cpython-312.pyc
+2026-06-10 00:11:27.1163475040 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/top_level.txt
+2026-06-10 00:11:27.1159164020 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/WHEEL
+2026-06-10 00:11:27.1146517020 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/METADATA
+2026-06-10 00:11:27.1145839980 ./venv/lib/python3.12/site-packages/defusedxml-0.7.1.dist-info/LICENSE
+2026-06-10 00:11:27.1138031950 ./venv/lib/python3.12/site-packages/defusedxml/xmlrpc.py
+2026-06-10 00:11:27.1133490930 ./venv/lib/python3.12/site-packages/defusedxml/sax.py
+2026-06-10 00:11:27.1128125910 ./venv/lib/python3.12/site-packages/defusedxml/pulldom.py
+2026-06-10 00:11:27.1121851890 ./venv/lib/python3.12/site-packages/defusedxml/minidom.py
+2026-06-10 00:11:27.1117236870 ./venv/lib/python3.12/site-packages/defusedxml/lxml.py
+2026-06-10 00:11:27.1113667860 ./venv/lib/python3.12/site-packages/defusedxml/expatreader.py
+2026-06-10 00:11:27.1109221840 ./venv/lib/python3.12/site-packages/defusedxml/expatbuilder.py
+2026-06-10 00:11:27.1105456830 ./venv/lib/python3.12/site-packages/defusedxml/common.py
+2026-06-10 00:11:27.1101772810 ./venv/lib/python3.12/site-packages/defusedxml/cElementTree.py
+2026-06-10 00:11:27.1097006790 ./venv/lib/python3.12/site-packages/defusedxml/__init__.py
+2026-06-10 00:11:27.1092948780 ./venv/lib/python3.12/site-packages/defusedxml/ElementTree.py
+2026-06-10 00:11:27.0406514460 ./venv/lib/python3.12/site-packages/fonttools-4.63.0.dist-info/RECORD
+2026-06-10 00:11:27.0347382030 ./venv/lib/python3.12/site-packages/fonttools-4.63.0.dist-info/INSTALLER
+2026-06-10 00:11:27.0343732020 ./venv/bin/ttx
+2026-06-10 00:11:27.0337761000 ./venv/bin/pyftsubset
+2026-06-10 00:11:27.0333930980 ./venv/bin/pyftmerge
+2026-06-10 00:11:27.0329867970 ./venv/bin/fonttools
+
+================ BACKUPS ================
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230817
+/home/youssef-amr/soc_project_current_bad/backup_restore_test
+/home/youssef-amr/soc_project_current_bad/final_attack_snapshot
+/home/youssef-amr/soc_project_current_bad/backups
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008/soc_project/final_attack_snapshot
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008/soc_project/backups
+/home/youssef-amr/soc_project_current_bad/backups_fix
+/home/youssef-amr/soc_project_BACKUP_SAFE_PACKET_20260510_010417
+/home/youssef-amr/soc_project_BACKUP_SAFE_PACKET_20260510_010417/final_attack_snapshot
+/home/youssef-amr/soc_project_backup_20260609_232154
+/home/youssef-amr/soc_project_backup_20260609_232154/final_attack_snapshot
+/home/youssef-amr/soc_project_backup_20260609_232154/backups
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230905
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230905/final_attack_snapshot
+/home/youssef-amr/soc_project/final_attack_snapshot
+/home/youssef-amr/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_STICKY_20260509_235617
+/home/youssef-amr/soc_project_BACKUP_STICKY_20260509_235617/final_attack_snapshot
+/home/youssef-amr/snap/firefox/common/.mozilla/firefox/h814qt9o.default/sessionstore-backups
+/home/youssef-amr/snap/firefox/common/.mozilla/firefox/h814qt9o.default/bookmarkbackups
+/home/youssef-amr/soc_project_BACKUP_STICKY_V2_20260509_235735
+/home/youssef-amr/soc_project_BACKUP_STICKY_V2_20260509_235735/final_attack_snapshot
+/home/youssef-amr/Evidence/INC-000/qa_review/backup
+/home/youssef-amr/Evidence/INC-000/qa_review/backup/backup
+/home/youssef-amr/Evidence_backup
+/home/youssef-amr/soc_copy/final_attack_snapshot
+/home/youssef-amr/SOC_FINAL_BACKUP
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/SOC_MONITOR_FINAL_DEMO_READY_20260426_002137/outputs_backup_test_20260414_165728
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/SOC_MONITOR_FINAL_DEMO_READY_20260426_002137/backups
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/soc_project/outputs_backup_test_20260414_165728
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_20260609_0251
+/home/youssef-amr/soc_project_BACKUP_20260609_0251/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_PACKET_FINAL_20260510_001712
+/home/youssef-amr/soc_project_BACKUP_PACKET_FINAL_20260510_001712/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_PACKET_ENTERPRISE_20260510_010932
+/home/youssef-amr/soc_project_BACKUP_PACKET_ENTERPRISE_20260510_010932/final_attack_snapshot
+/home/youssef-amr/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots
+/home/youssef-amr/soc_project_BACKUP_PACKET_STREAM_20260510_011508
+/home/youssef-amr/soc_project_BACKUP_PACKET_STREAM_20260510_011508/final_attack_snapshot
+/home/youssef-amr/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/TorBrowser/Data/Browser/profile.default/bookmarkbackups
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008/soc_project/final_attack_snapshot
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260509_234144
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260509_234144/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715/backups
+
+================ DOCKER ================
+CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS                     PORTS                                                                                                NAMES
+05ebe25e73f0   neo4j:5   "tini -g -- /startup…"   3 months ago   Exited (255) 7 weeks ago   0.0.0.0:7474->7474/tcp, [::]:7474->7474/tcp, 7473/tcp, 0.0.0.0:7687->7687/tcp, [::]:7687->7687/tcp   neo4j
+IMAGE     ID             DISK USAGE   CONTENT SIZE   EXTRA
+neo4j:5   5cce41f4e2a2        555MB             0B   U    
+
+================ PYTHON ENV ================
+/home/youssef-amr/soc_project/venv/bin/python
+Python 3.12.3
+Package            Version
+------------------ ---------
+bidict             0.23.1
+blinker            1.9.0
+certifi            2026.5.20
+charset-normalizer 3.4.7
+click              8.4.1
+defusedxml         0.7.1
+dnspython          2.8.0
+eventlet           0.41.0
+Flask              3.1.3
+Flask-SocketIO     5.6.1
+fonttools          4.63.0
+fpdf2              2.8.7
+greenlet           3.5.1
+h11                0.16.0
+idna               3.18
+itsdangerous       2.2.0
+Jinja2             3.1.6
+MarkupSafe         3.0.3
+pillow             12.2.0
+pip                24.0
+python-engineio    4.13.2
+python-socketio    5.16.2
+reportlab          4.5.1
+requests           2.34.2
+simple-websocket   1.1.0
+urllib3            2.7.0
+watchdog           6.0.0
+websocket-client   1.9.0
+Werkzeug           3.1.8
+wsproto            1.3.2

@@ -1,0 +1,315 @@
+sh:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./FIX_SOC_NEXUS_REAL_DATA_FINAL.sh:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./backups/final_no_flicker_20260609_221825/soc_nexus_live_state_writer.py.bak:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"correlation.json",list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./FINAL_STOP_FLICKER_DISTRIBUTE_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"successful_logins.json",list(successful))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"correlation.json",list(correlation))
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_STABLE_DISTRIBUTED_PANELS.sh:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"panel_live_state.json",state)
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"ssh_auth_activity.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"successful_logins.json",list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"alerts.json",list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(OUT/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"network_packets.json",list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"structured_events.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"auth_events.json",list(ssh_auth))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"correlation.json",list(events))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"incident_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"ai_analysis.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"metrics.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"baseline_comparison.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_diagnostic_report.txt:./report_part_aa:./script.js:    const alerts = await safeFetch("/outputs/alerts.json");
+./soc_diagnostic_report.txt:./report_part_aa:./script.js:    const ai = await safeFetch("/outputs/ai_analysis.json");
+./soc_diagnostic_report.txt:./report_part_aa:./script.js:    const corr = await safeFetch("/outputs/correlation.json");
+./soc_diagnostic_report.txt:./report_part_aa:./script.js:    const priv = await safeFetch("/outputs/privilege_activity.json");
+./soc_diagnostic_report.txt:./report_part_aa:./soc_enterprise_siem.py:DB_FILE = "enterprise_siem.json"
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/metrics.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/incident_status.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/threat_intel.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/ai_analysis.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/baseline_comparison.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/containment_status.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > data/evidence_status.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > outputs/correlation.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cat > outputs/privilege_activity.json <<JSON
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  cp data/ai_analysis.json outputs/ai_analysis.json
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  [ -f data/alerts.json ] && cp data/alerts.json outputs/alerts.json
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:    cp data/*.json final_attack_snapshot/ 2>/dev/null || true
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:    cp outputs/*.json final_attack_snapshot/ 2>/dev/null || true
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  metrics: "data/metrics.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  incident: "data/incident_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  threat: "data/threat_intel.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  ai: "data/ai_analysis.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  containment: "data/containment_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  evidence: "data/evidence_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  baseline: "data/baseline_comparison.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  alerts: "data/alerts.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  correlation: "outputs/correlation.json",
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:  privilege: "outputs/privilege_activity.json"
+./soc_diagnostic_report.txt:./report_part_aa:./SOC_FINAL_ONE_SCRIPT.sh:    const d = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_dom_v2.js:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_dom_v2.js:        const d = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/sticky_final_state.js:    if (!String(url).includes(".json")) return res;
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/sticky_final_state.js:      const data = await res.clone().json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  metrics: "data/metrics.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  incident: "data/incident_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  threat: "data/threat_intel.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  ai: "data/ai_analysis.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  containment: "data/containment_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  evidence: "data/evidence_status.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  baseline: "data/baseline_comparison.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  alerts: "data/alerts.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  correlation: "outputs/correlation.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:  privilege: "outputs/privilege_activity.json"
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/live_all_panels_controller.js:    const d = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_override.js:      "data/network_packets.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_override.js:      "outputs/network_packets.json",
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_override.js:      "final_attack_snapshot/network_packets.json"
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/force_packet_capture_override.js:        const data = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  packets:   `${BASE_URL}/data/network_packets.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  overview:  `${BASE_URL}/data/overview.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  events:    `${BASE_URL}/data/structured_events.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  alert:     `${BASE_URL}/data/alerts.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  incident:  `${BASE_URL}/data/incident_status.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  ai:        `${BASE_URL}/data/ai_analysis.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  metrics:   `${BASE_URL}/data/metrics.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  threat:    `${BASE_URL}/data/threat_intel.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  contain:   `${BASE_URL}/data/containment_status.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  timeline:  `${BASE_URL}/data/timeline.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  evidence:  `${BASE_URL}/data/evidence_status.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  sources:   `${BASE_URL}/data/system_status.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  rules:     `${BASE_URL}/data/rule_status.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:  baseline:  `${BASE_URL}/data/baseline_comparison.json`,
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:async function load(url){ const r = await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(url); return r.json(); }
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    low:       _BASE + '/data/low_activity_events.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    medium:    _BASE + '/data/medium_activity_events.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    auth:      _BASE + '/data/auth_events.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    corr:      _BASE + '/data/correlation.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    priv:      _BASE + '/data/privilege_activity.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    sensitive: _BASE + '/outputs/sensitive_access_alerts.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    runtime:   _BASE + '/data/runtime_info.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    sysstat:   _BASE + '/data/system_status.json',
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      .then(function (r) { return r.ok ? r.json() : null; })
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Low Activity</div><div class="day5-value day5-ok" id="d5-low">Waiting</div><div class="day5-src">low_activity_events.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Medium Activity</div><div class="day5-value day5-warn" id="d5-medium">Waiting</div><div class="day5-src">medium_activity_events.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Post-Login</div><div class="day5-value" id="d5-post">Waiting</div><div class="day5-src">post_login_activity.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">System Discovery</div><div class="day5-value" id="d5-system">Waiting</div><div class="day5-src">system_discovery.json · T1082</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">User Discovery</div><div class="day5-value" id="d5-user">Waiting</div><div class="day5-src">user_discovery.json · T1033</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Sensitive Files</div><div class="day5-value day5-warn" id="d5-sensitive">Waiting</div><div class="day5-src">sensitive_access_alerts.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Privilege Abuse</div><div class="day5-value day5-warn" id="d5-privilege">Waiting</div><div class="day5-src">privilege_activity.json · T1548</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Panel Freshness</div><div class="day5-value day5-ai" id="d5-freshness">Waiting</div><div class="day5-src">panel_health.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Fallback State</div><div class="day5-value" id="d5-fallback">Waiting</div><div class="day5-src">fallback_state.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:      <div class="day5-card"><div class="day5-label">Closure</div><div class="day5-value day5-ok" id="d5-closure">Waiting</div><div class="day5-src">closure_status.json</div></div>
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:        if (res.ok) return await res.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const low = await loadAny('low_activity_events.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const med = await loadAny('medium_activity_events.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const post = await loadAny('post_login_activity.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const sys = await loadAny('system_discovery.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const usr = await loadAny('user_discovery.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const sens = await loadAny('sensitive_access_alerts.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const priv = await loadAny('privilege_activity.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const health = await loadAny('panel_health.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const fallback = await loadAny('fallback_state.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/index.html:    const closure = await loadAny('closure_status.json');
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/packet_capture_fix.js:      return await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/packet_capture_fix.js:      await getJSON("data/network_packets.json") ||
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/packet_capture_fix.js:      await getJSON("outputs/network_packets.json") ||
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/soc_packet_enterprise_fix.js:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/soc_packet_enterprise_fix.js:        const d = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./frontend/packet_stream_dashboard_patch.js:      const d = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./force_packet_capture_dom_v2.js:      const r = await fetch("/outputs/panel_live_state.json?t="+Date.now(), {cache:"no-store"});
+./soc_diagnostic_report.txt:./report_part_aa:./force_packet_capture_dom_v2.js:      const s = await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./sticky_final_state.js:    if (!String(url).includes(".json")) return res;
+./soc_diagnostic_report.txt:./report_part_aa:./sticky_final_state.js:      const data = await res.clone().json();
+./soc_diagnostic_report.txt:./report_part_aa:./INSTALL_PACKET_DASHBOARD_SERVICE.sh:    const d=await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_controller.js:    let r=await fetch("/outputs/panel_live_state.json?x="+Date.now(),{cache:"no-store"});
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_controller.js:    if(!r.ok) r=await fetch("/data/panel_live_state.json?x="+Date.now(),{cache:"no-store"});
+./soc_diagnostic_report.txt:./report_part_aa:./soc_nexus_truth_controller.js:    return await r.json();
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "panel_live_state.json", state)
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(DATA / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "network_packets.json", list(packets))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "correlation.json", list(corr))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "ssh_auth_activity.json", list(ssh))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "successful_logins.json", list(success))
+./soc_diagnostic_report.txt:./report_part_aa:./soc_ai_full_pipeline_live.py:    write(OUTPUTS / "alerts.json", list(alerts))
+./soc_diagnostic_report.txt:./report_part_aa:./live_all_panels_controller.js:  metrics: "data/metrics.json",
+./soc_diagnostic_report.txt:./report_part_aa:./live_all_panels_controller.js:  incident: "data/incident_status.json",
+./soc_diagnostic_report.txt:./force_packet_capture_dom_v2.js:      const r = await fetch("/outputs/panel_live_state.json?t="+Date.now(), {cache:"no-store"});
+./soc_diagnostic_report.txt:./force_packet_capture_dom_v2.js:      const s = await r.json();
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr/soc_project/outputs/network_packets.json'
+./soc_diagnostic_report.txt:./report_part_ac:./runtime/full_pipeline_live.log:[LIVE PIPELINE ERROR] [Errno 13] Permission denied: '/home/youssef-amr

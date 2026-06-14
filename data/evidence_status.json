@@ -1,13 +1,26 @@
-{
-  "status": "PRESERVED",
-  "persistent": true,
-  "last_updated": "2026-06-09T23:23:19",
-  "owner": "Haneen",
-  "auth_logs": "SAVED",
-  "network_events": "SAVED",
-  "network_analysis": "SAVED",
-  "failed_logins": "98 attempts saved",
-  "pcap_evidence": "VALIDATED",
-  "evidence_files": 8,
-  "evidence_path": "/root/redteam/evidence/latest"
-}
+[
+  {
+    "name": "Auth Logs",
+    "status": "READY"
+  },
+  {
+    "name": "PCAP Dump",
+    "status": "READY"
+  },
+  {
+    "name": "Metrics",
+    "status": "READY"
+  },
+  {
+    "name": "Timeline",
+    "status": "READY"
+  },
+  {
+    "name": "Threat Intel",
+    "status": "READY"
+  },
+  {
+    "name": "Containment",
+    "status": "PENDING"
+  }
+]

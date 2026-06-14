@@ -63,5 +63,70 @@
     "message": "Successful SSH login for socdemo from 192.168.1.21",
     "description": "Successful SSH login for socdemo from 192.168.1.21",
     "raw": "2026-06-09T23:19:13.084709+03:00 youssef-amr-VMware-Virtual-Platform sshd[338699]: Accepted password for socdemo from 192.168.1.21 port 47546 ssh2"
+  },
+  {
+    "time": "2026-06-09T23:39:23",
+    "timestamp": "2026-06-09T23:39:23",
+    "source": "192.168.1.21",
+    "src_ip": "192.168.1.21",
+    "source_ip": "192.168.1.21",
+    "user": "socdemo",
+    "status": "SUCCESS",
+    "event": "Successful SSH login",
+    "message": "Successful SSH login for socdemo from 192.168.1.21",
+    "description": "Successful SSH login for socdemo from 192.168.1.21",
+    "raw": "2026-06-09T23:39:23.170370+03:00 youssef-amr-VMware-Virtual-Platform sshd[352420]: Accepted password for socdemo from 192.168.1.21 port 53044 ssh2"
+  },
+  {
+    "time": "2026-06-09T23:58:34",
+    "timestamp": "2026-06-09T23:58:34",
+    "source": "192.168.1.21",
+    "src_ip": "192.168.1.21",
+    "source_ip": "192.168.1.21",
+    "user": "socdemo",
+    "status": "SUCCESS",
+    "event": "Successful SSH login",
+    "message": "Successful SSH login for socdemo from 192.168.1.21",
+    "description": "Successful SSH login for socdemo from 192.168.1.21",
+    "raw": "2026-06-09T23:58:34.361175+03:00 youssef-amr-VMware-Virtual-Platform sshd[363314]: Accepted password for socdemo from 192.168.1.21 port 34990 ssh2"
+  },
+  {
+    "time": "2026-06-10T00:03:12",
+    "timestamp": "2026-06-10T00:03:12",
+    "source": "192.168.1.21",
+    "src_ip": "192.168.1.21",
+    "source_ip": "192.168.1.21",
+    "user": "socdemo",
+    "status": "SUCCESS",
+    "event": "Successful SSH login",
+    "message": "Successful SSH login for socdemo from 192.168.1.21",
+    "description": "Successful SSH login for socdemo from 192.168.1.21",
+    "raw": "2026-06-10T00:03:12.353834+03:00 youssef-amr-VMware-Virtual-Platform sshd[371239]: Accepted password for socdemo from 192.168.1.21 port 32962 ssh2"
+  },
+  {
+    "time": "2026-06-10T00:35:12",
+    "timestamp": "2026-06-10T00:35:12",
+    "source": "192.168.1.21",
+    "src_ip": "192.168.1.21",
+    "source_ip": "192.168.1.21",
+    "user": "socdemo",
+    "status": "SUCCESS",
+    "event": "Successful SSH login",
+    "message": "Successful SSH login for socdemo from 192.168.1.21",
+    "description": "Successful SSH login for socdemo from 192.168.1.21",
+    "raw": "2026-06-10T00:35:12.841577+03:00 youssef-amr-VMware-Virtual-Platform sshd[388526]: Accepted password for socdemo from 192.168.1.21 port 42764 ssh2"
+  },
+  {
+    "time": "2026-06-10T00:57:01",
+    "timestamp": "2026-06-10T00:57:01",
+    "source": "192.168.1.21",
+    "src_ip": "192.168.1.21",
+    "source_ip": "192.168.1.21",
+    "user": "socdemo",
+    "status": "SUCCESS",
+    "event": "Successful SSH login",
+    "message": "Successful SSH login for socdemo from 192.168.1.21",
+    "description": "Successful SSH login for socdemo from 192.168.1.21",
+    "raw": "2026-06-10T00:57:01.066522+03:00 youssef-amr-VMware-Virtual-Platform sshd[399511]: Accepted password for socdemo from 192.168.1.21 port 44574 ssh2"
   }
 ]

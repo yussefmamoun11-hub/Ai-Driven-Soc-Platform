@@ -1,12 +1,5 @@
 {
-  "status": "ready",
-  "last_updated": "2026-06-09T23:23:19",
-  "attacker_ip": "192.168.1.21",
   "source_ip": "192.168.1.21",
-  "classification": "MALICIOUS",
-  "reputation": "HIGH RISK",
-  "summary": "Confirmed SSH brute force and multi-stage intrusion activity.",
-  "description": "Live threat intelligence generated automatically from auth logs.",
-  "geo": "Private / Lab Range",
-  "asn": "Local"
+  "reputation": "MALICIOUS",
+  "summary": "Confirmed SSH brute-force activity from live auth.log."
 }

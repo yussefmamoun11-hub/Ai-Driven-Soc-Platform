@@ -42,7 +42,7 @@ def save_state():
     for folder in ["data", "outputs", "final_attack_snapshot"]:
         d = PROJECT / folder
         d.mkdir(exist_ok=True)
-        (d / "network_packets.json").write_text(json.dumps(packets[-50:], indent=2))
+        (d / "network_packets.json").write_text(json.dumps(packets, indent=2))
 
 def monitor_auth():
     global packets, version
@@ -61,7 +61,7 @@ def monitor_auth():
             if pkt:
                 pkt["no"] = len(packets) + 1
                 packets.append(pkt)
-                packets = packets[-50:]
+                packets = packets
                 version += 1
                 save_state()
                 print(f"PACKET LIVE {pkt['src_ip']} {pkt['info']}", flush=True)
@@ -81,7 +81,7 @@ class Handler(BaseHTTPRequestHandler):
             self._headers()
             self.wfile.write(json.dumps({
                 "version": version,
-                "packets": packets[-50:]
+                "packets": packets
             }).encode())
             return
 
@@ -94,7 +94,7 @@ class Handler(BaseHTTPRequestHandler):
                     last = version
                     data = json.dumps({
                         "version": version,
-                        "packets": packets[-50:]
+                        "packets": packets
                     })
                     try:
                         self.wfile.write(f"data: {data}\n\n".encode())

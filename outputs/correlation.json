@@ -1,12 +1,142 @@
-{
-  "status": "attack_live",
-  "last_updated": "2026-06-09T23:23:19",
-  "incident_id": "INC-003",
-  "classification": "Multi-Stage SSH Intrusion",
-  "confidence": "VERY HIGH",
-  "source_ip": "192.168.1.21",
-  "target_ip": "192.168.1.17",
-  "failed_attempts": 98,
-  "successful_login": 7,
-  "final_severity": "critical"
-}
+[
+  {
+    "time": "2026-06-14T09:17:51",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:17:56",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 12 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:18:01",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 13 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:18:04",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 14 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:18:06",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Successful SSH login after brute-force activity",
+    "severity": "CRITICAL"
+  },
+  {
+    "time": "2026-06-14T09:20:27",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:32",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:35",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:40",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:45",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:49",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 10 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:52",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 10 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:55",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:20:58",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:03",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:07",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 11 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:11",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 12 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:15",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 13 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:20",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Failed SSH logins escalating — 14 attempts",
+    "severity": "HIGH"
+  },
+  {
+    "time": "2026-06-14T09:21:21",
+    "source_ip": "192.168.1.21",
+    "destination": "192.168.1.17",
+    "event_description": "Successful SSH login after brute-force activity",
+    "severity": "CRITICAL"
+  }
+]

@@ -1,9 +1,6 @@
 {
-  "status": "ready",
-  "last_updated": "2026-06-09T23:23:19",
+  "current": 168,
+  "current_attempts": 168,
   "baseline": "1-3 / hr",
-  "baseline_attempts": "1-3 / hr",
-  "current": 98,
-  "current_attempts": 98,
   "deviation": "EXTREME"
 }

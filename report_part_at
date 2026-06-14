@@ -1,0 +1,237 @@
+son.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"threat_intel.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"containment_status.json",{
+./soc_nexus_truth_writer.py:    write(DATA/"timeline.json",[e["event_description"] for e in list(events)[-6:]])
+./soc_nexus_truth_writer.py:    write(DATA/"evidence_status.json",[
+./soc_nexus_truth_writer.py:    write(DATA/"system_status.json",[
+./soc_nexus_truth_writer.py:    write(DATA/"rule_status.json",[
+./soc_live_panels_stable_writer.py:PACKETS = DATA / "network_packets.json"
+./soc_live_panels_stable_writer.py:ALERTS = OUT / "alerts.json"
+./soc_live_panels_stable_writer.py:CORR = OUT / "correlation.json"
+./soc_live_panels_stable_writer.py:PRIV = OUT / "privilege_activity.json"
+./soc_live_panels_stable_writer.py:SSH = OUT / "ssh_auth_activity.json"
+./soc_live_panels_stable_writer.py:SUCCESS = OUT / "successful_logins.json"
+./FORCE_PACKET_CAPTURE_DOM_V2.sh:    for (const p of ["data/network_packets.json","outputs/network_packets.json","final_attack_snapshot/network_packets.json"]) {
+./FORCE_PACKET_CAPTURE_DOM_V2.sh:        const d = await r.json();
+./soc_enterprise_authlog_live.sh:  cat > data/metrics.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/incident_status.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/threat_intel.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/ai_analysis.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/baseline_comparison.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/containment_status.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > data/evidence_status.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > outputs/correlation.json <<JSON
+./soc_enterprise_authlog_live.sh:  cat > outputs/privilege_activity.json <<JSON
+./soc_enterprise_authlog_live.sh:  cp data/ai_analysis.json outputs/ai_analysis.json
+./soc_enterprise_authlog_live.sh:  [ -f data/alerts.json ] && cp data/alerts.json outputs/alerts.json
+./soc_enterprise_authlog_live.sh:    cp data/*.json final_attack_snapshot/ 2>/dev/null || true
+./soc_enterprise_authlog_live.sh:    cp outputs/*.json final_attack_snapshot/ 2>/dev/null || true
+./DAY3_FINAL_REVIEW.txt:detection/attack_detection.json
+./DAY3_FINAL_REVIEW.txt:system_status.json
+./DAY3_FINAL_REVIEW.txt:system_health.json
+./DAY3_FINAL_REVIEW.txt:firewall_actions.json
+./DAY3_FINAL_REVIEW.txt:network/network_events.json
+./DAY3_FINAL_REVIEW.txt:network/network_analysis.json
+./DAY3_FINAL_REVIEW.txt:metrics.json
+./DAY3_FINAL_REVIEW.txt:timeline.json
+./DAY3_FINAL_REVIEW.txt:incident_ticket.json
+./DAY3_FINAL_REVIEW.txt:incident_status.json
+./DAY3_FINAL_REVIEW.txt:incident_queue.json
+./DAY3_FINAL_REVIEW.txt:threat_intel.json
+./DAY3_FINAL_REVIEW.txt:ip_reputation.json
+./DAY3_FINAL_REVIEW.txt:structured_events.json
+./DAY3_FINAL_REVIEW.txt:log_summary.json
+./FIX_PACKET_CAPTURE_FINAL.sh:      return await r.json();
+./FIX_PACKET_CAPTURE_FINAL.sh:      await getJSON("data/network_packets.json") ||
+./FIX_PACKET_CAPTURE_FINAL.sh:      await getJSON("outputs/network_packets.json") ||
+./FIX_STICKY_FINAL_STATE_V2.sh:    if (!String(url).includes(".json")) return res;
+./FIX_STICKY_FINAL_STATE_V2.sh:      const data = await res.clone().json();
+./packet_stream_server.py:        (d / "network_packets.json").write_text(json.dumps(packets[-50:], indent=2))
+./soc_detection_engine.py:    write_path = os.path.join(OUTPUT_DIR, "ai_analysis.json")
+./outputs/sharaf_demo_only.sh:cat outputs/alerts.json | jq .
+./outputs/sharaf_demo_only.sh:cat outputs/correlation.json | jq .
+./outputs/sharaf_demo_only.sh:cat outputs/ai_analysis.json | jq .
+./outputs/sharaf_demo_only.sh:cat outputs/containment_status.json | jq .
+./outputs/sharaf_demo_only.sh:cat outputs/firewall_actions.json
+./outputs/sharaf_demo_only.sh:cat outputs/system_health.json | jq .
+./outputs/sharaf_demo_only.sh:cat final_attack_snapshot/ai_analysis.json | jq .
+./outputs/sharaf_demo_only.sh:cat final_attack_snapshot/containment_status.json | jq .
+
+================ OUTPUT / LIVE / DATA DIRECTORIES ================
+./data
+./venv/lib/python3.12/site-packages/websocket/tests/data
+./venv/lib/python3.12/site-packages/werkzeug/datastructures
+./venv/lib/python3.12/site-packages/pip/_vendor/chardet/metadata
+./venv/lib/python3.12/site-packages/pip/_internal/metadata
+./venv/lib/python3.12/site-packages/fontTools/unicodedata
+./venv/lib/python3.12/site-packages/fpdf/data
+./backups/real_data_fix_20260609_231627
+./backups/live_panel_fix_20260609_225008
+./backups/final_live_panels_20260609_223750
+./backups/live_panel_fix_20260609_214930
+./backups/live_panel_fix_20260609_215318
+./outputs
+
+================ EMPTY FILES UNDER OUTPUTS ================
+./outputs/.init
+./outputs/detection_results.json
+
+================ BACKUPS / SNAPSHOTS ================
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230817
+/home/youssef-amr/soc_project_current_bad/backup_restore_test
+/home/youssef-amr/soc_project_current_bad/final_attack_snapshot
+/home/youssef-amr/soc_project_current_bad/backups
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008/soc_project/final_attack_snapshot
+/home/youssef-amr/soc_project_current_bad/backups/full_system/SOC_FULL_BACKUP_20260610_011008/soc_project/backups
+/home/youssef-amr/soc_project_current_bad/backups_fix
+/home/youssef-amr/soc_project_BACKUP_SAFE_PACKET_20260510_010417
+/home/youssef-amr/soc_project_BACKUP_SAFE_PACKET_20260510_010417/final_attack_snapshot
+/home/youssef-amr/soc_project_backup_20260609_232154
+/home/youssef-amr/soc_project_backup_20260609_232154/final_attack_snapshot
+/home/youssef-amr/soc_project_backup_20260609_232154/backups
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230905
+/home/youssef-amr/soc_project_BACKUP_before_persistent_live_20260509_230905/final_attack_snapshot
+/home/youssef-amr/soc_project/final_attack_snapshot
+/home/youssef-amr/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_STICKY_20260509_235617
+/home/youssef-amr/soc_project_BACKUP_STICKY_20260509_235617/final_attack_snapshot
+/home/youssef-amr/snap/firefox/common/.mozilla/firefox/h814qt9o.default/sessionstore-backups
+/home/youssef-amr/snap/firefox/common/.mozilla/firefox/h814qt9o.default/bookmarkbackups
+/home/youssef-amr/soc_project_BACKUP_STICKY_V2_20260509_235735
+/home/youssef-amr/soc_project_BACKUP_STICKY_V2_20260509_235735/final_attack_snapshot
+/home/youssef-amr/Evidence/INC-000/qa_review/backup
+/home/youssef-amr/Evidence/INC-000/qa_review/backup/backup
+/home/youssef-amr/Evidence_backup
+/home/youssef-amr/soc_copy/final_attack_snapshot
+/home/youssef-amr/SOC_FINAL_BACKUP
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/SOC_MONITOR_FINAL_DEMO_READY_20260426_002137/outputs_backup_test_20260414_165728
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/SOC_MONITOR_FINAL_DEMO_READY_20260426_002137/backups
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/soc_project/outputs_backup_test_20260414_165728
+/home/youssef-amr/SOC_FINAL_BACKUP/SOC_FULL_FINAL_LIVE_READY_20260426_010029/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_20260609_0251
+/home/youssef-amr/soc_project_BACKUP_20260609_0251/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_PACKET_FINAL_20260510_001712
+/home/youssef-amr/soc_project_BACKUP_PACKET_FINAL_20260510_001712/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_PACKET_ENTERPRISE_20260510_010932
+/home/youssef-amr/soc_project_BACKUP_PACKET_ENTERPRISE_20260510_010932/final_attack_snapshot
+/home/youssef-amr/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots
+/home/youssef-amr/soc_project_BACKUP_PACKET_STREAM_20260510_011508
+/home/youssef-amr/soc_project_BACKUP_PACKET_STREAM_20260510_011508/final_attack_snapshot
+/home/youssef-amr/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/TorBrowser/Data/Browser/profile.default/bookmarkbackups
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008/soc_project/final_attack_snapshot
+/home/youssef-amr/SOC_FULL_BACKUP_20260610_011008/soc_project/backups
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260509_234144
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260509_234144/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715/final_attack_snapshot
+/home/youssef-amr/soc_project_BACKUP_ONE_SCRIPT_20260613_211715/backups
+
+================ INVALID JSON CHECK ================
+./final_attack_snapshot/detection_results.json => Expecting value: line 1 column 1 (char 0)
+./final_attack_snapshot/firewall_actions.json => Expecting property name enclosed in double quotes: line 2 column 3 (char 4)
+./outputs/detection_results.json => Expecting value: line 1 column 1 (char 0)
+./outputs/firewall_actions.json => Expecting property name enclosed in double quotes: line 2 column 3 (char 4)
+
+================ TOP RECENTLY MODIFIED FILES ================
+2026-06-14 01:58:15.5614842300 ./soc_diagnostic_report.txt
+2026-06-14 01:56:30.7960647990 ./runtime/unified_8080_live.log
+2026-06-14 01:56:30.7950647950 ./real_siem_db.json
+2026-06-14 01:56:13.5729958470 ./.git/index
+2026-06-14 01:52:21.8291948930 ./index.html
+2026-06-14 01:52:21.8261514380 ./frontend/index.html
+2026-06-10 01:05:07.1240138300 ./final_attack_snapshot/network_packets.json
+2026-06-10 01:05:07.1226321730 ./outputs/network_packets.json
+2026-06-10 01:05:07.1219978230 ./data/network_packets.json
+2026-06-10 01:05:04.9290023580 ./final_attack_snapshot/threat_intel.json
+2026-06-10 01:05:04.9286759560 ./final_attack_snapshot/system_status.json
+2026-06-10 01:05:04.9283561560 ./final_attack_snapshot/system_health.json
+2026-06-10 01:05:04.9279714540 ./final_attack_snapshot/successful_logins.json
+2026-06-10 01:05:04.9275639520 ./final_attack_snapshot/ssh_auth_activity.json
+2026-06-10 01:05:04.9272343510 ./final_attack_snapshot/sensitive_access_alerts.json
+2026-06-10 01:05:04.9268289500 ./final_attack_snapshot/privilege_activity.json
+2026-06-10 01:05:04.9264826480 ./final_attack_snapshot/panel_search_first.json
+2026-06-10 01:05:04.9258715460 ./final_attack_snapshot/panel_live_state.json
+2026-06-10 01:05:04.9255025450 ./final_attack_snapshot/panel_full_login.json
+2026-06-10 01:05:04.9250220430 ./final_attack_snapshot/panel_deep_extraction.json
+2026-06-10 01:05:04.9246983420 ./final_attack_snapshot/panel_correlation.json
+2026-06-10 01:05:04.9243741410 ./final_attack_snapshot/packets_search_first_activity.json
+2026-06-10 01:05:04.9239346390 ./final_attack_snapshot/packets_full_login.json
+2026-06-10 01:05:04.9235994380 ./final_attack_snapshot/packets_deep_extraction.json
+2026-06-10 01:05:04.9226247680 ./final_attack_snapshot/normalized_events.json
+2026-06-10 01:05:04.9222272330 ./final_attack_snapshot/live_attack_status.json
+2026-06-10 01:05:04.9218130310 ./final_attack_snapshot/firewall_actions.json
+2026-06-10 01:05:04.9212360290 ./final_attack_snapshot/detection_results.json
+2026-06-10 01:05:04.9212360290 ./final_attack_snapshot/correlation.json
+2026-06-10 01:05:04.9208476280 ./final_attack_snapshot/containment_status.json
+2026-06-10 01:05:04.9204911270 ./final_attack_snapshot/alerts.json
+2026-06-10 01:05:04.9200059250 ./final_attack_snapshot/ai_analysis.json
+2026-06-10 01:05:04.9119322960 ./final_attack_snapshot/timeline.json
+2026-06-10 01:05:04.9104103900 ./final_attack_snapshot/structured_events.json
+2026-06-10 01:05:04.9099090890 ./final_attack_snapshot/rule_status.json
+2026-06-10 01:05:04.9095596880 ./final_attack_snapshot/overview.json
+2026-06-10 01:05:04.9087985850 ./final_attack_snapshot/metrics.json
+2026-06-10 01:05:04.9084205830 ./final_attack_snapshot/incident_status.json
+2026-06-10 01:05:04.9079987820 ./final_attack_snapshot/evidence_status.json
+2026-06-10 01:05:04.9067087780 ./final_attack_snapshot/baseline_comparison.json
+2026-06-10 01:05:04.9060255750 ./final_attack_snapshot/auth_events.json
+2026-06-10 01:05:04.8975508450 ./outputs/alerts.json
+2026-06-10 01:05:04.8907196200 ./outputs/ai_analysis.json
+2026-06-10 01:05:04.8836246360 ./outputs/privilege_activity.json
+2026-06-10 01:05:04.8776246160 ./outputs/correlation.json
+2026-06-10 01:05:04.8716245960 ./data/evidence_status.json
+2026-06-10 01:05:04.8666245790 ./data/containment_status.json
+2026-06-10 01:05:04.8586245520 ./data/baseline_comparison.json
+2026-06-10 01:05:04.8526245320 ./data/ai_analysis.json
+2026-06-10 01:05:04.8476245150 ./data/threat_intel.json
+2026-06-10 01:05:04.8416244950 ./data/incident_status.json
+2026-06-10 01:05:04.8366244780 ./data/metrics.json
+2026-06-10 00:57:01.2949688770 ./data/rule_status.json
+2026-06-10 00:57:01.2947096510 ./data/system_status.json
+2026-06-10 00:57:01.2907116360 ./data/timeline.json
+2026-06-10 00:57:01.2848544150 ./data/alerts.json
+2026-06-10 00:57:01.2839688390 ./data/correlation.json
+2026-06-10 00:57:01.2833904090 ./data/auth_events.json
+2026-06-10 00:57:01.2787933930 ./data/structured_events.json
+2026-06-10 00:57:01.2678213530 ./outputs/successful_logins.json
+2026-06-10 00:57:01.2649687740 ./outputs/ssh_auth_activity.json
+2026-06-10 00:57:01.2599687570 ./outputs/panel_live_state.json
+2026-06-10 00:11:27.4199085220 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/RECORD
+2026-06-10 00:11:27.4176527520 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/REQUESTED
+2026-06-10 00:11:27.4170010120 ./venv/lib/python3.12/site-packages/fpdf2-2.8.7.dist-info/INSTALLER
+2026-06-10 00:11:27.4164970100 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/util.cpython-312.pyc
+2026-06-10 00:11:27.4116212920 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/unicode_script.cpython-312.pyc
+2026-06-10 00:11:27.4051688680 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/transitions.cpython-312.pyc
+2026-06-10 00:11:27.4034931620 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/text_region.cpython-312.pyc
+2026-06-10 00:11:27.3983145430 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/template.cpython-312.pyc
+2026-06-10 00:11:27.3928892230 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/table.cpython-312.pyc
+2026-06-10 00:11:27.3871967020 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/syntax.cpython-312.pyc
+2026-06-10 00:11:27.3833825880 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/svg.cpython-312.pyc
+2026-06-10 00:11:27.3712840430 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/structure_tree.cpython-312.pyc
+2026-06-10 00:11:27.3697559380 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/sign.cpython-312.pyc
+2026-06-10 00:11:27.3685277330 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/recorder.cpython-312.pyc
+2026-06-10 00:11:27.3674016290 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/prefs.cpython-312.pyc
+2026-06-10 00:11:27.3652618210 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/pattern.cpython-312.pyc
+2026-06-10 00:11:27.3525170740 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/output.cpython-312.pyc
+2026-06-10 00:11:27.3346017080 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/outline.cpython-312.pyc
+2026-06-10 00:11:27.3325104010 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/linearization.cpython-312.pyc
+2026-06-10 00:11:27.3298735900 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/line_break.cpython-312.pyc
+2026-06-10 00:11:27.3232745660 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/image_parsing.cpython-312.pyc
+2026-06-10 00:11:27.3180086470 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/image_datastructures.cpython-312.pyc
+2026-06-10 00:11:27.3165194420 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/html.cpython-312.pyc
+2026-06-10 00:11:27.3083359110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/graphics_state.cpython-312.pyc
+2026-06-10 00:11:27.3053397010 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/fpdf.cpython-312.pyc
+2026-06-10 00:11:27.2605284350 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/fonts.cpython-312.pyc
+2026-06-10 00:11:27.2457781810 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/font_type_3.cpython-312.pyc
+2026-06-10 00:11:27.2359255440 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/errors.cpython-312.pyc
+2026-06-10 00:11:27.2348681410 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/enums.cpython-312.pyc
+2026-06-10 00:11:27.2267195110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/encryption.cpython-312.pyc
+2026-06-10 00:11:27.2195565840 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/drawing_primitives.cpython-312.pyc
+2026-06-10 00:11:27.2142900650 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/drawing.cpython-312.pyc
+2026-06-10 00:11:27.1828638490 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/deprecation.cpython-312.pyc
+2026-06-10 00:11:27.1811713430 ./venv/lib/python3.12/site-packages/fpdf/data/color_profiles/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1803397400 ./venv/lib/python3.12/site-packages/fpdf/data/__pycache__/__init__.cpython-312.pyc
+2026-06-10 00:11:27.1793855360 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/bidi.cpython-312.pyc
+2026-06-10 00:11:27.1724647110 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/annotations.cpython-312.pyc
+2026-06-10 00:11:27.1704172030 ./venv/lib/python3.12/site-packages/fpdf/__pycache__/actions.cpython-312.pyc
