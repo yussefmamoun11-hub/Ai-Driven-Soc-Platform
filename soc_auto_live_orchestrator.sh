@@ -55,7 +55,7 @@ except:
 PY
 )
 
-  TARGET="192.168.1.17"
+  TARGET="192.168.8.111"
 
   # Sync data feeds to outputs feeds
   [ -f data/alerts.json ] && cp data/alerts.json outputs/alerts.json

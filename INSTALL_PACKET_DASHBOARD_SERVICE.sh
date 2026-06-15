@@ -140,4 +140,4 @@ sudo systemctl enable soc-packet-dashboard.service
 sudo systemctl restart soc-packet-dashboard.service
 
 echo "DONE"
-echo "Open: http://192.168.1.17:9102"
+echo "Open: http://192.168.8.111:9102"

@@ -3,7 +3,7 @@
 cd /home/youssef-amr/soc_project || exit 1
 mkdir -p data outputs final_attack_snapshot
 
-TARGET_IP="192.168.1.17"
+TARGET_IP="192.168.8.111"
 AUTH_LOG="/var/log/auth.log"
 
 update_all() {

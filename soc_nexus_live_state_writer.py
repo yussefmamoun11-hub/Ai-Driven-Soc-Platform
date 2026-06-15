@@ -49,14 +49,14 @@ def process(line):
 
         p={
           "timestamp":t,"time":t,"source":src,"src":src,"src_ip":src,
-          "destination":"192.168.1.17","dst":"192.168.1.17","proto":"SSH","protocol":"SSH","len":84,"length":84,
+          "destination":"192.168.8.111","dst":"192.168.8.111","proto":"SSH","protocol":"SSH","len":84,"length":84,
           "info":f"Failed SSH authentication attempt for {u}","packet_info":f"Failed SSH authentication attempt for {u}",
           "raw":line.strip()
         }
         packets.append(p); ssh.append(p)
 
         corr.append({
-          "time":t,"source_ip":src,"destination":"192.168.1.17",
+          "time":t,"source_ip":src,"destination":"192.168.8.111",
           "event_description":f"Failed SSH logins escalating — {attempts} attempts",
           "severity":"HIGH" if attempts>=5 else "MED"
         })
@@ -79,8 +79,8 @@ def process(line):
           "source": src,
           "src": src,
           "src_ip": src,
-          "destination": "192.168.1.17",
-          "dst": "192.168.1.17",
+          "destination": "192.168.8.111",
+          "dst": "192.168.8.111",
           "proto": "SSH",
           "protocol": "SSH",
           "len": 84,
@@ -90,7 +90,7 @@ def process(line):
           "raw": line.strip()
         })
         corr.append({
-          "time":t,"source_ip":src,"destination":"192.168.1.17",
+          "time":t,"source_ip":src,"destination":"192.168.8.111",
           "event_description":"Successful SSH login after brute-force activity",
           "severity":"CRITICAL"
         })

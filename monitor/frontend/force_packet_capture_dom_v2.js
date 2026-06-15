@@ -43,7 +43,7 @@
         <td>${i+1}</td>
         <td>${p.timestamp || p.time}</td>
         <td>${p.src_ip || p.source_ip || ip}</td>
-        <td>${p.dst_ip || p.destination || "Ubuntu Host"}</td>
+        <td>${p.dst_ip || p.destination || "192.168.8.111"}</td>
         <td>${p.proto || p.protocol || "SSH"}</td>
         <td>${p.len || p.length || 84}</td>
         <td>${p.info || p.packet_info || "SSH authentication event"}</td>

@@ -1,7 +1,7 @@
 (function(){
   console.log("ENTERPRISE PACKET STREAM ACTIVE");
 
-  const API = "http://192.168.1.17:9101";
+  const API = "http://192.168.8.111:9101";
 
   function findPacketPanel(){
     const nodes = [...document.querySelectorAll("div,section,main,article")];
@@ -58,7 +58,7 @@
               <td>${i+1}</td>
               <td>${p.timestamp || ""}</td>
               <td style="color:#00eaff">${p.src_ip || p.source || ""}</td>
-              <td>${p.destination || "Ubuntu Host"}</td>
+              <td>${p.destination || "192.168.8.111"}</td>
               <td style="color:#ffbf00">${p.proto || "SSH"}</td>
               <td>${p.len || 84}</td>
               <td>${p.info || "SSH event"}</td>

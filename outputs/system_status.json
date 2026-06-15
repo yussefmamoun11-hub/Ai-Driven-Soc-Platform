@@ -1,7 +1,0 @@
-{
-  "ssh": "active",
-  "firewall": "enabled",
-  "fail2ban": "active",
-  "auditd": "active",
-  "timestamp": "DAY3"
-}

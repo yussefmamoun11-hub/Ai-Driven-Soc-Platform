@@ -5,7 +5,7 @@ from datetime import datetime
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 PROJECT = Path("/home/youssef-amr/soc_project")
-AUTH_LOG = Path("/var/log/auth.log")
+AUTH_LOG = Path("data/auth.log")
 PORT = 9101
 
 packets = []

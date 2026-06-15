@@ -129,7 +129,7 @@ cat > packet_stream_dashboard_patch.js <<'JS'
 (function(){
   console.log("ENTERPRISE PACKET STREAM ACTIVE");
 
-  const API = "http://192.168.1.17:9101";
+  const API = "http://192.168.8.111:9101";
 
   function findPacketPanel(){
     const nodes = [...document.querySelectorAll("div,section,main,article")];

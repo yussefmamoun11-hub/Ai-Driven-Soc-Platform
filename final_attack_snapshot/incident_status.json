@@ -1,12 +1,12 @@
 {
-  "id": "INC-003",
   "incident_id": "INC-003",
+  "id": "INC-003",
   "title": "Multi-Stage SSH Intrusion",
   "status": "contained",
   "severity": "critical",
   "assignee": "SOC Team",
-  "opened": "2026-06-10T01:05:04",
-  "duration": "live",
-  "source_ip": "192.168.1.21",
-  "description": "Live incident generated automatically from SSH authentication activity."
+  "opened": "2026-06-15T03:05:13",
+  "duration": "00:01:42",
+  "source_ip": "192.168.8.109",
+  "description": "Attack detected, analyzed, contained, and preserved."
 }

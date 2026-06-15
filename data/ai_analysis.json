@@ -1,6 +1,6 @@
 {
   "pattern": "SSH Brute Force",
-  "source_ip": "192.168.1.21",
+  "source_ip": "192.168.8.109",
   "severity": "HIGH",
   "mitre": "T1110,T1078",
   "confidence": "97.4%"

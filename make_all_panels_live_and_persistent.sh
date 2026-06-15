@@ -19,7 +19,7 @@ mkdir -p data outputs final_attack_snapshot
 
 ATTACKER_IP=$(grep -RhoE "192\.168\.[0-9]+\.[0-9]+" outputs data 2>/dev/null | head -1)
 [ -z "$ATTACKER_IP" ] && ATTACKER_IP="192.168.1.78"
-TARGET_IP="192.168.1.17"
+TARGET_IP="192.168.8.111"
 
 echo "[2] Creating live + final persistent feeds..."
 

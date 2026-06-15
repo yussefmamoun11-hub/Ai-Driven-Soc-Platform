@@ -129,7 +129,7 @@ setInterval(loadAll, 3000);
               <td>${i+1}</td>
               <td>${p.timestamp||p.time||""}</td>
               <td style="color:#00eaff">${p.src_ip||p.source_ip||p.source||ip}</td>
-              <td>${p.destination||p.dst_ip||"Ubuntu Host"}</td>
+              <td>${p.destination||p.dst_ip||"192.168.8.111"}</td>
               <td><span style="color:#ffbf00;border:1px solid #8a5b00;padding:1px 6px;border-radius:4px;">${p.proto||p.protocol||"SSH"}</span></td>
               <td>${p.len||84}</td>
               <td>${p.info||p.packet_info||"SSH authentication event"}</td>

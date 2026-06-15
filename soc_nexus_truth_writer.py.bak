@@ -117,6 +117,7 @@ def flush():
     write(DATA/"network_packets.json",list(packets))
     write(DATA/"structured_events.json",list(events))
     write(DATA/"auth_events.json",list(ssh_auth))
+    write(DATA/"successful_logins.json",list(success))
     write(DATA/"correlation.json",list(events))
     write(DATA/"alerts.json",{"alerts":list(alerts),"active_alert":alerts[-1] if alerts else {}})
     write(DATA/"incident_status.json",{

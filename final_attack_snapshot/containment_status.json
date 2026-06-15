@@ -1,6 +1,8 @@
 {
-  "firewall_status": "ACTIVE",
-  "fail2ban_status": "ACTIVE",
-  "blocked_ip": "192.168.88.206",
-  "status": "CONTAINED"
+  "status": "CONTAINED",
+  "ufw_firewall": "ENABLED",
+  "fail2ban": "ACTIVE",
+  "block_ip_rule": "APPLIED",
+  "quarantine": "NOT REQUIRED",
+  "result": "Attack successfully blocked"
 }

@@ -1,12 +1,18 @@
 {
   "status": "attack_live",
-  "last_updated": "2026-06-10T01:05:04",
+  "last_updated": "2026-06-15T03:05:13",
   "incident_id": "INC-003",
   "classification": "Multi-Stage SSH Intrusion",
   "confidence": "VERY HIGH",
-  "source_ip": "192.168.1.21",
-  "target_ip": "192.168.1.17",
-  "failed_attempts": 168,
-  "successful_login": 12,
-  "final_severity": "critical"
+  "final_severity": "CRITICAL",
+  "source_ip": "192.168.8.109",
+  "target_ip": "192.168.8.111",
+  "chain": [
+    {"stage":"Recon","mitre":"T1046","severity":"LOW","status":"completed"},
+    {"stage":"SSH Brute Force","mitre":"T1110","severity":"HIGH","status":"detected"},
+    {"stage":"Valid Account Login","mitre":"T1078","severity":"CRITICAL","status":"confirmed"},
+    {"stage":"System Discovery","mitre":"T1082","severity":"CRITICAL","status":"observed"},
+    {"stage":"File Discovery","mitre":"T1083","severity":"CRITICAL","status":"observed"},
+    {"stage":"Privilege Escalation Attempt","mitre":"T1548","severity":"CRITICAL","status":"blocked"}
+  ]
 }

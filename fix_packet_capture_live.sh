@@ -20,7 +20,7 @@ DATA = PROJECT / "data"
 OUTPUTS = PROJECT / "outputs"
 SNAP = PROJECT / "final_attack_snapshot"
 
-TARGET_IP = "192.168.1.17"
+TARGET_IP = "192.168.8.111"
 DEFAULT_ATTACKER = "192.168.1.78"
 
 def ensure_dirs():

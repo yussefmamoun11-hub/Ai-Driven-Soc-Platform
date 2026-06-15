@@ -59,14 +59,14 @@ def process(line):
 
         p={
           "timestamp":t,"source":src,"src_ip":src,
-          "destination":"192.168.1.17","proto":"SSH","len":84,
+          "destination":"192.168.8.111","proto":"SSH","len":84,
           "info":f"Failed SSH authentication attempt for {u}",
           "raw":line.strip()
         }
         packets.append(p); ssh.append(p)
 
         corr.append({
-          "time":t,"source_ip":src,"destination":"192.168.1.17",
+          "time":t,"source_ip":src,"destination":"192.168.8.111",
           "event_description":f"Failed SSH logins escalating — {attempts} attempts",
           "severity":"HIGH" if attempts>=5 else "MED"
         })
@@ -85,11 +85,11 @@ def process(line):
         success.append(e); ssh.append(e)
         packets.append({
           "timestamp":t,"source":src,"src_ip":src,
-          "destination":"192.168.1.17","proto":"SSH","len":84,
+          "destination":"192.168.8.111","proto":"SSH","len":84,
           "info":f"Successful SSH login for {u}","raw":line.strip()
         })
         corr.append({
-          "time":t,"source_ip":src,"destination":"192.168.1.17",
+          "time":t,"source_ip":src,"destination":"192.168.8.111",
           "event_description":"Successful SSH login after brute-force activity",
           "severity":"CRITICAL"
         })
@@ -181,7 +181,7 @@ cat > force_packet_capture_dom_v2.js <<'JS'
         <td>${i+1}</td>
         <td>${x.timestamp||x.time||""}</td>
         <td>${x.source||x.src_ip||"-"}</td>
-        <td>${x.destination||"192.168.1.17"}</td>
+        <td>${x.destination||"192.168.8.111"}</td>
         <td><span>SSH</span></td>
         <td>${x.len||84}</td>
         <td>${x.info||x.packet_info||""}</td>
@@ -199,7 +199,7 @@ cat > force_packet_capture_dom_v2.js <<'JS'
       <tr>
         <td>${(x.time||"").split("T").pop()}</td>
         <td>${x.source_ip||"-"}</td>
-        <td>${x.destination||"192.168.1.17"}</td>
+        <td>${x.destination||"192.168.8.111"}</td>
         <td>${x.event_description||x.description||""}</td>
         <td>${x.severity||"MED"}</td>
       </tr>`).join("");

@@ -1522,7 +1522,7 @@ function renderEvents(rows) {
     <tr>
       <td style="font-family:var(--mono);font-size:9px;color:var(--t3)">${r.time}</td>
       <td style="font-family:var(--mono);font-size:9px;color:var(--c)">${r.source_ip || r.src_ip || r.source || r.attacker_ip || r.ip || '192.168.88.206'}</td>
-      <td style="font-family:var(--mono);font-size:9px">${r.destination_ip || r.destination || r.dest || r.dst_ip || r.target || r.target_ip || 'Ubuntu Host'}</td>
+      <td style="font-family:var(--mono);font-size:9px">${r.destination_ip || r.destination || r.dest || r.dst_ip || r.target || r.target_ip || '192.168.8.111'}</td>
       <td style="font-family:var(--mono);font-size:9px;color:${String(r.severity || r.sev || '').toUpperCase()==='HIGH'?'var(--r)':'var(--t1)'};font-weight:${String(r.severity || r.sev || '').toUpperCase()==='HIGH'?700:400}">${r.event || r.event_description || r.eventDescription || r.description || r.packet_info || r.info || r.message || r.summary || 'Security event'}</td>
       <td><span class="sev ${sevClass(r.severity)}">${r.severity || r.sev || r.threat_level || 'high'}</span></td>
     </tr>`).join('');
@@ -2163,7 +2163,7 @@ setInterval(function(){
     if (!t || t.indexOf('undefined') === -1) return;
     el.textContent = t
       .replace(/undefined\s*→/g, '192.168.88.206 →')
-      .replace(/→\s*undefined/g, '→ Ubuntu Host')
+      .replace(/→\s*undefined/g, '→ 192.168.8.111')
       .replace(/undefined/g, '-');
   });
 }, 800);

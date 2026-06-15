@@ -29,7 +29,7 @@
   function findAttacker(packets) {
     for (const p of packets) {
       const ip = p.src_ip || p.source_ip || p.source || p.attacker_ip;
-      if (ip && ip !== "Ubuntu Host") return ip;
+      if (ip && ip !== "192.168.8.111") return ip;
     }
     return "192.168.1.78";
   }
@@ -72,7 +72,7 @@
         <td>${idx + 1}</td>
         <td>${p.timestamp || p.time || new Date().toISOString()}</td>
         <td>${p.src_ip || p.source_ip || p.source || p.attacker_ip || "192.168.1.78"}</td>
-        <td>${p.dst_ip || p.destination || "Ubuntu Host"}</td>
+        <td>${p.dst_ip || p.destination || "192.168.8.111"}</td>
         <td>${p.proto || p.protocol || "SSH"}</td>
         <td>${p.len || p.length || 84}</td>
         <td>${p.info || p.packet_info || "SSH authentication event"}</td>

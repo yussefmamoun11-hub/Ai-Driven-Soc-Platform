@@ -382,7 +382,7 @@ nohup python3 soc_nexus_truth_writer.py > runtime/truth_writer.log 2>&1 &
 
 sleep 1
 echo "===== TEST URLS ====="
-curl -s "http://192.168.1.17:8080/outputs/panel_live_state.json" | head -5 || true
+curl -s "http://192.168.8.111:8080/outputs/panel_live_state.json" | head -5 || true
 echo
 echo "===== WRITER LOG ====="
 tail -10 runtime/truth_writer.log
